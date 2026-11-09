@@ -65,6 +65,6 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 | Inventaire des sources | Terminé — 13 textes et 29 images, tous examinés intégralement |
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |
-| Résolution des contradictions | En cours — C-01 et C-02 résolus ; voir `05_COHERENCE/contradictions.md` |
+| Résolution des contradictions | En cours — C-01, C-02, C-05, C-07, C-13 et C-15 résolus ; C-16 ajouté ; voir `05_COHERENCE/contradictions.md` |
 | Catastrophes de la première vie de A | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
 | Rédaction du manuscrit | Non commencée (volontairement) |

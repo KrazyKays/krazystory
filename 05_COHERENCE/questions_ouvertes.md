@@ -20,7 +20,8 @@
 | Q-22 | Dans quelle mesure la cultivation allonge-t-elle la durée de vie (quelques années, plusieurs décennies, selon le nombre de cercles) ? | 3 | `mana_et_cultivation.md` |
 | ~~Q-04~~ | ~~Équilibre des puissances~~ **Répondu le 2026-11-09 :** règle « accès et réserve », consommation en quantité brute, A combine ses deux noyaux. | — | `courbes_A_B.html` |
 | Q-05 | Le mana de l'artefact est désormais en A et en B (Q-23). **Reste :** pourquoi A en reçoit-elle un noyau complet et B seulement des « résidus » ? | 2 | `artefact.md` §5 |
-| Q-06 | Fonction réelle de l'artefact (méditation hors du temps, immortalité de l'âme ?). ~~Existence dans la seconde ligne temporelle~~ **Répondu le 2026-11-09 :** l'artefact ne fonctionne plus, sa réserve s'étant vidée lors du retour dans le temps ; aucune âme de B n'erre ; les ossements de B sont au temple. L'artefact est **brisé**. **Reste :** la fonction (C-05). | 2 | C-05 |
+| ~~Q-06~~ | Fonction réelle de l'artefact (méditation hors du temps, immortalité de l'âme ?). ~~Existence dans la seconde ligne temporelle~~ **Répondu le 2026-11-09 :** l'artefact ne fonctionne plus, sa réserve s'étant vidée lors du retour dans le temps ; aucune âme de B n'erre ; les ossements de B sont au temple. L'artefact est **brisé**. ~~Fonction~~ **Répondu le 2026-11-09 :** méditation hors du temps ; inscriptions imagées ; seule l'âme est immortelle (C-05). | — | C-05 |
+| Q-24 | Que recouvre le « développement » de l'âme dans l'artefact ? `[INTERPRÉTATION]` Savoir et compréhension, pas les cercles. À confirmer. | 3 | C-05 |
 | Q-16 | Le nouvel art de A est-il une version optimisée de l'art de son village ou d'un autre art ? Qu'est-ce que l'« assommoir » exactement ? | 2 | `arts_martiaux.md` §4 |
 
 ## Intrigue
@@ -32,6 +33,7 @@
 | Q-11 | Comment les arcs 1 et 2 sont-ils racontés : prologue, chapitres complets ou flashbacks distillés ? | 2 | `arcs.md` |
 | Q-14 | ~~Portée du récit~~ **Répondu en partie le 2026-11-09 :** le récit va au-delà de 28–29 ans, grâce aux ellipses. A et B apprennent la vérité l'un sur l'autre **au cours du récit**, après de longs doutes, chacun de son côté. **Reste à décider :** la fin, et le moment de la révélation. | 2 | `timeline.md:39-41` |
 | ~~Q-23~~ | ~~Destination du mana vidé~~ **Répondu le 2026-11-09 :** le mana de la réserve est désormais en A (second noyau) et en B (résidus). | — | `artefact.md` §6 |
+| Q-25 | À quel moment A remarque-t-elle que B emploie « cœur de mana », terme archaïque ? | 3 | C-13, Q-14 |
 | Q-17 | Pourquoi A veut-elle prendre le contrôle de la secte de B ? | 3 | I-06 |
 | Q-18 | Pourquoi B, ancien grand maître, attend-il 12 ans pour commencer à cultiver alors que A commence à 8 ans ? (Contrainte du corps, prudence, discrétion ?) | 3 | `arc 3.md:7` |
 
@@ -39,8 +41,8 @@
 
 | ID | Question | Priorité | Lié à |
 |---|---|---|---|
-| Q-07 | Géographie : le village de A, la « ville voisine » et la capitale sont-ils distincts ? Où se trouve le temple par rapport à la capitale ? | 2 | C-07 |
-| Q-08 | La famille de B est-elle noble ? Comment ses parents réagissent-ils à l'examen martial, alors qu'ils le destinent à la diplomatie ? | 2 | C-07 |
+| Q-07 | Géographie. **Répondu en partie le 2026-11-09 :** la ville voisine est la capitale ; le village de A est en périphérie (C-07). **Reste :** distance exacte (C-16) ; position du temple par rapport à la capitale. | 2 | C-07, C-16 |
+| Q-08 | La famille de B est-elle noble ? (Ce n'est plus nécessaire : B est dans le groupe 1 en tant qu'habitant de la capitale, C-07.) Comment ses parents réagissent-ils à l'examen martial, alors qu'ils le destinent à la diplomatie ? | 2 | C-07 |
 | Q-19 | Famille de A dans sa seconde vie (« A ecrire ») : as-tu déjà des idées ? | 2 | `arc 3.md:23` |
 | Q-20 | Noms : A et B sont-ils des noms provisoires ? As-tu des noms ou une langue d'inspiration pour l'univers ? | 2 | — |
 

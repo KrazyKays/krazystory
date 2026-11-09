@@ -10,13 +10,14 @@
 
 - `[SOURCE]` Enseigné dans le dojo de B, « art martial très répandu », qui a pour particularité de pouvoir **toujours être amélioré** avec le temps et l'entraînement. `[arc 1.md:3]`
 - `[SOURCE]` Fondé sur la rapidité pure et l'agilité. Le mana contrôle la **rigidité des os** pour atteindre une souplesse qui dépasse les limites du corps humain et permet d'encaisser des coups puissants en réduisant l'impact. Il permet aussi de **réduire la masse** du corps pour gagner en vitesse. `[details B.md:11]`
-- `[SOURCE]` Seul art martial permettant d'avoir des noyaux « souples » (voir `mana_et_cultivation.md` §7). Il vise à ouvrir le plus de cercles possible dès le début, même petits, pour les faire évoluer ensemble. `[details B.md:11]`
+- `[SOURCE]` Seul art martial permettant d'avoir des cercles « souples » (« noyaux souples » dans la source, C-13) (voir `mana_et_cultivation.md` §7). Il vise à ouvrir le plus de cercles possible dès le début, même petits, pour les faire évoluer ensemble. `[details B.md:11]`
 - `[SOURCE]` « Cet art martial est maintenant oublié. » `[details B.md:11]` — perdu lors de l'élimination quasi totale du dojo. `[lore.md:34]`
 - `[SOURCE]` B ne trouve aucune trace de son art à l'époque moderne et se croit le dernier à pouvoir le pratiquer. `[arc 3.md:7]`
 - `[SOURCE]` Le rival de B a transmis à la guilde de l'ombre une **version dérivée**, moins efficace mais reconnaissable. `[lore.md:34]`
 - `[CONFLIT C-03]` « Très répandu » contre « seul art », perdu avec un seul dojo.
 - `[CANON]` Première vie de B : 10 cercles en 70 ans ; les cercles 8 à 10 se cultivent un par un (C-02 résolu).
-- `[CONFLIT C-15]` « Toujours pouvoir être amélioré » contre « limite infranchissable ».
+- `[CANON]` (C-15, 2026-11-09) « Toujours pouvoir être amélioré » est la **réputation** de l'art, et elle est fausse : le plafond du 10e cercle est la faille que le maître veut cacher, et que B lui révèle.
+- `[CANON]` (C-15) Ce qui reste toujours perfectible : la **taille** des cercles souples, jamais verrouillée. Leur **nombre** plafonne à 10. Plus de taille signifie plus de mana, donc une plus longue durée d'utilisation ; la puissance dépend du nombre de cercles.
 - `[SOURCE]` Limite : B est bloqué au 10e cercle, limite que lui seul a atteinte. `[arc 1.md:7]` `[details B.md:3]`
 - `[SOURCE]` Le maître du dojo craint que le monde découvre cette faille ou que l'art soit « dénaturé » par les recherches de B. `[arc 1.md:7]`
 

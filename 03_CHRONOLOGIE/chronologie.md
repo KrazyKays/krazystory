@@ -18,7 +18,7 @@
 
 | Âge | Événement | Sources |
 |---|---|---|
-| 0 | Naissance de A. Dans la ville voisine, un bébé meurt à la naissance (futur corps de B). | `[timeline.md:7]` `[lore.md:27]` |
+| 0 | Naissance de A. Dans la ville voisine, qui est la capitale `[CANON]`, un bébé meurt à la naissance (futur corps de B). | `[timeline.md:7]` `[lore.md:27]` |
 | ? | Apprentissage dans le dojo du village ; bases médiocres. A ne va jamais à l'académie `[CANON]`. | `[arc 2.md:5]` |
 | 15 | E-01 — Massacre de l'expédition de l'académie ; mort du prince. | `[CANON]` |
 | 16 | E-02 — Nuit du village : mort de la famille de A et de la plupart de ses camarades. | `[CANON]` `[arc 2.md:5]` |

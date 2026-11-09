@@ -25,6 +25,7 @@
 
 - `[SOURCE]` Un **pays** avec une **capitale**, un **prince** et une **armée principale**. `[arc 3.md:11]` `[arc 4.md:3]` `[lore.md:8]`
 - `[SOURCE]` Une **noblesse** vivant et étudiant à la capitale, hautaine envers les candidats des villages. `[arc 4.md:3]`
+- `[CANON]` (C-07) À l'examen, le groupe 1 réunit les candidats qui habitent et ont étudié à la capitale, nobles ou non.
 - `[SOURCE]` Une **académie d'arts martiaux** à la capitale, avec une classe des élites et une branche diplomatique. `[arc 3.md:11,19]` `[arc 4.md:3]`
 - `[SOURCE]` Des **dojos**, modestes dans les villages. `[arc 2.md:5]` `[details A.md:11]`
 - `[SOURCE]` Une mère « politicienne » : il existe une vie politique. `[arc 3.md:19]`
@@ -46,7 +47,7 @@
 | Guilde de l'ombre | Coordonne secrètement les monstres ; cherche le contrôle de la population ; possède une version dérivée de la technique du dojo de B ; s'infiltre dans le gouvernement dans la première vie de A. | `[lore.md:34,41]` |
 | Armée principale | Envoie des émissaires initier les enfants de 12 ans ; exige 3 cercles complets. | `[lore.md:8,13]` |
 | Académie de la capitale | Examen d'entrée à 13 ans ; classe des élites ; allocation de ressources selon le mérite ; branche diplomatique. | `[arc 4.md:3-5]` `[arc 3.md:19]` |
-| Noblesse de la capitale | Groupe de candidats séparé, hautain. | `[arc 4.md:3]` |
+| Noblesse de la capitale | Hautaine ; fait partie du groupe 1 de l'examen, qui réunit tous les candidats de la capitale `[CANON]`. | `[arc 4.md:3]` |
 | Secte des disciples de B | Formée en secret par un disciple de B, qui le considère comme un dieu. | `[idees.md:11]` |
 
 - `[MANQUANT]` La guilde de l'ombre existe-t-elle sans interruption depuis 2000 ans ? Sous quelle forme à l'époque du récit ? B la connaît-il ? — Q-10.

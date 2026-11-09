@@ -1,5 +1,19 @@
 # Journal des modifications
 
+## 2026-11-09 — Résolution de C-05, C-07, C-13 et C-15
+
+**Décisions de l'auteur intégrées (`[CANON]`) :**
+- C-15 (pistes a + c) : « toujours perfectible » est la réputation, fausse, de l'art de B ; le plafond du 10e cercle est la faille que le maître veut cacher. Seule la taille des cercles souples reste perfectible (plus de mana, donc plus de durée d'utilisation) ; leur nombre plafonne à 10.
+- C-05 (piste a) : l'artefact n'a qu'une fonction, la méditation hors du temps ; les inscriptions sont imagées. Seule l'âme devient immortelle, car on peut la développer à l'infini dans l'artefact ; le corps reste soumis au temps.
+- C-13 (piste c) : noyau = réservoir, cercle = niveau ; « cœur de mana » est le terme archaïque de l'époque de B, que seul B emploie à l'époque du récit, et que A finit par remarquer.
+- C-07 (piste a) : la ville voisine est la capitale ; le village de A est en périphérie ; le groupe 1 de l'examen réunit les candidats de la capitale, nobles ou non.
+
+**Nouveaux points :** C-16 (la décision C-07 heurte E-02, « cible isolée, loin de la capitale », et PC-2) ; Q-24 (développement de l'âme) ; Q-25 (moment où A remarque « cœur de mana »). Classement d'importance proposé non appliqué, faute de validation. Source supplémentaire de C-09 relevée : `arc 1.md:11`.
+
+**Fichiers modifiés :** `05_COHERENCE/contradictions.md`, `05_COHERENCE/questions_ouvertes.md`, `01_UNIVERS/artefact.md`, `01_UNIVERS/glossaire.md`, `01_UNIVERS/arts_martiaux.md`, `01_UNIVERS/mana_et_cultivation.md`, `01_UNIVERS/lieux.md`, `01_UNIVERS/histoire_monde_et_factions.md`, `02_PERSONNAGES/B.md`, `03_CHRONOLOGIE/chronologie.md`, `04_INTRIGUE/arcs.md`, `00_PILOTAGE/modifications_sources_a_faire.md` (S-09 à S-13), `00_PILOTAGE/README.md`.
+**Non modifié volontairement :** `04_INTRIGUE/catastrophes_propositions.md` (E-02 et PC-2 restent en l'état jusqu'à la décision sur C-16).
+**Sources modifiées :** aucune.
+
 ## 2026-11-09 — Petite sœur de B, ironie dramatique
 
 **Décisions de l'auteur intégrées (`[CANON]`) :**

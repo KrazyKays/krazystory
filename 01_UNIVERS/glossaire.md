@@ -5,9 +5,9 @@
 | Terme | Usages constatés | Définition proposée `[PROPOSITION]` |
 |---|---|---|
 | **Mana** / **énergie** | Employés comme synonymes : « énergie » `[lore.md:8]`, « mana » `[lore.md:13,18]`. | Garder « mana » comme terme principal ; « énergie » comme synonyme occasionnel, en narration seulement. |
-| **Noyau** | Réservoir intérieur qui contient les cercles `[lore.md:8]` ; A possède **deux noyaux** `[arc 3.md:11]`. Mais aussi employé pour « cercle » : « 3 noyaux complets » `[lore.md:13]` `[details B.md:11]`, « noyaux souples » `[details B.md:11]`. | Noyau = le réservoir. Une personne normale en a un, A en a deux. Ne jamais l'employer pour « cercle ». |
-| **Cœur de mana** | « Cœur de mana de 10 cercles » `[arc 1.md:5]`. | Synonyme de noyau, ou à abandonner (C-13). |
-| **Cercle** | Anneau de capacité construit dans le noyau ; leur nombre définit le niveau `[lore.md:8,13]`. | Unité de niveau. |
+| **Noyau** | Réservoir intérieur qui contient les cercles `[lore.md:8]` ; A possède **deux noyaux** `[arc 3.md:11]`. Mais aussi employé pour « cercle » : « 3 noyaux complets » `[lore.md:13]` `[details B.md:11]`, « noyaux souples » `[details B.md:11]`. | `[CANON]` (C-13) Noyau = le réservoir. Une personne en a un, A en a deux. Jamais employé pour « cercle ». |
+| **Cœur de mana** | « Cœur de mana de 10 cercles » `[arc 1.md:5]`. | `[CANON]` (C-13) Terme archaïque de l'époque de B, synonyme de noyau. À l'époque du récit, seul B l'emploie, par habitude ; A finit par le remarquer (indice, P-11). |
+| **Cercle** | Anneau de capacité construit dans le noyau ; leur nombre définit le niveau `[lore.md:8,13]`. | `[CANON]` (C-13) Unité de niveau. On écrit « 3 cercles complets », « cercles souples ». |
 | **Léger / lourd / complet** | Paliers d'un cercle : 1/3, 2/3, 1 `[lore.md:13]`. | Inchangé. |
 | **Cultivation / cultiver** | Faire croître ses cercles `[lore.md:13]` `[timeline.md]`. | Inchangé. |
 | **Méridiens** | Développés lors de l'initiation pour manipuler l'énergie `[lore.md:8]`. | Inchangé. |

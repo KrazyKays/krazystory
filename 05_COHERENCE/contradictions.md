@@ -9,17 +9,18 @@
 | C-02 | Progression de B dans sa première vie | Haute | **Résolu** (2026-11-09) |
 | C-03 | Art de B : « très répandu » ou « seul » et perdu | Moyenne | Ouvert |
 | C-04 | Moment où B trouve comment dépasser sa limite | Moyenne | Ouvert |
-| C-05 | Fonction de l'artefact | Moyenne | Ouvert |
+| C-05 | Fonction de l'artefact | Moyenne | **Résolu** (2026-11-09) |
 | C-06 | Mécanisme du retour dans le temps | Faible | Ouvert |
-| C-07 | Lieu de naissance et statut social de B | Moyenne | Ouvert |
+| C-07 | Lieu de naissance et statut social de B | Moyenne | **Résolu** (2026-11-09) |
 | C-08 | Âge du temple | Faible | Ouvert |
 | C-09 | Ancienneté de B : 2000 ans ou « plusieurs milliers » | Faible | Ouvert |
 | C-10 | Qui initie les enfants à 12 ans | Faible | Ouvert |
 | C-11 | Enfance de B : né au dojo ou confié au dojo | Faible | Ouvert |
 | C-12 | Assiduité de A dans sa première vie | Faible | Ouvert |
-| C-13 | Terminologie noyau / cercle / cœur | Moyenne | Ouvert |
+| C-13 | Terminologie noyau / cercle / cœur | Moyenne | **Résolu** (2026-11-09) |
 | C-14 | Géométrie des cercles imbriqués | Faible | Ouvert |
-| C-15 | Art de B : « toujours perfectible » ou limité | Moyenne | Ouvert |
+| C-15 | Art de B : « toujours perfectible » ou limité | Moyenne | **Résolu** (2026-11-09) |
+| C-16 | Village de A en périphérie de la capitale / « cible isolée, loin de la capitale » (E-02) | Moyenne | Ouvert |
 
 ---
 
@@ -77,7 +78,13 @@
 - **Version 3** `[arc 3.md:5,7]` : il réfléchit aux solutions dans le néant ; le mana de l'artefact et ses années de réflexion lui permettront de dépasser la limite.
 - **Pistes :** a) il entrevoit la solution dans l'artefact juste avant l'attaque, puis l'élabore dans le néant ; b) il la trouve avant la trahison (version 1), et le néant ne sert qu'à l'affiner.
 
-### C-05 — Fonction de l'artefact · Moyenne
+### C-05 — Fonction de l'artefact · Moyenne · RÉSOLU
+
+> **Décision de l'auteur (2026-11-09) — piste a :** l'artefact n'a qu'une fonction, la méditation dans une dimension hors du temps `[lore.md:25]`. Les inscriptions du temple la décrivent de façon imagée : « devenir immortel » renvoie au temps illimité, « se protéger de toutes les menaces » à l'abri qu'offre la dimension. A les interprète mal.
+> La subtilité que A n'a pas su traduire : **seule l'âme devient immortelle**, car on peut la développer à l'infini dans l'artefact, tandis que le corps reste soumis aux règles du temps, donc mortel.
+> `[INTERPRÉTATION]` Ce « développement » de l'âme couvrirait le savoir et la compréhension, pas les cercles : A et B doivent rouvrir leurs cercles dans leur nouveau corps. À confirmer (Q-24).
+
+*Analyse initiale conservée ci-dessous :*
 - **Version 1** `[lore.md:25]` : dimension de méditation hors du temps ; on ressort comme si quelques secondes s'étaient écoulées.
 - **Version 2** `[arc 2.md:9]` : selon les inscriptions, il rend immortel et protège de toutes les menaces ; seule l'âme devient immortelle.
 - **Problème :** ce n'est pas forcément une contradiction, mais aucun texte ne relie ces deux descriptions.
@@ -88,7 +95,12 @@
 - **Version 2** `[arc 2.md:11]` : le mana remonte le temps pour les deux âmes jusqu'au « point de départ » de A.
 - **Remarque :** les deux versions sont compatibles. Il suffit de fusionner l'explication.
 
-### C-07 — Lieu de naissance et statut social de B · Moyenne
+### C-07 — Lieu de naissance et statut social de B · Moyenne · RÉSOLU
+
+> **Décision de l'auteur (2026-11-09) — piste a :** la « ville voisine » où naît B est **la capitale**. Le village de A se trouve en périphérie de la capitale. Le groupe 1 de l'examen réunit les candidats qui habitent et ont étudié à la capitale, nobles ou non ; B en fait partie à ce titre.
+> Conséquences : la noblesse de la famille de B n'est plus nécessaire (non tranchée, Q-08). La décision crée une tension avec E-02 et PC-2 : voir **C-16**. Source à ajuster : `arc 4.md:3` (S-11).
+
+*Analyse initiale conservée ci-dessous :*
 - **Version 1** `[arc 2.md:11]` : B naît dans « la ville voisine » du village de A.
 - **Version 2** `[arc 4.md:3]` : B fait partie du groupe des **nobles** « qui habitent et ont étudié à la capitale ».
 - **Version 3** `[arc 3.md:19]` : mère politicienne, père écrivain et historien ; la noblesse n'est pas mentionnée.
@@ -101,7 +113,9 @@
 
 ### C-09 — Ancienneté de B · Faible
 - `[resume.md:3]` : « mort depuis plusieurs milliers d'années ».
+- `[arc 1.md:11]` : l'âme « va errer pendant plusieurs millénaires » (source ajoutée le 2026-11-09).
 - `[timeline.md:3]` `[arc 3.md:5]` : 2000 ans.
+- `[INTERPRÉTATION]` Calcul : B naît 2000 ans avant A et meurt vers 80 ans ; avec les 93 ans de A, l'errance dure environ 2010 ans, ce qui correspond au « plus de 2000 ans » de `[arc 3.md:5]`.
 - **Piste :** harmoniser à « environ 2000 ans », ou préciser la date si « plusieurs milliers » est voulu.
 
 ### C-10 — Qui initie les enfants à 12 ans · Faible
@@ -119,7 +133,15 @@
 - `[details A.md:3]` : « grande détermination […] dans le domaine des arts martiaux pour combler son incapacité ».
 - **Piste :** elle est peu assidue dans sa jeunesse, puis déterminée une fois adulte, quand il est trop tard pour ses bases. C'est cohérent si on le date explicitement.
 
-### C-13 — Terminologie noyau / cercle / cœur · Moyenne
+### C-13 — Terminologie noyau / cercle / cœur · Moyenne · RÉSOLU
+
+> **Décision de l'auteur (2026-11-09) — piste c :**
+> - **Noyau** = le réservoir. Une personne en a un ; A en a deux. Le mot n'est jamais employé pour un cercle.
+> - **Cercle** = l'unité de niveau, construite dans le noyau. On écrit « 3 cercles complets », « cercles souples ».
+> - **Cœur de mana** = terme archaïque de l'époque de B, synonyme de noyau. À l'époque du récit, **seul B** l'emploie, par habitude. A, érudite des langues anciennes, finit par le remarquer : c'est un indice pour la révélation mutuelle (P-11). Moment à fixer (Q-25).
+> - `arc 1.md:5` (« cœur de mana de 10 cercles »), qui décrit l'époque de B, est déjà conforme. Sources à ajuster : `lore.md:13`, `details B.md:11` (S-09, S-10).
+
+*Analyse initiale conservée ci-dessous :*
 - « Noyau » désigne le réservoir `[lore.md:8]` `[arc 3.md:11]`, mais aussi un cercle : « 3 noyaux complets » `[lore.md:13]` `[details B.md:11]`, « noyaux souples » `[details B.md:11]`.
 - « Cœur de mana de 10 cercles » `[arc 1.md:5]`.
 - **Problème :** la confusion devient réelle avec A, qui a **deux noyaux** contenant chacun des cercles.
@@ -132,7 +154,14 @@
 - **Problème :** si les cercles sont imbriqués, comment un cercle intérieur peut-il atteindre la taille du cercle qui l'entoure ? Et que signifie, pour B, « ne pas être limité » ?
 - **Pistes :** a) la « taille » désigne une capacité, pas un diamètre ; l'image des cercles concentriques est symbolique ; b) préciser la représentation visuelle (les images montrent des anneaux concentriques).
 
-### C-15 — Art de B : toujours perfectible ou limité ? · Moyenne
+### C-15 — Art de B : toujours perfectible ou limité ? · Moyenne · RÉSOLU
+
+> **Décision de l'auteur (2026-11-09) — pistes a et c :**
+> - (a) « Toujours pouvoir être amélioré » est la **réputation** de l'art, et elle est fausse : le plafond du 10e cercle est la « faille » que le maître veut cacher. B la lui révèle en lui confiant ses recherches `[arc 1.md:7]`, ce qui motive l'ordre d'assassinat.
+> - (c) Ce qui reste toujours perfectible, c'est la **taille** des cercles souples, jamais verrouillée. Leur **nombre**, lui, plafonne à 10. Une taille plus grande donne une plus grande quantité de mana, donc une plus longue durée d'utilisation. La puissance des techniques dépend toujours du nombre de cercles `[lore.md:8]`.
+> - `[INTERPRÉTATION]` La réputation repose ainsi sur un fait vrai mais incomplet, ce qui explique qu'elle ait tenu jusqu'à B, premier à atteindre le 10e cercle.
+
+*Analyse initiale conservée ci-dessous :*
 - **Version 1** `[arc 1.md:3]` : l'art du dojo « a pour particularité de toujours pouvoir être amélioré avec le temps et l'entrainement ».
 - **Version 2** `[arc 1.md:7]` `[details B.md:3]` : B rencontre au 10e cercle une « limite infranchissable ».
 - **Problème :** pris au pied de la lettre, les deux énoncés s'excluent.
@@ -140,6 +169,16 @@
   a) La promesse est la réputation de l'art, et elle est fausse : c'est précisément la « faille » que le maître veut cacher `[arc 1.md:7]`, ce qui motive l'ordre d'assassinat.
   b) L'art est perfectible dans sa technique de combat, mais sa cultivation plafonne.
   c) Reformuler la version 1.
+
+### C-16 — Distance entre le village de A et la capitale · Moyenne
+- **Version 1** `[CANON]` (C-07, 2026-11-09) : la ville voisine du village de A est la capitale ; le village est en périphérie.
+- **Version 2** `[CANON]` `[catastrophes_propositions.md:76]` (E-02) : la guilde teste sa méthode sur le village de A, « une cible isolée, loin de la capitale ».
+- **Version 3** `[CANON]` `[catastrophes_propositions.md:15-19]` (PC-2) : la prédiction de A est moins fiable près de la capitale ; fiabilité « très bonne » avant 15 ans « loin de la capitale ».
+- **Problème :** au sens strict, un village voisin de la capitale n'est ni isolé ni loin d'elle. Selon PC-2, les prédictions de A sur son propre village deviendraient aussi moins fiables, ce qui affaiblit l'effet « A domine au début ».
+- **Pistes** `[PROPOSITION]` :
+  a) « Voisine » signifie « la ville la plus proche », mais à une vraie distance (plusieurs jours de route) ; le village reste isolé. E-02 et PC-2 restent intacts.
+  b) Le village est réellement proche : on reformule E-02 (la guilde choisit un village périphérique, mal défendu, pour un test discret aux portes de la capitale) et la ligne de PC-2 (« loin de B » plutôt que « loin de la capitale »).
+  c) On fixe une distance intermédiaire (une journée de route) et l'on reformule PC-2 autour des actes de B plutôt que de la géographie ; E-02 garde « isolée », mais plus « loin de la capitale ».
 
 ---
 

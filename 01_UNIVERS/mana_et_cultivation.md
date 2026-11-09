@@ -19,7 +19,7 @@
 - `[SOURCE]` Au niveau suivant, on construit un deuxième cercle **au sein du noyau**. Il grandit comme le premier, mais plus lentement, sans jamais dépasser la taille du premier, qui est alors **verrouillé** en taille. `[lore.md:8]` → ambiguïté géométrique `[CONFLIT C-14]`
 - `[SOURCE]` Les cercles s'imbriquent ; leur **nombre** indique la puissance des techniques accessibles. `[lore.md:8]`
 - `[SOURCE]` Le mana d'un cercle est **10 fois plus puissant** que celui du cercle précédent. `[lore.md:13]`
-- Terminologie hétérogène dans les sources (noyau / cercle / cœur) → `[CONFLIT C-13]`, voir aussi `glossaire.md`.
+- `[CANON]` (C-13, 2026-11-09) Terminologie : **noyau** = réservoir, **cercle** = niveau ; « cœur de mana » est le terme archaïque employé par B. Voir `glossaire.md`.
 
 ### Règle « accès et réserve » — `[CANON]` (validé le 2026-11-09)
 - Posséder le cercle n, même à peine ouvert, donne **accès** aux techniques de rang n.
@@ -66,6 +66,7 @@
 | Cas | Description | Sources |
 |---|---|---|
 | Art « souple » de B | Les cercles ne sont pas limités par la taille des précédents et grandissent ensemble. Seule la cultivation du cercle le plus élevé est nécessaire : 3 cercles complets en 3 ans au lieu de 6. **Un groupe de cercles cultivés ensemble coûte autant d'années que le numéro de son cercle le plus élevé, et ces durées s'additionnent d'un groupe à l'autre** (seconde vie : 3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans). | `[details B.md:11]` `[timeline.md:25-39]` — règle de cumul précisée par l'auteur le 2026-11-09 |
+| Limite de l'art souple | `[CANON]` (C-15) La taille des cercles souples n'est jamais verrouillée et reste toujours perfectible (plus de mana, donc plus de durée d'utilisation). Leur nombre plafonne à 10 dans l'art d'origine. | `[arc 1.md:3,7]` — décision du 2026-11-09 |
 | Double noyau de A | `[CANON]` A possède **deux noyaux**, l'un de mana ambiant, l'autre de mana de l'artefact. Chacun contient ses cercles, qui évoluent **en miroir**. Pour le même effort, A obtient deux fois plus de mana ; la durée de chaque cercle reste standard (mention « x2 » de la timeline). | `[details A.md:15]` `[arc 3.md:11]` `[timeline.md:19]` — C-01 résolu le 2026-11-09 |
 | Cultivation pendant le sommeil | Particularité physique de B dans sa première vie. Perdue après sa résurrection. `[CANON]` Avantage qualitatif, **non chiffré** (la mention « doublant son efficacité » est abandonnée). | `[arc 1.md:5]` — décision du 2026-11-09 |
 | Cercles 8 à 10 | `[CANON]` Trop difficiles pour être cultivés ensemble : chacun se cultive seul, y compris avec l'art souple. | Décision du 2026-11-09 |
@@ -79,5 +80,5 @@
 
 ## 9. Points ouverts
 
-- C-10, C-13, C-14.
+- C-10, C-14.
 - Q-05 (asymétrie du mana de l'artefact entre A et B), Q-21, Q-22.

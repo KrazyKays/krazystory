@@ -16,7 +16,7 @@
 5. B étudie l'artefact du trésor et y découvre un mana inconnu ; l'assassinat échoue de peu ; B, mourant, mélange son mana à l'artefact et se retrouve téléporté au temple d'origine.
 6. Il meurt ; son âme est attirée dans le néant.
 
-**Points ouverts :** C-03, C-04, C-15. Statut narratif de l'arc (prologue, chapitres complets, flashback distillé ?) — Q-11.
+**Points ouverts :** C-03, C-04. C-15 résolu : « toujours perfectible » est une réputation fausse, sauf pour la taille des cercles. Statut narratif de l'arc (prologue, chapitres complets, flashback distillé ?) — Q-11.
 
 ---
 
@@ -29,9 +29,9 @@
 2. Elle a survécu à de nombreuses catastrophes et perdu sa famille et ses camarades.
 3. Devenue érudite et exploratrice, elle maîtrise des langues anciennes.
 4. Elle découvre un temple d'environ 2000 ans : l'artefact, des ossements, des inscriptions promettant l'immortalité et une protection (elle ne saisit pas que seule l'âme devient immortelle).
-5. Elle mélange son mana à l'artefact ; explosion ; remontée du temps ; retour à sa naissance ; B dans un bébé de la ville voisine.
+5. Elle mélange son mana à l'artefact ; explosion ; remontée du temps ; retour à sa naissance ; B dans un bébé de la ville voisine, la capitale `[CANON]`.
 
-**Remarques :** le premier paragraphe `[arc 2.md:3]` est un doublon condensé du deuxième `[arc 2.md:5]`. Points ouverts : C-05, C-06, C-08, C-12. Catastrophes : voir `catastrophes_propositions.md`.
+**Remarques :** le premier paragraphe `[arc 2.md:3]` est un doublon condensé du deuxième `[arc 2.md:5]`. Points ouverts : C-06, C-08, C-12. C-05 résolu : inscriptions imagées, seule l'âme est immortelle. Catastrophes : voir `catastrophes_propositions.md`.
 
 ---
 
@@ -45,7 +45,7 @@
 
 **Manques :** famille de A (« A ecrire » `[arc 3.md:23]`) ; vie de A au village ; petite sœur de B (dans `idees.md`, pas dans l'arc) ; éventuels premiers drames que A cherche à empêcher avant 13 ans.
 
-**Points ouverts :** C-07, C-10, C-11.
+**Points ouverts :** C-10, C-11, C-16.
 
 ---
 
@@ -54,7 +54,7 @@
 **Fonction :** première rencontre de A et de B ; positionnement face à l'élite.
 
 **Déroulé `[SOURCE]` :**
-1. Deux groupes : nobles de la capitale (hautains) et candidats des villages.
+1. Deux groupes : candidats de la capitale, nobles ou non `[CANON]` (nobles hautains), et candidats des villages.
 2. Groupe 1 : B (discret) et un prince réputé génie. Groupe 2 : A, sûre d'elle.
 3. Première épreuve (sélection séparée par groupe) : B et le prince se préservent ; A déploie des techniques extrêmement puissantes et domine son groupe.
 4. 40 % du groupe 1 et 5 % du groupe 2 passent à la seconde épreuve (répartition dans les classes et attribution des ressources).
@@ -62,7 +62,7 @@
 
 **Manques :** nature exacte des épreuves ; déroulé de la seconde épreuve ; résultats ; mesure à la gemme d'évaluation (double noyau de A ?) ; réaction des parents de B.
 
-**Points ouverts :** C-07 ; T-01.
+**Points ouverts :** T-01 ; C-16.
 
 ---
 

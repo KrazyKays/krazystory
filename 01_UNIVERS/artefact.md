@@ -11,15 +11,19 @@
 - `[SOURCE]` Ce mana mystérieux peut **interagir avec le temps**. `[arc 2.md:11]`
 - `[MANQUANT]` Créateur, civilisation d'origine, nature du temple.
 
-## 2. Fonction — deux versions à harmoniser `[CONFLIT C-05]`
+## 2. Fonction — `[CANON]` (C-05 résolu le 2026-11-09)
 
-> Depuis le 2026-11-09, l'artefact ne fonctionne plus dans la seconde ligne temporelle (§6). Sa fonction n'est donc plus un risque pour l'équilibre des puissances ; elle reste à fixer pour la cohérence des arcs 1, 2 et 5.
+> Depuis le 2026-11-09, l'artefact ne fonctionne plus dans la seconde ligne temporelle (§6).
 
 **Version A** `[lore.md:25]` — L'artefact permet de méditer dans une dimension vide pendant un temps illimité, à l'abri de tout danger, le temps étant suspendu. On regagne ensuite son corps comme si quelques secondes seulement s'étaient écoulées. Il n'accueille qu'une âme à la fois, ce qui ne pose pas de problème puisque le temps se fige dès qu'une âme y entre.
 
 **Version B** `[arc 2.md:9]` — Les inscriptions du temple indiquent qu'en mélangeant son mana à l'artefact, on peut devenir **immortel** et se protéger de toutes les menaces. Subtilité que A n'a pas su traduire : **seule l'âme** de l'utilisateur devient immortelle.
 
-`[INTERPRÉTATION]` Les deux versions peuvent être compatibles : les inscriptions décriraient de façon imagée la dimension hors du temps. Ce lien n'est toutefois écrit nulle part.
+`[CANON]` L'artefact n'a qu'une fonction, celle de la version A. Les inscriptions de la version B la décrivent de façon imagée : l'« immortalité » est le temps illimité passé dans la dimension, la « protection » l'abri qu'elle offre. A les interprète mal.
+
+`[CANON]` Seule l'âme devient immortelle, car on peut la développer à l'infini dans l'artefact ; le corps reste soumis aux règles du temps, donc mortel.
+
+`[INTERPRÉTATION]` Le développement de l'âme porte sur le savoir et la compréhension, pas sur les cercles, que A et B doivent rouvrir dans leur nouveau corps. Cela concorde avec les 2000 ans de réflexion de B `[arc 3.md:5]`. À confirmer (Q-24).
 
 ## 3. Activation par B (il y a environ 2000 ans)
 
@@ -40,7 +44,7 @@
 3. Les deux âmes remontent le temps.
 4. Version `[lore.md:27]` : l'artefact cherche à revenir au moment de l'arrivée de la première âme (B), mais l'âme de A n'est « pas assez ancienne » et bloque le processus à sa naissance. Version `[arc 2.md:11]` : les âmes remontent jusqu'à ce que celle de A revienne à son « point de départ ». → versions complémentaires, `[CONFLIT C-06]` (mineur).
 5. L'âme adulte de A intègre son corps de nourrisson.
-6. L'artefact cherche un corps pour l'âme de B : un bébé venant de mourir à la naissance, dans la **ville voisine** `[arc 2.md:11]`, dont l'âme était déjà partie `[lore.md:27]`. Le bébé, qui ne respirait plus depuis plusieurs secondes, revient à la vie devant ses parents et l'infirmière `[arc 3.md:5]`.
+6. L'artefact cherche un corps pour l'âme de B : un bébé venant de mourir à la naissance, dans la **ville voisine** `[arc 2.md:11]`, c'est-à-dire la capitale `[CANON]` (C-07), dont l'âme était déjà partie `[lore.md:27]`. Le bébé, qui ne respirait plus depuis plusieurs secondes, revient à la vie devant ses parents et l'infirmière `[arc 3.md:5]`.
 
 ## 5. Effets sur les héros
 
