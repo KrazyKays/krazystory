@@ -14,7 +14,8 @@
 - `[SOURCE]` N'a « pas été très assidue » ; ses bases sont jugées médiocres par les disciples et ses professeurs. `[arc 2.md:5]` → nuance avec `[details A.md:3]`, `[CONFLIT C-12]`.
 - `[SOURCE]` Bloquée dans sa progression : ni grande carrière de combattante, ni poste d'enseignante au dojo. `[arc 2.md:5]`
 - `[SOURCE]` Pas de trait spécifique ; déçue de ses capacités martiales limitées. `[details A.md:3]`
-- `[SOURCE]` Survit à de nombreuses catastrophes de grande ampleur sans pouvoir intervenir, ce qui la ronge. Perd sa famille et la plupart de ses camarades du dojo. `[arc 2.md:5]` `[details A.md:3]`
+- `[CANON]` Ne va jamais à l'académie (décision du 2026-11-09).
+- `[SOURCE]` Survit à de nombreuses catastrophes de grande ampleur sans pouvoir intervenir, ce qui la ronge. Perd sa famille et la plupart de ses camarades du dojo. `[arc 2.md:5]` `[details A.md:3]` — `[CANON]` à 16 ans, lors de la nuit du village (E-02). Liste complète : `04_INTRIGUE/catastrophes_propositions.md`.
 - `[SOURCE]` Devient érudite et exploratrice, en quête de connaissances et d'objets anciens. Grande détermination dans ses recherches archéologiques, historiques et martiales. Accumule beaucoup de savoir sur les arts martiaux, sans pouvoir l'appliquer. `[arc 2.md:7]` `[details A.md:3]`
 - `[SOURCE]` Maîtrise de nombreuses langues anciennes. `[arc 2.md:9]`
 - `[SOURCE]` À 93 ans, découvre le temple, active l'artefact et revient à sa naissance. `[arc 2.md:5-11]` `[timeline.md:9]`
@@ -59,6 +60,7 @@
 ## Ce que A sait / ignore
 
 - Sait : l'avenir de sa première vie, des connaissances martiales et historiques étendues, l'emplacement du temple.
+- `[CANON]` Son savoir de l'avenir est **partiel** (version officielle et recherches tardives) et **se dégrade** avec le temps et la proximité de B (PC-1, PC-2).
 - Ignore : que B est réincarné `[resume.md:35]` ; le vrai fonctionnement de l'artefact (la subtilité non traduite) `[arc 2.md:9]` ; l'origine exacte de son second noyau (elle en connaît la nature à 9 ans, pas forcément la cause).
 - `[INTERPRÉTATION]` Ses prédictions perdent en fiabilité à cause de B, qui n'existait pas dans sa première vie `[resume.md:3,35]`. Elle remarque probablement des écarts sans en comprendre la cause.
 

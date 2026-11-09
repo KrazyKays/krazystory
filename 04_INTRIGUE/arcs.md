@@ -9,14 +9,14 @@
 **Fonction :** origine de B, du mana de l'artefact et de la trahison ; exposition du système de mana.
 
 **Déroulé `[SOURCE]` :**
-1. B, membre d'un dojo à l'art très répandu et toujours perfectible, en devient le plus grand génie : 10 cercles en 50 ans, grâce à sa cultivation pendant le sommeil.
+1. B, membre d'un dojo à l'art très répandu et toujours perfectible, en devient le plus grand génie : 10 cercles en 70 ans `[CANON]` ; sa cultivation pendant le sommeil l'avantage (gain non chiffré).
 2. Le maître (9 cercles) le désigne comme successeur.
 3. Bloqué au 10e cercle, B cherche à faire évoluer son art et en parle au maître.
 4. Le maître, inquiet, charge un disciple rival de l'éliminer.
 5. B étudie l'artefact du trésor et y découvre un mana inconnu ; l'assassinat échoue de peu ; B, mourant, mélange son mana à l'artefact et se retrouve téléporté au temple d'origine.
 6. Il meurt ; son âme est attirée dans le néant.
 
-**Points ouverts :** C-02, C-03, C-04. Statut narratif de l'arc (prologue, chapitres complets, flashback distillé ?) — Q-11.
+**Points ouverts :** C-03, C-04, C-15. Statut narratif de l'arc (prologue, chapitres complets, flashback distillé ?) — Q-11.
 
 ---
 
@@ -31,7 +31,7 @@
 4. Elle découvre un temple d'environ 2000 ans : l'artefact, des ossements, des inscriptions promettant l'immortalité et une protection (elle ne saisit pas que seule l'âme devient immortelle).
 5. Elle mélange son mana à l'artefact ; explosion ; remontée du temps ; retour à sa naissance ; B dans un bébé de la ville voisine.
 
-**Remarques :** le premier paragraphe `[arc 2.md:3]` est un doublon condensé du deuxième `[arc 2.md:5]`. Points ouverts : C-05, C-06, C-08, C-12 ; Q-09.
+**Remarques :** le premier paragraphe `[arc 2.md:3]` est un doublon condensé du deuxième `[arc 2.md:5]`. Points ouverts : C-05, C-06, C-08, C-12. Catastrophes : voir `catastrophes_propositions.md`.
 
 ---
 
@@ -45,7 +45,7 @@
 
 **Manques :** famille de A (« A ecrire » `[arc 3.md:23]`) ; vie de A au village ; petite sœur de B (dans `idees.md`, pas dans l'arc) ; éventuels premiers drames que A cherche à empêcher avant 13 ans.
 
-**Points ouverts :** C-01, C-07, C-10, C-11.
+**Points ouverts :** C-07, C-10, C-11.
 
 ---
 
@@ -82,4 +82,8 @@
 
 ## Au-delà de l'arc 5
 
-`[MANQUANT]` Aucun arc n'est écrit après l'expédition. Éléments en attente de placement : voir `idees_et_scenes.md`. Fin envisagée : `[HYPOTHÈSE]` vers 28–29 ans `[timeline.md:39-41]`.
+`[MANQUANT]` Aucun arc n'est écrit après l'expédition. Éléments en attente de placement : voir `idees_et_scenes.md`.
+
+- `[CANON]` (2026-11-09) Le récit se prolonge **au-delà de 28–29 ans**, grâce aux ellipses. Fin à définir.
+- `[CANON]` La révélation mutuelle de A et de B a lieu au cours du récit, après de longs doutes (P-11). Moment à définir.
+- Catastrophes à prévenir : propositions dans `catastrophes_propositions.md` (non validées).

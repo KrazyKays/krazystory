@@ -1,6 +1,6 @@
 # Contradictions et ambiguïtés
 
-> Chaque fiche conserve les versions en présence. **Aucune n'a été tranchée.** Les pistes de résolution sont des `[PROPOSITION]`.
+> Chaque fiche conserve les versions en présence. Les fiches tranchées portent la mention **Résolu** et la décision de l'auteur. Les pistes de résolution sont des `[PROPOSITION]`.
 > Importance : **Haute** (structure le récit ou les règles), **Moyenne** (visible pour le lecteur attentif), **Faible** (formulation ou détail).
 
 | ID | Sujet | Importance | État |
@@ -19,6 +19,7 @@
 | C-12 | Assiduité de A dans sa première vie | Faible | Ouvert |
 | C-13 | Terminologie noyau / cercle / cœur | Moyenne | Ouvert |
 | C-14 | Géométrie des cercles imbriqués | Faible | Ouvert |
+| C-15 | Art de B : « toujours perfectible » ou limité | Moyenne | Ouvert |
 
 ---
 
@@ -130,6 +131,15 @@
 - `[details B.md:11]` : les cercles souples « ne sont pas limités par la taille des noyaux précédents ».
 - **Problème :** si les cercles sont imbriqués, comment un cercle intérieur peut-il atteindre la taille du cercle qui l'entoure ? Et que signifie, pour B, « ne pas être limité » ?
 - **Pistes :** a) la « taille » désigne une capacité, pas un diamètre ; l'image des cercles concentriques est symbolique ; b) préciser la représentation visuelle (les images montrent des anneaux concentriques).
+
+### C-15 — Art de B : toujours perfectible ou limité ? · Moyenne
+- **Version 1** `[arc 1.md:3]` : l'art du dojo « a pour particularité de toujours pouvoir être amélioré avec le temps et l'entrainement ».
+- **Version 2** `[arc 1.md:7]` `[details B.md:3]` : B rencontre au 10e cercle une « limite infranchissable ».
+- **Problème :** pris au pied de la lettre, les deux énoncés s'excluent.
+- **Pistes :**
+  a) La promesse est la réputation de l'art, et elle est fausse : c'est précisément la « faille » que le maître veut cacher `[arc 1.md:7]`, ce qui motive l'ordre d'assassinat.
+  b) L'art est perfectible dans sa technique de combat, mais sa cultivation plafonne.
+  c) Reformuler la version 1.
 
 ---
 

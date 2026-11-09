@@ -1,6 +1,6 @@
 # Modifications à apporter aux sources
 
-> Je ne modifie jamais les fichiers de `SOURCES/`. Cette liste recense les passages que **tu** dois ajuster pour qu'ils reflètent les décisions déjà validées.
+> Je ne modifie pas les fichiers de `SOURCES/` sans ton autorisation explicite. Cette liste recense les passages que **tu** dois ajuster pour qu'ils reflètent les décisions déjà validées.
 > Quand une ligne est faite, signale-le-moi : je mettrai à jour les références `[fichier:ligne]` si elles se décalent.
 
 ## 1. Obligatoires — **FAIT le 2026-11-09** (par l'assistant, sur autorisation exceptionnelle de l'auteur)

@@ -19,13 +19,18 @@
 | Âge | Événement | Sources |
 |---|---|---|
 | 0 | Naissance de A. Dans la ville voisine, un bébé meurt à la naissance (futur corps de B). | `[timeline.md:7]` `[lore.md:27]` |
-| ? | Apprentissage dans le dojo du village ; bases médiocres. | `[arc 2.md:5]` |
-| ? | Catastrophes ; perte de sa famille et de ses camarades. | `[arc 2.md:5]` |
-| ? | La guilde de l'ombre prend le contrôle de « la ville » ; ultime assaut des monstres. | `[lore.md:41]` |
-| ? | Carrière d'érudite et d'exploratrice. | `[arc 2.md:7]` |
+| ? | Apprentissage dans le dojo du village ; bases médiocres. A ne va jamais à l'académie `[CANON]`. | `[arc 2.md:5]` |
+| 15 | E-01 — Massacre de l'expédition de l'académie ; mort du prince. | `[CANON]` |
+| 16 | E-02 — Nuit du village : mort de la famille de A et de la plupart de ses camarades. | `[CANON]` `[arc 2.md:5]` |
+| 19 | E-03 — Chute du fort. | `[CANON]` |
+| 22 | E-04 — Loi d'unification. | `[CANON]` |
+| 26 | E-05 — Année sèche (famine). | `[CANON]` |
+| 30 | E-06 — Fermeture des dojos. | `[CANON]` |
+| 35–38 | E-07 — La guilde de l'ombre prend le contrôle de la capitale ; ultime assaut des monstres. | `[CANON]` `[lore.md:41]` |
+| 38–93 | Long déclin ; carrière d'érudite et d'exploratrice. | `[arc 2.md:7]` |
 | 93 | Découverte du temple ; activation de l'artefact. | `[timeline.md:9]` `[arc 2.md:5-11]` |
 
-`[MANQUANT]` **Aucune catastrophe n'est datée.** C'est la principale lacune de la chronologie, car toute l'intrigue de prévention en dépend (Q-09).
+Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_propositions.md`.
 
 ## 3. Seconde vie — événements
 
@@ -39,7 +44,7 @@
 | 13 | Examen d'entrée à l'académie de la capitale ; rencontre de A et de B. | `[timeline.md:15]` `[arc 4.md]` |
 | ? | Expédition de groupe vers le temple. | `[arc 5.md]` |
 | ? | Rencontre d'un ennemi bien plus puissant (« assez tôt »). | `[idees.md:7]` |
-| 28–29 | Fin du récit ? | `[HYPOTHÈSE]` `[timeline.md:39-41]` |
+| 28–29 | ~~Fin du récit ?~~ Le récit continue au-delà (décision du 2026-11-09). | `[timeline.md:39-41]` |
 
 ## 4. Seconde vie — progression de cultivation
 
@@ -75,5 +80,7 @@
 | Élément | Première vie | Seconde vie | Sources |
 |---|---|---|---|
 | Bébé de la ville voisine | Mort à la naissance | Habité par B | `[lore.md:27]` `[resume.md:3]` |
-| Petite sœur de B | `[INTERPRÉTATION]` Sa naissance n'est pas garantie | Existe | `[idees.md:5]` |
+| Petite sœur de B | `[CANON]` Née ; `[INTERPRÉTATION]` ne se tourne pas vers les arts martiaux | Née ; se forme aux arts martiaux auprès de B | `[idees.md:5]` — décision du 2026-11-09 |
+| Mère de B | Quitte la politique après la mort de son bébé ; un allié de la guilde prend sa place | Reste en politique ; gêne la guilde sans le savoir | `[CANON]` E-04 |
+| L'artefact | Explose lors de l'activation par A | Brisé ; sa réserve est désormais en A et en B | `[CANON]` |
 | Prédictions de A | Événements vécus | Rendues moins fiables par les actes de B | `[resume.md:35]` |

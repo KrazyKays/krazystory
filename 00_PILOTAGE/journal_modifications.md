@@ -1,5 +1,41 @@
 # Journal des modifications
 
+## 2026-11-09 — Petite sœur de B, ironie dramatique
+
+**Décisions de l'auteur intégrées (`[CANON]`) :**
+- La petite sœur de B est née dans les deux vies ; seule sa trajectoire change (N-03).
+- L'ironie dramatique liée à la 1re personne est assumée.
+
+**Fichiers modifiés :** `04_INTRIGUE/catastrophes_propositions.md`, `04_INTRIGUE/principes_narratifs.md`, `03_CHRONOLOGIE/chronologie.md`, `02_PERSONNAGES/personnages_secondaires.md`.
+**Sources modifiées :** aucune.
+
+## 2026-11-09 — Catastrophes validées, point de vue, artefact brisé, mise à jour de la base
+
+**Décisions de l'auteur intégrées (`[CANON]`) :**
+- Catastrophes de la première vie de A : principes PC-1 à PC-6, événements E-01 à E-07 et N-01 à N-04 validés (`04_INTRIGUE/catastrophes_propositions.md`). → Q-09 clos.
+- Première vie de A : jamais à l'académie ; famille en vie jusqu'à ses 16 ans. Le prince meurt dans la première vie. La mère de B quitte la politique dans la première vie.
+- 1re personne pour chaque héros ; `[HYPOTHÈSE]` 3e personne pour les scènes réunissant A et B.
+- L'artefact est brisé ; le mana de sa réserve est désormais en A et en B. → Q-23 clos ; Q-05 réduit à la raison de l'asymétrie.
+- Longévité par la cultivation : interprétation confirmée.
+
+**Mise à jour de la base (autorisée par l'auteur) :** retrait des mentions périmées (« 50 ans », C-01/C-02 encore listés comme ouverts, Q-03/Q-04, « aucun canon »). Ajout de la contradiction C-15 (art « toujours perfectible » / limite du 10e cercle), relevée précédemment mais non consignée.
+
+**Fichiers modifiés :** `04_INTRIGUE/catastrophes_propositions.md`, `05_COHERENCE/questions_ouvertes.md`, `05_COHERENCE/contradictions.md`, `01_UNIVERS/artefact.md`, `01_UNIVERS/arts_martiaux.md`, `01_UNIVERS/mana_et_cultivation.md`, `02_PERSONNAGES/A.md`, `02_PERSONNAGES/personnages_secondaires.md`, `03_CHRONOLOGIE/chronologie.md`, `04_INTRIGUE/principes_narratifs.md`, `04_INTRIGUE/arcs.md`, `00_PILOTAGE/README.md`, `00_PILOTAGE/modifications_sources_a_faire.md`, `06_MANUSCRIT/README.md`.
+**Non modifié volontairement :** `00_PILOTAGE/rapport_initial.md` (diagnostic daté, conservé tel quel).
+**Sources modifiées :** aucune.
+
+## 2026-11-09 — Portée du récit, style, Todag, artefact
+
+**Décisions de l'auteur intégrées (`[CANON]`) :**
+- Le récit va au-delà de 28–29 ans, grâce aux ellipses ; fin non fixée. A et B apprennent la vérité l'un sur l'autre au cours du récit, après de longs doutes (P-11).
+- Point de vue alterné A/B ; ellipses entre des moments charnières très développés ; format web novel ; inspirations : *Tales of Demons and Gods*, *The Beginning After the End*.
+- Todag = *Tales of Demons and Gods* ; seule la notion de « marées de monstres » est à éviter (P-10).
+- L'artefact ne fonctionne plus dans la seconde ligne temporelle (réserve vidée lors du retour) ; aucune âme de B n'erre ; les ossements de B sont au temple.
+
+**Fichiers créés :** `04_INTRIGUE/catastrophes_propositions.md` (propositions non validées, réponse à Q-09).
+**Fichiers modifiés :** `05_COHERENCE/questions_ouvertes.md` (Q-06, Q-12, Q-14, Q-15 ; Q-23 ajoutée), `01_UNIVERS/artefact.md`, `04_INTRIGUE/principes_narratifs.md`, `04_INTRIGUE/arcs.md`, `03_CHRONOLOGIE/chronologie.md`, `06_MANUSCRIT/README.md`.
+**Sources modifiées :** aucune.
+
 ## 2026-11-09 — Correction des sources et premier commit
 
 **Sources modifiées (autorisation exceptionnelle de l'auteur) :**
@@ -18,7 +54,7 @@ Les numéros de ligne sont inchangés. Les modifications facultatives S-05 à S-
 - Le bonus du sommeil est qualitatif, non chiffré.
 - La cultivation allonge la durée de vie.
 
-**Interprétation à confirmer :** j'ai compris « je valide les deux points » comme « oui, la cultivation allonge la durée de vie ».
+**Interprétation :** j'ai compris « je valide les deux points » comme « oui, la cultivation allonge la durée de vie ». *(Confirmé par l'auteur le 2026-11-09.)*
 
 **Fichiers créés :** `00_PILOTAGE/modifications_sources_a_faire.md`.
 **Fichiers modifiés :** `05_COHERENCE/contradictions.md` (C-02 résolu), `05_COHERENCE/questions_ouvertes.md` (Q-03 clos ; Q-21 et Q-22 ajoutés), `01_UNIVERS/mana_et_cultivation.md`, `02_PERSONNAGES/B.md`, `02_PERSONNAGES/personnages_secondaires.md`, `03_CHRONOLOGIE/chronologie.md`, `03_CHRONOLOGIE/courbes_A_B.html` (republié).

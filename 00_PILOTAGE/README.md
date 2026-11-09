@@ -23,7 +23,7 @@ Chaque information de la base porte l'un des statuts suivants, conformément à 
 | Statut | Signification |
 |---|---|
 | `[SOURCE]` | Énoncé présent dans tes notes, repris fidèlement. **Pas encore validé comme canon.** |
-| `[CANON]` | Information que tu as explicitement validée. *(Aucune pour l'instant.)* |
+| `[CANON]` | Information que tu as explicitement validée. |
 | `[HYPOTHÈSE]` | Élément présenté comme incertain dans les sources (point d'interrogation, formulation hésitante). |
 | `[INTERPRÉTATION]` | Ma lecture d'un passage ambigu ou un calcul déduit des sources. À confirmer. |
 | `[PROPOSITION]` | Suggestion de ma part. Jamais considérée comme décidée. |
@@ -65,5 +65,6 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 | Inventaire des sources | Terminé — 13 textes et 29 images, tous examinés intégralement |
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |
-| Résolution des contradictions | **En attente de tes décisions** |
+| Résolution des contradictions | En cours — C-01 et C-02 résolus ; voir `05_COHERENCE/contradictions.md` |
+| Catastrophes de la première vie de A | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
 | Rédaction du manuscrit | Non commencée (volontairement) |

@@ -58,7 +58,7 @@
 - `[SOURCE]` La puissance se mesure « de différentes façons », d'abord au nombre de cercles. `[lore.md:13]` — `[MANQUANT]` Les autres façons ne sont pas décrites.
 - `[SOURCE]` Les outils de mesure n'évaluent que la progression du **dernier** cercle. `[lore.md:13]`
 - `[SOURCE]` Outil : une **gemme sphérique de taille normée**, que l'on remplit avec tout son mana. Pleine, elle représente un premier cercle d'un an de cultivation. Elle se remplit forcément avec le mana du cercle de plus haut niveau. `[lore.md:13]`
-- `[INTERPRÉTATION]` La gemme mesure une **quantité** de mana, indépendamment de la règle « ×10 par cercle » qui porte sur la **puissance**. À confirmer (Q-04).
+- `[INTERPRÉTATION]` La gemme mesure une **quantité** de mana, indépendamment de la règle « ×10 par cercle » qui porte sur la **puissance**. À confirmer.
 - `[MANQUANT]` Comportement de la gemme face au double noyau de A. Ce point peut produire une scène marquante lors de l'examen (arc 4).
 
 ## 7. Cas particuliers
@@ -80,4 +80,4 @@
 ## 9. Points ouverts
 
 - C-10, C-13, C-14.
-- Q-03, Q-04 (combinaison des deux noyaux de A dans une technique ; lecture brute ou pondérée de l'endurance), Q-05.
+- Q-05 (asymétrie du mana de l'artefact entre A et B), Q-21, Q-22.

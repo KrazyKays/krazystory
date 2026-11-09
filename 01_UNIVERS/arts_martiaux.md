@@ -15,7 +15,8 @@
 - `[SOURCE]` B ne trouve aucune trace de son art à l'époque moderne et se croit le dernier à pouvoir le pratiquer. `[arc 3.md:7]`
 - `[SOURCE]` Le rival de B a transmis à la guilde de l'ombre une **version dérivée**, moins efficace mais reconnaissable. `[lore.md:34]`
 - `[CONFLIT C-03]` « Très répandu » contre « seul art », perdu avec un seul dojo.
-- `[CONFLIT C-02]` Rythme de progression incompatible avec les 50 ans de B dans sa première vie.
+- `[CANON]` Première vie de B : 10 cercles en 70 ans ; les cercles 8 à 10 se cultivent un par un (C-02 résolu).
+- `[CONFLIT C-15]` « Toujours pouvoir être amélioré » contre « limite infranchissable ».
 - `[SOURCE]` Limite : B est bloqué au 10e cercle, limite que lui seul a atteinte. `[arc 1.md:7]` `[details B.md:3]`
 - `[SOURCE]` Le maître du dojo craint que le monde découvre cette faille ou que l'art soit « dénaturé » par les recherches de B. `[arc 1.md:7]`
 

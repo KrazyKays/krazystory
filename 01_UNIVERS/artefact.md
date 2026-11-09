@@ -13,6 +13,8 @@
 
 ## 2. Fonction — deux versions à harmoniser `[CONFLIT C-05]`
 
+> Depuis le 2026-11-09, l'artefact ne fonctionne plus dans la seconde ligne temporelle (§6). Sa fonction n'est donc plus un risque pour l'équilibre des puissances ; elle reste à fixer pour la cohérence des arcs 1, 2 et 5.
+
 **Version A** `[lore.md:25]` — L'artefact permet de méditer dans une dimension vide pendant un temps illimité, à l'abri de tout danger, le temps étant suspendu. On regagne ensuite son corps comme si quelques secondes seulement s'étaient écoulées. Il n'accueille qu'une âme à la fois, ce qui ne pose pas de problème puisque le temps se fige dès qu'une âme y entre.
 
 **Version B** `[arc 2.md:9]` — Les inscriptions du temple indiquent qu'en mélangeant son mana à l'artefact, on peut devenir **immortel** et se protéger de toutes les menaces. Subtilité que A n'a pas su traduire : **seule l'âme** de l'utilisateur devient immortelle.
@@ -47,11 +49,16 @@
 | Mémoire | Conserve connaissances et souvenirs `[resume.md:1]` | Conserve sa mémoire et 2000 ans de réflexion `[arc 3.md:5-7]` |
 | Mana de l'artefact | Un **second noyau** complet de mana d'artefact `[arc 3.md:11]` `[details A.md:15]` | Des **« résidus »** du mana de l'artefact `[arc 3.md:7]` ; « possède le mana de l'artefact en lui » `[details B.md:7]` |
 
-`[MANQUANT]` Cette asymétrie est-elle voulue ? B a-t-il lui aussi un second noyau ? — Q-05.
+`[CANON]` Ce mana provient de la réserve de l'artefact, vidée lors du retour (§6). `[MANQUANT]` Raison de l'asymétrie — Q-05.
 
 ## 6. Après l'explosion
 
-- `[MANQUANT]` Que reste-t-il de l'artefact dans la seconde ligne temporelle ? Puisque le temps est remonté, l'artefact existe-t-il de nouveau, intact, dans le temple avec les ossements de B ?
+- `[CANON]` (2026-11-09) L'artefact **ne fonctionne plus** dans la seconde ligne temporelle : sa réserve de mana s'est vidée au moment du retour dans le temps.
+- `[CANON]` Aucune âme de B n'erre dans le néant pendant la seconde ligne temporelle.
+- `[CANON]` Les **ossements de B** se trouvent au temple.
+- `[CANON]` (2026-11-09) L'artefact est **brisé** dans la seconde ligne temporelle, conformément à l'explosion `[arc 2.md:11]`.
+- `[CANON]` (2026-11-09) Le mana de la réserve est désormais **en A** (second noyau) **et en B** (résidus). La panne de l'artefact et l'avantage des héros ont la même origine.
+- `[MANQUANT]` Raison de l'asymétrie entre A et B (Q-05).
 - `[SOURCE]` A et B veulent tous deux fouiller le temple pendant l'expédition de l'arc 5, chacun en secret. `[arc 5.md:3]`
 
 ## 7. Références visuelles
