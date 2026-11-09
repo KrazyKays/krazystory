@@ -7,7 +7,7 @@
 | Dossier | Rôle |
 |---|---|
 | `SOURCES/` | **Sources originales de l'auteur. Jamais modifiées, déplacées ni renommées sans son autorisation explicite.** |
-| `00_PILOTAGE/` | Mode d'emploi, inventaire, rapport de diagnostic, journal des modifications. |
+| `00_PILOTAGE/` | Mode d'emploi, inventaire, rapport de diagnostic, journal des modifications, aide-mémoire visuel (`aide_memoire.html`). |
 | `01_UNIVERS/` | Système de mana, arts martiaux, armes, artefact, histoire du monde et factions, lieux, glossaire. |
 | `02_PERSONNAGES/` | Fiches de A, de B et des personnages secondaires. |
 | `03_CHRONOLOGIE/` | Chronologie des événements et progression de la cultivation. |

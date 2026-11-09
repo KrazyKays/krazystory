@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 2026-11-09 — Aide-mémoire visuel du projet
+
+**Ajout :** `00_PILOTAGE/aide_memoire.html`, page de synthèse à la manière d'une cheatsheet (onglets, recherche plein texte, filtre par statut, galerie avec visionneuse). Elle résume la base de connaissances dans son état actuel, sans y ajouter d'information ; les statuts (`[CANON]`, `[SOURCE]`, etc.) et les références `[fichier:ligne]` sont conservés. Les images sont lues directement dans `SOURCES/images/`.
+**Statut :** document de consultation ; les fiches de la base font foi. À régénérer quand la base évolue.
+**Autres fichiers modifiés :** `00_PILOTAGE/README.md` (arborescence). **Sources modifiées :** aucune.
+
 ## 2026-11-09 — Résolution de C-16 et retrait des données périmées
 
 **Décision de l'auteur intégrée (`[CANON]`) :** C-16, piste a. « Voisine » signifie « la ville la plus proche » : la capitale est à plusieurs jours de route du village de A, qui reste isolé. E-02 et PC-2 restent inchangés. La mention « village en périphérie de la capitale » (C-07) est retirée.
