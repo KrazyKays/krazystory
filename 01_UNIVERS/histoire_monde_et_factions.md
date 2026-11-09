@@ -36,8 +36,7 @@
 - `[SOURCE]` A subit de nombreuses catastrophes de grande ampleur sans pouvoir intervenir ; elle perd sa famille et la plupart de ses camarades du dojo. `[arc 2.md:5]` `[details A.md:3]`
 - `[SOURCE]` La guilde de l'ombre finit par prendre le contrôle de « la ville » en s'infiltrant dans le gouvernement pour en affaiblir les défenses de l'intérieur, tout en lançant un ultime assaut des monstres les plus dangereux. Une très grande partie de la civilisation périt. `[lore.md:41]`
 - `[SOURCE]` À 93 ans, le monde est « corrompu », envahi de créatures dangereuses ; les hordes ont envahi une grande partie du continent. `[arc 2.md:7,9]`
-- `[MANQUANT]` Liste et dates des catastrophes vécues par A. C'est le moteur des « drames prédits » `[resume.md:35]` — Q-09.
-- `[MANQUANT]` Quelle est « la ville » prise par la guilde (la capitale ?).
+- `[CANON]` Liste et dates des catastrophes : `04_INTRIGUE/catastrophes_propositions.md`. « La ville » prise par la guilde est la capitale (E-07).
 
 ## 5. Factions
 

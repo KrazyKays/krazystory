@@ -44,7 +44,7 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 | 13 | Examen d'entrée à l'académie de la capitale ; rencontre de A et de B. | `[timeline.md:15]` `[arc 4.md]` |
 | ? | Expédition de groupe vers le temple. | `[arc 5.md]` |
 | ? | Rencontre d'un ennemi bien plus puissant (« assez tôt »). | `[idees.md:7]` |
-| 28–29 | ~~Fin du récit ?~~ Le récit continue au-delà (décision du 2026-11-09). | `[timeline.md:39-41]` |
+| 28–29 | Fin de la timeline source ; le récit continue au-delà `[CANON]`. | `[timeline.md:39-41]` |
 
 ## 4. Seconde vie — progression de cultivation
 
@@ -63,16 +63,15 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 | 20 | 5e en cours | 5 complets ; échec d'ouverture du 6e et du 7e ; perd 1 an de mana du 5e | — |
 | 21 | 5e en cours | Retrouve 5 complets ; ouvre le 6e et le 7e | — |
 | 23 | 5e complet ; ouvre le 6e | — | — |
-| 28 | 6e en cours | 7 complets `[HYPOTHÈSE : fin du récit ?]` | — |
-| 29 | 6 complets `[HYPOTHÈSE : fin du récit ?]` | — | — |
+| 28 | 6e en cours | 7 complets | — |
+| 29 | 6 complets | — | — |
 
 ### Observations
 - La progression de A suit le rythme standard (1, 2, 3, 4, 5, 6 ans), en double grâce à ses deux noyaux en miroir. `[CANON]` C-01 résolu.
-- La progression de B suit la règle des groupes : chaque groupe coûte le numéro de son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans). Cohérent en interne. *(Correction du 2026-11-09 : la version précédente de ce document parlait à tort de « n cercles en n années au total ».)*
+- La progression de B suit la règle des groupes : chaque groupe coûte le numéro de son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans). Cohérent en interne.
 - Avec la règle « accès et réserve » `[CANON]`, puissance maximale et endurance se lisent séparément. Les courbes figurent dans `courbes_A_B.html` :
   - **Puissance (rang)** : A mène jusqu'à 14 ans ; B a 1 rang d'avance de 15 à 17 ans ; égalité de 18 à 20 ans ; B a 2 rangs d'avance à 21–22 ans et à 28 ans, 1 rang le reste du temps ; égalité à 44 ans, puis définitivement à partir de 53 ans (dans l'hypothèse où B plafonne au 10e cercle).
-  - **Endurance brute** : A a toujours plus de mana que B (environ ×2).
-  - **Endurance pondérée ×10/cercle** : B domine à partir de 16 ans, sauf à 20–21 ans ; A repasse devant vers 59 ans.
+  - **Endurance** (quantité brute, `[CANON]`) : A a toujours plus de mana que B (environ ×2).
 - `[INTERPRÉTATION]` À l'examen (13 ans), A et B sont au même rang (3), mais A a quatre fois plus de réserve à ce rang. Cela s'accorde avec `[arc 4.md:5]`, où B doit lutter pour ne pas être ridiculisé.
 
 ## 5. Divergences entre les deux lignes temporelles

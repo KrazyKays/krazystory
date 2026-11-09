@@ -1,6 +1,6 @@
 # Catastrophes de la première vie de A — propositions
 
-> **`[CANON]` — validé par l'auteur le 2026-11-09** : principes PC-1 à PC-6, événements E-01 à E-07, événements nouveaux N-01 à N-04, et les décisions de la §4. Répond à Q-09.
+> **`[CANON]` — validé par l'auteur le 2026-11-09** : principes PC-1 à PC-6, événements E-01 à E-07, événements nouveaux N-01 à N-04, et les décisions de la §4.
 > Ce document fixe la **structure** des catastrophes ; le détail des scènes, les noms et les dates précises restent à développer.
 > Les âges sont ceux de A ; dans la seconde vie, B a le même âge.
 > Les éléments marqués ✱ ont été proposés par l'assistant (absents des sources d'origine), puis validés.
@@ -8,7 +8,7 @@
 
 ---
 
-## 0. Principes de conception proposés
+## 0. Principes de conception
 
 **PC-1 — Le savoir de A est partiel.** Dans sa première vie, A a vécu ces événements en villageoise sans grand niveau, puis les a étudiés des décennies plus tard en érudite. Elle connaît la **version officielle**, complétée par ses recherches tardives. La vérité peut être différente. Ses « prédictions » sont donc aussi des interprétations, et certaines sont fausses dès le départ, indépendamment de B.
 
@@ -81,7 +81,7 @@ S'y ajoutent des événements **qui n'existaient pas** dans la première vie (§
 - *Conscient* : sa famille et ses camarades vivent. A doit apprendre à connaître des gens qu'elle a pleurés pendant 77 ans.
 - *Inconscient, puis découvert* : le test échoue ; la guilde le refait ailleurs, dans un village que A ne connaît pas. Elle l'apprend plus tard. Avoir sauvé les siens a coûté la vie à d'autres : c'est une question morale qui la suit.
 
-**Liens avec les sources :** perte de la famille et des camarades `[arc 2.md:5]`. **À décider :** cela impose que la famille de A (« A ecrire ») soit vivante jusqu'à 16 ans au moins.
+**Liens avec les sources :** perte de la famille et des camarades `[arc 2.md:5]`. La famille de A (« A ecrire ») est en vie jusqu'aux 16 ans de A `[CANON]` (§4). Le village est isolé, à plusieurs jours de route de la capitale `[CANON]` (C-16).
 
 ### E-03 — La chute du fort (A : 19 ans)
 
@@ -127,7 +127,7 @@ S'y ajoutent des événements **qui n'existaient pas** dans la première vie (§
 
 **Source** `[lore.md:41]` : la guilde, infiltrée dans le gouvernement, en affaiblit les défenses de l'intérieur et lance un ultime assaut avec les monstres les plus dangereux. Une très grande partie de la civilisation périt.
 
-**Proposition.** Le climax du récit, ou de sa grande première partie. Après les dérives E-01 à E-06, le plan de la guilde est très différent de celui que A a connu : son savoir est presque caduc. Il s'agit d'un **assaut unique**, préparé de longue date, et non d'une marée (P-10).
+**Rôle.** Le climax du récit, ou de sa grande première partie. Après les dérives E-01 à E-06, le plan de la guilde est très différent de celui que A a connu : son savoir est presque caduc. Il s'agit d'un **assaut unique**, préparé de longue date, et non d'une marée (P-10).
 
 **Liens possibles.**
 - B reconnaît, chez les élites de la guilde, la version dérivée de la technique de son dojo `[lore.md:34]`. Il comprend la trahison de son rival.

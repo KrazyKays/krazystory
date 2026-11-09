@@ -62,7 +62,6 @@
 - `[CANON]` Les **ossements de B** se trouvent au temple.
 - `[CANON]` (2026-11-09) L'artefact est **brisé** dans la seconde ligne temporelle, conformément à l'explosion `[arc 2.md:11]`.
 - `[CANON]` (2026-11-09) Le mana de la réserve est désormais **en A** (second noyau) **et en B** (résidus). La panne de l'artefact et l'avantage des héros ont la même origine.
-- `[MANQUANT]` Raison de l'asymétrie entre A et B (Q-05).
 - `[SOURCE]` A et B veulent tous deux fouiller le temple pendant l'expédition de l'arc 5, chacun en secret. `[arc 5.md:3]`
 
 ## 7. Références visuelles

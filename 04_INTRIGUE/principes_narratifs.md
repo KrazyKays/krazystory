@@ -28,8 +28,8 @@
 ## Tensions entre principes et matériaux
 
 - **T-01** — P-06 (« minimum de personnes ouvertement mauvaises ») face à « des rivaux ouvertement hautains et détestables » `[idees.md:3]` et au groupe des nobles « très hautain » `[arc 4.md:3]`. Ce n'est pas une contradiction, mais une question de dosage : jusqu'où vont ces personnages détestables ?
-- **T-02** — *Résolu le 2026-11-09 : voir P-10.* P-07 (« Todag »). `[INTERPRÉTATION]` « Todag » désigne probablement *Tales of Demons and Gods*, un récit où le héros revient dans son corps d'adolescent avec ses souvenirs pour empêcher la chute de sa ville, orchestrée par une « Dark Guild » qui manipule des marées de bêtes et infiltre les grandes familles. Si c'est bien la référence, la guilde de l'ombre qui coordonne les monstres et s'infiltre dans le gouvernement `[lore.md:34,41]` en est très proche. Le duo de héros qui s'ignorent, la symétrie des styles et l'artefact sont en revanche des éléments distinctifs. À confirmer (Q-12).
-- **T-03** — *Méthode décidée le 2026-11-09 : ellipses entre des moments charnières très développés, sur le modèle de* The Beginning After the End. *Leur placement reste à faire.* P-04 (ellipses) : la chronologie a de grands creux (0–8, 13–?, jusqu'à 28 ans) sans plan d'ellipses. Ce n'est pas un problème à ce stade, mais il faudra décider où tombent les ellipses.
+- **T-02** — Proximité avec *Tales of Demons and Gods* (P-07) : résolu, voir P-10.
+- **T-03** — P-04 (ellipses) : la méthode est décidée (ellipses entre des moments charnières très développés, sur le modèle de *The Beginning After the End*). Reste à placer les ellipses dans les grands creux de la chronologie (0–8, 13–?, au-delà de 28 ans).
 
 ## Consignes de style
 

@@ -9,7 +9,7 @@
 **Fonction :** origine de B, du mana de l'artefact et de la trahison ; exposition du système de mana.
 
 **Déroulé `[SOURCE]` :**
-1. B, membre d'un dojo à l'art très répandu et toujours perfectible, en devient le plus grand génie : 10 cercles en 70 ans `[CANON]` ; sa cultivation pendant le sommeil l'avantage (gain non chiffré).
+1. B, membre d'un dojo à l'art très répandu et réputé toujours perfectible (réputation fausse, C-15), en devient le plus grand génie : 10 cercles en 70 ans `[CANON]` ; sa cultivation pendant le sommeil l'avantage (gain non chiffré).
 2. Le maître (9 cercles) le désigne comme successeur.
 3. Bloqué au 10e cercle, B cherche à faire évoluer son art et en parle au maître.
 4. Le maître, inquiet, charge un disciple rival de l'éliminer.
@@ -45,7 +45,7 @@
 
 **Manques :** famille de A (« A ecrire » `[arc 3.md:23]`) ; vie de A au village ; petite sœur de B (dans `idees.md`, pas dans l'arc) ; éventuels premiers drames que A cherche à empêcher avant 13 ans.
 
-**Points ouverts :** C-10, C-11, C-16.
+**Points ouverts :** C-10, C-11.
 
 ---
 
@@ -62,7 +62,7 @@
 
 **Manques :** nature exacte des épreuves ; déroulé de la seconde épreuve ; résultats ; mesure à la gemme d'évaluation (double noyau de A ?) ; réaction des parents de B.
 
-**Points ouverts :** T-01 ; C-16.
+**Points ouverts :** T-01.
 
 ---
 
@@ -86,4 +86,4 @@
 
 - `[CANON]` (2026-11-09) Le récit se prolonge **au-delà de 28–29 ans**, grâce aux ellipses. Fin à définir.
 - `[CANON]` La révélation mutuelle de A et de B a lieu au cours du récit, après de longs doutes (P-11). Moment à définir.
-- Catastrophes à prévenir : propositions dans `catastrophes_propositions.md` (non validées).
+- Catastrophes à prévenir : `catastrophes_propositions.md` `[CANON]`.

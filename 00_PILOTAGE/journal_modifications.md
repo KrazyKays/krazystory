@@ -1,5 +1,20 @@
 # Journal des modifications
 
+## 2026-11-09 — Résolution de C-16 et retrait des données périmées
+
+**Décision de l'auteur intégrée (`[CANON]`) :** C-16, piste a. « Voisine » signifie « la ville la plus proche » : la capitale est à plusieurs jours de route du village de A, qui reste isolé. E-02 et PC-2 restent inchangés. La mention « village en périphérie de la capitale » (C-07) est retirée.
+
+**Retrait des données périmées (demandé par l'auteur) :**
+- `contradictions.md` : fiches résolues réduites à la décision (analyses initiales retirées, consultables dans git) ; fiches ouvertes regroupées, avec les trois pistes proposées pour chacune.
+- `questions_ouvertes.md` : questions répondues retirées (Q-02, Q-03, Q-04, Q-06, Q-09, Q-12, Q-23) ; seules les parties restantes de Q-07, Q-10, Q-14 et Q-15 sont conservées. Chaque réponse retirée figure déjà dans la fiche concernée.
+- `rapport_initial.md` : sections C à E remplacées par les seuls problèmes et recommandations encore valables.
+- `chronologie.md` : mentions « fin du récit ? », note de correction et lecture pondérée de l'endurance (non retenue) retirées.
+- `modifications_sources_a_faire.md` : tableau S-01 à S-04 (déjà appliquées) retiré.
+- Autres retouches : `lieux.md`, `histoire_monde_et_factions.md`, `mana_et_cultivation.md`, `artefact.md`, `arcs.md`, `idees_et_scenes.md`, `principes_narratifs.md` (T-02, T-03), `catastrophes_propositions.md` (« proposés », « À décider », « Proposition »), `README.md`.
+
+**Non modifiés volontairement :** ce journal (historique) ; `03_CHRONOLOGIE/courbes_A_B.html` (la lecture pondérée y reste consultable, marquée « non retenue ») ; `inventaire_sources.md`.
+**Sources modifiées :** aucune.
+
 ## 2026-11-09 — Résolution de C-05, C-07, C-13 et C-15
 
 **Décisions de l'auteur intégrées (`[CANON]`) :**

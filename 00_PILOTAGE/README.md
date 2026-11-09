@@ -6,7 +6,7 @@
 
 | Dossier | Rôle |
 |---|---|
-| `SOURCES/` | **Sources originales de l'auteur. Jamais modifiées, déplacées ni renommées.** |
+| `SOURCES/` | **Sources originales de l'auteur. Jamais modifiées, déplacées ni renommées sans son autorisation explicite.** |
 | `00_PILOTAGE/` | Mode d'emploi, inventaire, rapport de diagnostic, journal des modifications. |
 | `01_UNIVERS/` | Système de mana, arts martiaux, armes, artefact, histoire du monde et factions, lieux, glossaire. |
 | `02_PERSONNAGES/` | Fiches de A, de B et des personnages secondaires. |
@@ -65,6 +65,7 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 | Inventaire des sources | Terminé — 13 textes et 29 images, tous examinés intégralement |
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |
-| Résolution des contradictions | En cours — C-01, C-02, C-05, C-07, C-13 et C-15 résolus ; C-16 ajouté ; voir `05_COHERENCE/contradictions.md` |
+| Résolution des contradictions | En cours — C-01, C-02, C-05, C-07, C-13, C-15 et C-16 résolus ; voir `05_COHERENCE/contradictions.md` |
 | Catastrophes de la première vie de A | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
+| Rapport initial | Diagnostic du 2026-11-09, épuré de ses éléments périmés |
 | Rédaction du manuscrit | Non commencée (volontairement) |

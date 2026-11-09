@@ -30,6 +30,6 @@ Remarque sur I-06 `[INTERPRÉTATION]` : on ne sait pas pourquoi A veut prendre l
 > Il s'agit uniquement de suggestions. Aucune n'est à intégrer sans ta décision.
 
 - Mesure à la gemme d'évaluation lors de l'examen : comment l'instrument réagit-il au double noyau de A ?
-- B reconnaît chez un ennemi la version dérivée de la technique de son dojo `[lore.md:34]`, et découvre ainsi la survie et la trahison de son rival.
+- ~~B reconnaît chez un ennemi la version dérivée~~ → intégré et validé dans N-01 et E-07 (`catastrophes_propositions.md`).
 - Le père historien de B : une source d'informations sur le passé, ou au contraire un risque pour le secret de B.
 - Au temple (arc 5) : les ossements de B. B se trouve face à son propre squelette, et A a déjà vu ces ossements dans sa première vie.
