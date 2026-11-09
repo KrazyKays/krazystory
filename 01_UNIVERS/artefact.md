@@ -4,11 +4,11 @@
 
 ## 1. Identité
 
-- `[SOURCE]` Artefact très ancien, dont tout le monde a oublié l'existence et le fonctionnement. `[lore.md:23]`
-- `[SOURCE]` À l'époque de B, il se trouve dans le **trésor du dojo**. `[arc 1.md:9]`
-- `[SOURCE]` Il est originaire d'un **temple abandonné**. `[arc 1.md:9]`
-- `[SOURCE]` Il contient un mana **totalement différent** de celui qu'utilisent tous les pratiquants du continent. `[arc 1.md:9]`
-- `[SOURCE]` Ce mana mystérieux peut **interagir avec le temps**. `[arc 2.md:11]`
+- `[CANON]` Artefact très ancien, dont tout le monde a oublié l'existence et le fonctionnement. `[lore.md:23]`
+- `[CANON]` À l'époque de B, il se trouve dans le **trésor du dojo**. `[arc 1.md:9]`
+- `[CANON]` Il est originaire d'un **temple abandonné**. `[arc 1.md:9]`
+- `[CANON]` Il contient un mana **totalement différent** de celui qu'utilisent tous les pratiquants du continent. `[arc 1.md:9]`
+- `[CANON]` Ce mana mystérieux peut **interagir avec le temps**. `[arc 2.md:11]`
 - `[MANQUANT]` Créateur, civilisation d'origine, nature du temple.
 
 ## 2. Fonction — `[CANON]` (C-05 résolu le 2026-11-09)
@@ -27,18 +27,18 @@
 
 ## 3. Activation par B (il y a environ 2000 ans)
 
-`[SOURCE]` `[arc 1.md:9-11]` `[lore.md:27]`
+`[CANON]` `[arc 1.md:9-11]` `[lore.md:27]` — hors points marqués `[CONFLIT]`.
 1. B étudie l'artefact et y découvre le mana inconnu.
 2. Il subit une tentative d'assassinat et est mortellement blessé.
 3. Il mélange une partie de son mana à celui de l'artefact et se retrouve **téléporté** dans le temple d'origine.
 4. Il meurt de ses blessures. Son mana mélangé déclenche une réaction qui attire son âme dans un **néant**.
-5. Faute de corps vivant, l'artefact ne fige pas le temps : l'âme de B erre pendant plus de 2000 ans `[arc 3.md:5]`, ce qui lui laisse le loisir de réfléchir à son passé et à la maîtrise de ce mana.
+5. Faute de corps vivant, l'artefact ne fige pas le temps : l'âme de B erre pendant plus de 2000 ans `[arc 3.md:5]` `[CONFLIT C-09]`, ce qui lui laisse le loisir de réfléchir à son passé et à la maîtrise de ce mana.
 
-`[SOURCE]` Le corps de B reste dans le temple : A trouvera l'artefact « entouré de très vieux ossements ». `[arc 2.md:9]`
+`[CANON]` Le corps de B reste dans le temple : A trouvera l'artefact « entouré de très vieux ossements ». `[arc 2.md:9]`
 
 ## 4. Activation par A (à 93 ans, première vie)
 
-`[SOURCE]` `[arc 2.md:9-11]` `[lore.md:27]`
+`[CANON]` `[arc 2.md:9-11]` `[lore.md:27]` — hors points marqués `[CONFLIT]`.
 1. A découvre le temple, déchiffre les inscriptions et mélange son mana à l'artefact, en espérant gagner le temps de surmonter ses limites et échapper aux hordes de monstres.
 2. L'artefact contient déjà une partie du mana de B ; non conçu pour deux âmes, il entre en **surcharge et explose**.
 3. Les deux âmes remontent le temps.
@@ -62,7 +62,7 @@
 - `[CANON]` Les **ossements de B** se trouvent au temple.
 - `[CANON]` (2026-11-09) L'artefact est **brisé** dans la seconde ligne temporelle, conformément à l'explosion `[arc 2.md:11]`.
 - `[CANON]` (2026-11-09) Le mana de la réserve est désormais **en A** (second noyau) **et en B** (résidus). La panne de l'artefact et l'avantage des héros ont la même origine.
-- `[SOURCE]` A et B veulent tous deux fouiller le temple pendant l'expédition de l'arc 5, chacun en secret. `[arc 5.md:3]`
+- `[CANON]` A et B veulent tous deux fouiller le temple pendant l'expédition de l'arc 5, chacun en secret. `[arc 5.md:3]`
 
 ## 7. Références visuelles
 

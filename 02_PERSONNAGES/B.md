@@ -4,23 +4,23 @@
 
 ## Identité
 
-- `[SOURCE]` Garçon, réincarné loin dans le futur. `[principes.md:5]`
+- `[CANON]` Garçon, réincarné loin dans le futur. `[principes.md:5]`
 - `[SOURCE]` Grand maître des arts martiaux mort depuis « plusieurs milliers d'années » `[resume.md:3]` / né 2000 ans avant le début de l'histoire `[timeline.md:3]` → `[CONFLIT C-09]` (mineur).
 - `[MANQUANT]` Nom (ancien et nouveau ?), apparence, âge exact à sa mort.
 
 ## Première vie (il y a environ 2000 ans)
 
 - `[SOURCE]` N'a pas connu sa famille, qui l'a confié au dojo très jeune pour des raisons financières. Considère professeurs et camarades comme une famille. A reçu peu d'affection, hormis des félicitations pour ses compétences. `[arc 3.md:17]` — variante : « né […] dans un dojo » `[lore.md:32]`, `[CONFLIT C-11]` (mineur).
-- `[SOURCE]` Travailleur très assidu, plus puissant combattant de son dojo, réputé sage et calme, obstiné à l'entraînement, doté d'un grand sens de la justice. `[details B.md:3]`
+- `[CANON]` Travailleur très assidu, plus puissant combattant de son dojo, réputé sage et calme, obstiné à l'entraînement, doté d'un grand sens de la justice. `[details B.md:3]`
 - `[CANON]` Plus grand génie qu'ait connu son dojo : **10 cercles en 70 ans** de cultivation, alors que personne n'avait dépassé le 9e de son vivant. Seul un génie peut atteindre 10 cercles. `[arc 1.md:5]` `[timeline.md:5]` — décision du 2026-11-09, C-02.
 - `[INTERPRÉTATION]` S'il a commencé vers 10–12 ans, il atteint 10 cercles vers 80 ans, et meurt donc âgé. La cultivation allonge la durée de vie `[CANON]`.
 - `[CANON]` Particularité physique : il cultive aussi en dormant. Avantage qualitatif, non chiffré. Il le perd après sa résurrection. `[arc 1.md:5]`
 - `[CANON]` Sa progression a été ralentie par la défense contre les monstres et par ses tâtonnements de pionnier sans modèle.
-- `[SOURCE]` Désigné successeur par le maître du dojo (9 cercles). `[arc 1.md:5]`
-- `[SOURCE]` Bloqué au 10e cercle, il cherche à faire évoluer son art et confie ses recherches au maître. `[arc 1.md:7]`
+- `[CANON]` Désigné successeur par le maître du dojo (9 cercles). `[arc 1.md:5]`
+- `[CANON]` Bloqué au 10e cercle, il cherche à faire évoluer son art et confie ses recherches au maître. `[arc 1.md:7]`
 - `[SOURCE]` Il trouve un moyen de dépasser la limite sans pouvoir le mettre en œuvre `[details B.md:3]`, ou il est encore en train de chercher au moment de l'attaque `[arc 1.md:7-9]` → `[CONFLIT C-04]`.
 - `[CANON]` (C-15) La réputation de son art (« toujours perfectible ») est fausse : en révélant au maître le plafond du 10e cercle, B lui révèle la faille qu'il veut cacher. Seule la taille des cercles reste perfectible.
-- `[SOURCE]` Trahi : le maître ordonne à un disciple rival de l'éliminer discrètement. B, gravement blessé, active l'artefact, est téléporté au temple et y meurt. `[arc 1.md:7-11]`
+- `[CANON]` Trahi : le maître ordonne à un disciple rival de l'éliminer discrètement. B, gravement blessé, active l'artefact, est téléporté au temple et y meurt. `[arc 1.md:7-11]`
 
 ## Entre les vies
 
@@ -29,36 +29,36 @@
 ## Seconde vie
 
 ### Naissance et famille
-- `[SOURCE]` Réincarné dans un bébé mort à la naissance, dans la ville voisine du village de A, qui est la capitale `[CANON]` (C-07). `[lore.md:27]` `[arc 2.md:11]`
-- `[SOURCE]` Famille très aimante : mère politicienne, père écrivain et historien. Ils attendent qu'il rejoigne l'académie dans la branche diplomatique. `[arc 3.md:19]`
-- `[SOURCE]` Une petite sœur biologique, qui veut se tourner vers les arts martiaux en le voyant ; B lui enseigne et l'y pousse malgré les réticences de leur père. `[idees.md:5]`
-- `[SOURCE]` Il cache à ses parents qu'il cultive et profite des cours particuliers pour apprendre l'époque et son histoire. `[arc 3.md:19]`
+- `[CANON]` Réincarné dans un bébé mort à la naissance, dans la ville voisine du village de A, qui est la capitale (C-07). `[lore.md:27]` `[arc 2.md:11]`
+- `[CANON]` Famille très aimante : mère politicienne, père écrivain et historien. Ils attendent qu'il rejoigne l'académie dans la branche diplomatique. `[arc 3.md:19]`
+- `[CANON]` Une petite sœur biologique, qui veut se tourner vers les arts martiaux en le voyant ; B lui enseigne et l'y pousse malgré les réticences de leur père. `[idees.md:5]`
+- `[CANON]` Il cache à ses parents qu'il cultive et profite des cours particuliers pour apprendre l'époque et son histoire. `[arc 3.md:19]`
 - `[CANON]` (C-07) Il passe l'examen dans le groupe 1 en tant qu'habitant de la capitale `[arc 4.md:3]`.
 - `[MANQUANT]` Sa famille est-elle noble ? Ce n'est plus nécessaire (Q-08).
 
 ### Caractère
-- `[SOURCE]` Toujours très sage et calme, trop pour son âge. `[details B.md:7]`
-- `[SOURCE]` Discret : il ne se met pas en avant et n'utilise son plein potentiel que si nécessaire ; aucune animosité envers les candidats des villages. `[arc 4.md:3]`
-- `[SOURCE]` Reconnu à l'académie pour sa sagesse et son intelligence. `[arc 5.md:3]`
-- `[SOURCE]` Désir de justice et de protection des populations. `[details B.md:7]`
+- `[CANON]` Toujours très sage et calme, trop pour son âge. `[details B.md:7]`
+- `[CANON]` Discret : il ne se met pas en avant et n'utilise son plein potentiel que si nécessaire ; aucune animosité envers les candidats des villages. `[arc 4.md:3]`
+- `[CANON]` Reconnu à l'académie pour sa sagesse et son intelligence. `[arc 5.md:3]`
+- `[CANON]` Désir de justice et de protection des populations. `[details B.md:7]`
 - `[CANON]` (C-13) Emploie par habitude « cœur de mana », terme archaïque de son époque. A finit par le remarquer.
 
 ### Objectifs
-- `[SOURCE]` Retrouver son niveau, puis dépasser la limite de son art grâce au mana de l'artefact. `[details B.md:7]` `[arc 3.md:7]`
-- `[SOURCE]` Faire équipe avec A pour pratiquer en situation critique. `[details B.md:7]`
-- `[SOURCE]` Obtenir à l'examen le minimum de mérite qui lui garantit la classe et les ressources nécessaires. `[arc 4.md:5]`
-- `[SOURCE]` Fouiller en secret le temple de l'artefact ; il prévoit de se séparer discrètement du groupe. `[arc 5.md:3]`
+- `[CANON]` Retrouver son niveau, puis dépasser la limite de son art grâce au mana de l'artefact. `[details B.md:7]` `[arc 3.md:7]`
+- `[CANON]` Faire équipe avec A pour pratiquer en situation critique. `[details B.md:7]`
+- `[CANON]` Obtenir à l'examen le minimum de mérite qui lui garantit la classe et les ressources nécessaires. `[arc 4.md:5]`
+- `[CANON]` Fouiller en secret le temple de l'artefact ; il prévoit de se séparer discrètement du groupe. `[arc 5.md:3]`
 
 ### Cultivation
-- `[SOURCE]` Ne rejoint pas de dojo à 12 ans, pour pratiquer son art seul et ouvrir autant de cercles qu'il le souhaite. `[arc 3.md:7]` `[timeline.md:13]`
-- `[SOURCE]` Ouvre 3 cercles d'un coup à 12 ans. `[timeline.md:25]`
+- `[CANON]` Ne rejoint pas de dojo à 12 ans, pour pratiquer son art seul et ouvrir autant de cercles qu'il le souhaite. `[arc 3.md:7]` `[timeline.md:13]`
+- `[CANON]` Ouvre 3 cercles d'un coup à 12 ans. `[timeline.md:25]`
 - `[INTERPRÉTATION]` En prolongeant les règles validées (cercles 8 à 10 un par un), il retrouve 10 cercles vers 55 ans, soit 43 ans de cultivation contre 70 dans sa première vie.
 - Progression détaillée : voir `03_CHRONOLOGIE/chronologie.md`.
-- `[SOURCE]` Trouve une nouvelle technique qui lui fait faire de gros progrès d'un coup. `[idees.md:9]` `[MANQUANT]` Quand ?
+- `[CANON]` Trouve une nouvelle technique qui lui fait faire de gros progrès d'un coup. `[idees.md:9]` `[MANQUANT]` Quand ?
 
 ### Style
-- `[SOURCE]` Os souples et rapidité ; manipulation d'armes à distance. `[resume.md:17-18]`
-- `[SOURCE]` Rôle dans l'expédition : attaquant à distance et stratège. `[arc 5.md:3]`
+- `[CANON]` Os souples et rapidité ; manipulation d'armes à distance. `[resume.md:17-18]`
+- `[CANON]` Rôle dans l'expédition : attaquant à distance et stratège. `[arc 5.md:3]`
 
 ## Relations
 

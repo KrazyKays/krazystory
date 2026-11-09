@@ -2,16 +2,16 @@
 
 ## 1. Principe
 
-- `[SOURCE]` Les artistes martiaux manient des armes spéciales chargeables en mana, qui activent avec plus ou moins d'intensité des caractéristiques propres aux matériaux qui les composent. `[lore.md:18]`
-- `[SOURCE]` Propriétés connues des matériaux : `[lore.md:18]`
+- `[CANON]` Les artistes martiaux manient des armes spéciales chargeables en mana, qui activent avec plus ou moins d'intensité des caractéristiques propres aux matériaux qui les composent. `[lore.md:18]`
+- `[CANON]` Propriétés connues des matériaux : `[lore.md:18]`
   - gagner ou perdre de la masse ;
   - changer de forme ;
   - être manipulés à distance.
 
 ## 2. Armes courantes
 
-- `[SOURCE]` La plupart des artistes martiaux reçoivent à la fin de leurs études une **épée de mana de vitesse**, qui consomme le mana chargé pour se propulser. Ses matériaux sont moins coûteux et plus simples à obtenir. `[lore.md:18]`
-- `[SOURCE]` Les plus prometteurs peuvent demander une **arme sur mesure** adaptée à leurs méthodes de combat. `[lore.md:18]`
+- `[CANON]` La plupart des artistes martiaux reçoivent à la fin de leurs études une **épée de mana de vitesse**, qui consomme le mana chargé pour se propulser. Ses matériaux sont moins coûteux et plus simples à obtenir. `[lore.md:18]`
+- `[CANON]` Les plus prometteurs peuvent demander une **arme sur mesure** adaptée à leurs méthodes de combat. `[lore.md:18]`
 
 ## 3. Armes des héros
 

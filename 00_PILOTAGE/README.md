@@ -32,6 +32,8 @@ Chaque information de la base porte l'un des statuts suivants, conformément à 
 
 Promotion vers `[CANON]` : uniquement après ta validation explicite, avec une entrée dans le journal.
 
+**Décision du 2026-11-09 (Q-01) :** tous les énoncés `[SOURCE]` qui ne relèvent d'aucune contradiction ouverte ont été promus `[CANON]` d'un bloc. Les 13 énoncés restés `[SOURCE]` sont liés à une contradiction ouverte (C-03, C-04, C-09, C-10, C-11, C-12, C-14) ; ils seront promus quand celle-ci sera tranchée. Les `[INTERPRÉTATION]`, `[HYPOTHÈSE]`, `[PROPOSITION]` et `[MANQUANT]` ne sont pas concernés. Toute nouvelle source entre avec le statut `[SOURCE]`.
+
 ## 3. Références aux sources
 
 Format : `[fichier:ligne]`, chemins relatifs à `SOURCES/`.
@@ -62,6 +64,7 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 
 | Étape | État |
 |---|---|
+| Validation du canon | Fait (Q-01) — sources sans conflit promues `[CANON]` le 2026-11-09 |
 | Inventaire des sources | Terminé — 13 textes et 29 images, tous examinés intégralement |
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |

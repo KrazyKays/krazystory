@@ -2,7 +2,7 @@
 
 ## 1. Histoire ancienne
 
-`[SOURCE]` `[lore.md:32]`
+`[CANON]` `[lore.md:32]`
 - À l'origine, le continent n'est qu'un territoire de monstres.
 - Des humains arrivent d'un **précédent continent**, frappé par une grande sécheresse : seuls ceux qui ont émigré ont survécu.
 - Ils repoussent les monstres pour établir des villes sûres.
@@ -13,7 +13,7 @@
 
 ## 2. Le grand assaut (pendant l'enfermement de B)
 
-`[SOURCE]` `[lore.md:34-36]`
+`[CANON]` `[lore.md:34-36]`
 - Un assaut massif de monstres est **secrètement coordonné** par la **guilde de l'ombre**, qui cherche à prendre le contrôle de la population en affaiblissant ses défenses.
 - Le dojo de B est presque entièrement éliminé : sa technique de cultivation est perdue.
 - Le rival de B survit en se ralliant à la guilde et en lui transmettant une version dérivée de la technique.
@@ -23,19 +23,19 @@
 
 ## 3. Époque du récit (seconde vie)
 
-- `[SOURCE]` Un **pays** avec une **capitale**, un **prince** et une **armée principale**. `[arc 3.md:11]` `[arc 4.md:3]` `[lore.md:8]`
-- `[SOURCE]` Une **noblesse** vivant et étudiant à la capitale, hautaine envers les candidats des villages. `[arc 4.md:3]`
+- `[CANON]` Un **pays** avec une **capitale**, un **prince** et une **armée principale**. `[arc 3.md:11]` `[arc 4.md:3]` `[lore.md:8]`
+- `[CANON]` Une **noblesse** vivant et étudiant à la capitale, hautaine envers les candidats des villages. `[arc 4.md:3]`
 - `[CANON]` (C-07) À l'examen, le groupe 1 réunit les candidats qui habitent et ont étudié à la capitale, nobles ou non.
-- `[SOURCE]` Une **académie d'arts martiaux** à la capitale, avec une classe des élites et une branche diplomatique. `[arc 3.md:11,19]` `[arc 4.md:3]`
-- `[SOURCE]` Des **dojos**, modestes dans les villages. `[arc 2.md:5]` `[details A.md:11]`
-- `[SOURCE]` Une mère « politicienne » : il existe une vie politique. `[arc 3.md:19]`
+- `[CANON]` Une **académie d'arts martiaux** à la capitale, avec une classe des élites et une branche diplomatique. `[arc 3.md:11,19]` `[arc 4.md:3]`
+- `[CANON]` Des **dojos**, modestes dans les villages. `[arc 2.md:5]` `[details A.md:11]`
+- `[CANON]` Une mère « politicienne » : il existe une vie politique. `[arc 3.md:19]`
 - `[MANQUANT]` Régime politique exact, nom du pays, existence d'autres pays, état de la menace des monstres à cette époque.
 
 ## 4. Première vie de A — le futur à éviter
 
-- `[SOURCE]` A subit de nombreuses catastrophes de grande ampleur sans pouvoir intervenir ; elle perd sa famille et la plupart de ses camarades du dojo. `[arc 2.md:5]` `[details A.md:3]`
-- `[SOURCE]` La guilde de l'ombre finit par prendre le contrôle de « la ville » en s'infiltrant dans le gouvernement pour en affaiblir les défenses de l'intérieur, tout en lançant un ultime assaut des monstres les plus dangereux. Une très grande partie de la civilisation périt. `[lore.md:41]`
-- `[SOURCE]` À 93 ans, le monde est « corrompu », envahi de créatures dangereuses ; les hordes ont envahi une grande partie du continent. `[arc 2.md:7,9]`
+- `[CANON]` A subit de nombreuses catastrophes de grande ampleur sans pouvoir intervenir ; elle perd sa famille et la plupart de ses camarades du dojo. `[arc 2.md:5]` `[details A.md:3]`
+- `[CANON]` La guilde de l'ombre finit par prendre le contrôle de « la ville » en s'infiltrant dans le gouvernement pour en affaiblir les défenses de l'intérieur, tout en lançant un ultime assaut des monstres les plus dangereux. Une très grande partie de la civilisation périt. `[lore.md:41]`
+- `[CANON]` À 93 ans, le monde est « corrompu », envahi de créatures dangereuses ; les hordes ont envahi une grande partie du continent. `[arc 2.md:7,9]`
 - `[CANON]` Liste et dates des catastrophes : `04_INTRIGUE/catastrophes_propositions.md`. « La ville » prise par la guilde est la capitale (E-07).
 
 ## 5. Factions

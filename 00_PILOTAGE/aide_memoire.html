@@ -365,6 +365,7 @@ P.apercu = () => `
   <div class="box">
     <h3>État d'avancement</h3>
     <div class="progress">
+      <div class="si"><span>Sources sans conflit promues en canon (Q-01)</span><span class="pill ok">Fait</span></div>
       <div class="si"><span>Inventaire des sources (13 textes, 29 images)</span><span class="pill ok">Terminé</span></div>
       <div class="si"><span>Structuration de la base</span><span class="pill ok">1re version</span></div>
       <div class="si"><span>Contradictions : 7 résolues sur 16</span><span class="pill wip">En cours</span></div>
@@ -387,9 +388,9 @@ P.apercu = () => `
     </dl>
   </div>
   <div class="box">
-    <h3>Décisions bloquantes (priorité 1)</h3>
-    ${ul(["**Q-01** Promouvoir en CANON d'un bloc tout ce qui n'est pas en conflit, ou valider thème par thème ?","**Q-15** Rythme de l'alternance A/B, temps du récit, longueur des chapitres ; confirmer la 3e personne pour les scènes communes ({HYPOTHÈSE})."])}
-    <p class="small muted">Voir l'onglet Cohérence pour les 9 contradictions ouvertes et les 18 questions.</p>
+    <h3>Décision bloquante (priorité 1)</h3>
+    ${ul(["**Q-15** Rythme de l'alternance A/B, temps du récit, longueur des chapitres ; confirmer la 3e personne pour les scènes communes ({HYPOTHÈSE})."])}
+    <p class="small muted">Voir l'onglet Cohérence pour les 9 contradictions ouvertes et les 17 questions.</p>
   </div>
 </div>
 
@@ -397,7 +398,7 @@ P.apercu = () => `
   <h3>Lire les statuts</h3>
   <div class="statuslegend">
     <span><span class="st canon">CANON</span> validé par l'auteur</span>
-    <span><span class="st source">SOURCE</span> repris des notes, pas encore validé</span>
+    <span><span class="st source">SOURCE</span> repris des notes, lié à une contradiction ouverte</span>
     <span><span class="st hyp">HYPOTHÈSE</span> incertain dans les sources</span>
     <span><span class="st interp">INTERPRÉTATION</span> lecture ou calcul de l'assistant</span>
     <span><span class="st prop">PROPOSITION</span> suggestion, non décidée</span>
@@ -405,7 +406,7 @@ P.apercu = () => `
     <span><span class="st manq">MANQUANT</span> à définir</span>
     <span><span class="star">✱</span> proposé par l'assistant, puis validé</span>
   </div>
-  <p class="small muted">Les éléments sans badge reprennent les sources ou les fiches telles quelles. Le filtre de statut, en haut, n'affiche que les éléments portant le badge choisi.</p>
+  <p class="small muted">Depuis le 2026-11-09 (Q-01), tout ce qui vient des sources sans contradiction ouverte est canon : c'est le cas des éléments sans badge. Les éléments liés à une contradiction ouverte portent le badge CONFLIT. Le filtre de statut, en haut, n'affiche que les éléments portant le badge choisi.</p>
 </div>`;
 
 P.personnages = () => `
@@ -871,7 +872,6 @@ const CONTRA = [
   ["C-16","Distance entre le village de A et la capitale","Moyenne","Résolu","La capitale est la ville la plus proche, à plusieurs jours de route."]
 ];
 const QUEST = [
-  ["Méthode","Q-01","Promouvoir en CANON d'un bloc ce qui n'est pas en conflit, ou valider thème par thème ?",1],
   ["Méthode","Q-15","Rythme de l'alternance A/B, temps du récit, longueur des chapitres ; 3e personne pour les scènes communes ?",1],
   ["Règles","Q-05","Pourquoi A reçoit-elle un noyau complet de mana de l'artefact et B seulement des « résidus » ?",2],
   ["Règles","Q-16","Le nouvel art de A optimise-t-il l'art de son village ou un autre ? Qu'est-ce que l'« assommoir » ?",2],

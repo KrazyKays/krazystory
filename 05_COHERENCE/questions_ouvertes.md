@@ -7,7 +7,6 @@
 
 | ID | Question | Priorité |
 |---|---|---|
-| Q-01 | Statut des sources : veux-tu que tout ce qui n'est **pas** en conflit soit promu `[CANON]` d'un bloc, ou préfères-tu valider thème par thème ? | 1 |
 | Q-15 | Choix d'écriture restants : rythme de l'alternance A/B (chapitre, scène, arc) ; temps du récit ; longueur des chapitres. Faut-il confirmer la 3e personne pour les scènes réunissant A et B (`[HYPOTHÈSE]`) ? Déjà décidé : voir `04_INTRIGUE/principes_narratifs.md`. | 1 |
 
 ## Règles de l'univers

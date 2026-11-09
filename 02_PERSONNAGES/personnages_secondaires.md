@@ -40,4 +40,4 @@
 
 ## Personnages à introduire par flashback
 
-- `[SOURCE]` Présenter par un flashback de A des personnages qu'elle n'a pas encore rencontrés. `[idees.md:1]` — la recrue n° 2 s'y prête directement.
+- `[CANON]` Présenter par un flashback de A des personnages qu'elle n'a pas encore rencontrés. `[idees.md:1]` — la recrue n° 2 s'y prête directement.

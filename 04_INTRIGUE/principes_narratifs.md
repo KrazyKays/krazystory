@@ -2,7 +2,7 @@
 
 > Règles d'écriture que tu as fixées. Elles servent de critères de relecture.
 
-## Principes de l'auteur — `[SOURCE]` `[principes.md]`
+## Principes de l'auteur — `[CANON]` `[principes.md]`
 
 | # | Principe | Source |
 |---|---|---|
@@ -20,10 +20,10 @@
 
 ## Indications de fonction narrative relevées dans les sources
 
-- `[SOURCE]` Arc 1 : marqueur « -*explication du mana*- » `[arc 1.md:5]`. L'exposition du système de mana y est prévue.
-- `[SOURCE]` Arc 2 : marqueur « -*explication des arts martiaux*- » `[arc 2.md:7]`.
-- `[SOURCE]` Arc 3 : l'enfance de B sert de « présentation du monde » ; celle de A, de « présentation des noyaux de mana ». `[arc 3.md:3,9]`
-- `[SOURCE]` Flashbacks de A pour présenter des personnages pas encore rencontrés. `[idees.md:1]`
+- `[CANON]` Arc 1 : marqueur « -*explication du mana*- » `[arc 1.md:5]`. L'exposition du système de mana y est prévue.
+- `[CANON]` Arc 2 : marqueur « -*explication des arts martiaux*- » `[arc 2.md:7]`.
+- `[CANON]` Arc 3 : l'enfance de B sert de « présentation du monde » ; celle de A, de « présentation des noyaux de mana ». `[arc 3.md:3,9]`
+- `[CANON]` Flashbacks de A pour présenter des personnages pas encore rencontrés. `[idees.md:1]`
 
 ## Tensions entre principes et matériaux
 

@@ -8,7 +8,7 @@
 
 **Fonction :** origine de B, du mana de l'artefact et de la trahison ; exposition du système de mana.
 
-**Déroulé `[SOURCE]` :**
+**Déroulé `[CANON]`** (hors points ouverts signalés) :
 1. B, membre d'un dojo à l'art très répandu et réputé toujours perfectible (réputation fausse, C-15), en devient le plus grand génie : 10 cercles en 70 ans `[CANON]` ; sa cultivation pendant le sommeil l'avantage (gain non chiffré).
 2. Le maître (9 cercles) le désigne comme successeur.
 3. Bloqué au 10e cercle, B cherche à faire évoluer son art et en parle au maître.
@@ -24,7 +24,7 @@
 
 **Fonction :** origine de A, aperçu du futur catastrophique, mécanisme du retour ; exposition des arts martiaux.
 
-**Déroulé `[SOURCE]` :**
+**Déroulé `[CANON]`** (hors points ouverts signalés) :
 1. A, 93 ans, a appris un art basique dans un dojo de village ; peu assidue, elle est restée bloquée.
 2. Elle a survécu à de nombreuses catastrophes et perdu sa famille et ses camarades.
 3. Devenue érudite et exploratrice, elle maîtrise des langues anciennes.
@@ -39,9 +39,9 @@
 
 **Fonction :** présentation du monde (via B) et des noyaux de mana (via A).
 
-**B `[SOURCE]` :** réveil dans le bébé ; apprentissage de la langue, des coutumes et du monde martial ; découverte des arts modernes simplifiés ; disparition de son art ; décision de ne pas rejoindre de dojo ; famille aimante (mère politicienne, père historien), attentes diplomatiques ; cultivation cachée.
+**B `[CANON]` :** réveil dans le bébé ; apprentissage de la langue, des coutumes et du monde martial ; découverte des arts modernes simplifiés ; disparition de son art ; décision de ne pas rejoindre de dojo ; famille aimante (mère politicienne, père historien), attentes diplomatiques ; cultivation cachée.
 
-**A `[SOURCE]` :** décision de se consacrer à son art ; premier cercle à 8 ans ; découverte du double noyau ; objectif : la classe des élites de l'académie de la capitale.
+**A `[CANON]` :** décision de se consacrer à son art ; premier cercle à 8 ans ; découverte du double noyau ; objectif : la classe des élites de l'académie de la capitale.
 
 **Manques :** famille de A (« A ecrire » `[arc 3.md:23]`) ; vie de A au village ; petite sœur de B (dans `idees.md`, pas dans l'arc) ; éventuels premiers drames que A cherche à empêcher avant 13 ans.
 
@@ -53,7 +53,7 @@
 
 **Fonction :** première rencontre de A et de B ; positionnement face à l'élite.
 
-**Déroulé `[SOURCE]` :**
+**Déroulé `[CANON]`** (hors points ouverts signalés) :
 1. Deux groupes : candidats de la capitale, nobles ou non `[CANON]` (nobles hautains), et candidats des villages.
 2. Groupe 1 : B (discret) et un prince réputé génie. Groupe 2 : A, sûre d'elle.
 3. Première épreuve (sélection séparée par groupe) : B et le prince se préservent ; A déploie des techniques extrêmement puissantes et domine son groupe.
@@ -70,7 +70,7 @@
 
 **Fonction :** formation de l'équipe ; retour au temple.
 
-**Déroulé `[SOURCE]` :**
+**Déroulé `[CANON]`** (hors points ouverts signalés) :
 1. A recrute deux personnes qui compensent ses faiblesses : un ami fougueux, très offensif mais négligeant la défense, et une recrue au talent latent, réputée dans sa première vie.
 2. Elle s'autoproclame cheffe.
 3. B demande à se joindre au groupe (attaquant à distance, stratège), car il a lui aussi quelque chose à chercher.

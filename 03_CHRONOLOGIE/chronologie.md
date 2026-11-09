@@ -48,7 +48,7 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 
 ## 4. Seconde vie — progression de cultivation
 
-`[SOURCE]` `[timeline.md:19-41]` `[arc 3.md:13]` `[lore.md:13]`. Les cases marquées † sont des **calculs** `[INTERPRÉTATION]` tirés des règles, pas des énoncés des sources.
+`[CANON]` `[timeline.md:19-41]` `[arc 3.md:13]` `[lore.md:13]`. Les cases marquées † sont des **calculs** `[INTERPRÉTATION]` tirés des règles, pas des énoncés des sources.
 
 | Âge | A (double noyau, ×2 mana) | B (art souple) | Enfant standard |
 |---|---|---|---|

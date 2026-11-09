@@ -1,5 +1,18 @@
 # Journal des modifications
 
+## 2026-11-09 — Promotion en canon des sources sans conflit (Q-01)
+
+**Décision de l'auteur :** « Promeut en canon tout ce qui n'a pas de conflit. »
+
+**Application :**
+- 109 énoncés `[SOURCE]` passent en `[CANON]` dans `01_UNIVERS/` (artefact, arts martiaux, armes, mana, histoire), `02_PERSONNAGES/` (A, B, secondaires), `03_CHRONOLOGIE/chronologie.md` et `04_INTRIGUE/` (arcs, principes narratifs).
+- 13 énoncés restent `[SOURCE]`, car ils relèvent d'une contradiction ouverte : `arts_martiaux.md` l.11, 13, 14 (C-03) ; `mana_et_cultivation.md` l.10, 11 (C-10), l.19, 20 (C-14) ; `B.md` l.8, 27 (C-09), l.13 (C-11), l.21 (C-04) ; `A.md` l.14, 19 (C-12).
+- Blocs mixtes : les en-têtes des activations de l'artefact (`artefact.md` §3 et §4) et les « Déroulé » des arcs (`arcs.md`) passent en `[CANON]` avec la mention « hors points ouverts / hors points marqués `[CONFLIT]` ». Dans `artefact.md` §3, l'errance de « plus de 2000 ans » reçoit le marqueur `[CONFLIT C-09]`, qui manquait.
+- Ne sont pas concernés : `[INTERPRÉTATION]`, `[HYPOTHÈSE]`, `[PROPOSITION]`, `[MANQUANT]`. Le tableau des cultivations garde ses cases † en `[INTERPRÉTATION]`.
+- Q-01 retirée de `questions_ouvertes.md` ; `README.md` (règle et état d'avancement) et `aide_memoire.html` mis à jour.
+
+**Sources modifiées :** aucune.
+
 ## 2026-11-09 — Publication de l'aide-mémoire sur GitHub Pages
 
 **Ajout :** `.github/workflows/pages.yml` et `.github/scripts/build_pages.py`. À chaque modification de `aide_memoire.html` ou des images poussée sur `main`, GitHub Actions construit le site (page + miniatures des images) et le publie sur GitHub Pages. Le site est public, comme le dépôt.
