@@ -2,7 +2,7 @@
 
 2000 ans avant le début de l’histoire : Naissance de B
 
-50 années de cultivation avant d’être enfermé dans l’artefact
+70 années de cultivation avant d’être enfermé dans l’artefact
 
 Début de l’histoire : 1ère naissance de A
 

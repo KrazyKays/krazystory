@@ -2,7 +2,7 @@
 
 Fait partie d'un dojo qui enseigne un art martial très rependu, qui a pour particularité de toujours pouvoir être amélioré avec le temps et l'entrainement.
 
-B est le plus grand génie qu'ai connu son dojo, en seulement 50 ans il a atteint un cœur de mana de 10 cercles -*explication du mana*-, là où personne avant lui n'avait dépassé la 9ème de leur vivant. Il à pu faire cela grâce à une particularité physique qui lui permettait de cultiver son art martial tout en dormant, doublant ainsi son efficacité (il ne l'aura plus après sa résurrection). Il est donc reconnu par le maître du dojo (lui même avec un cœur de mana de 9 cercles) comme son digne successeur. 
+B est le plus grand génie qu'ai connu son dojo, en seulement 70 ans il a atteint un cœur de mana de 10 cercles -*explication du mana*-, là où personne avant lui n'avait dépassé la 9ème de leur vivant. Il à pu faire cela grâce à une particularité physique qui lui permettait de cultiver son art martial tout en dormant, ce qui accélérait sa progression (il ne l'aura plus après sa résurrection). Il est donc reconnu par le maître du dojo (lui même avec un cœur de mana de 9 cercles) comme son digne successeur. 
 
 Une fois arrivé au 10ème cercle il rencontre une limite infranchissable et commence à chercher une solution pour faire évoluer son art martial et ainsi dépasser le 10ème cercle. Il fait part de son problème ainsi que de ses recherches au maître du dojo. Suite à cela le maître du dojo, qui à peur que le monde découvre la faille dans son art martial ou qu'il soit dénaturé par les recherche de B, demande à l’un de ses disciples les plus puissants, concurrent direct de B, de l'éliminer discrètement.
 

@@ -1,0 +1,266 @@
+<title>Courbes de cultivation A et B</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout : colonne de lecture unique ; contrôles en une ligne, puis deux graphiques empilés à axe d'âge commun. */
+:root{
+  --surface:#fcfcfb; --surface-2:#f3f2ee; --ink:#0b0b0b; --ink-2:#52514e; --ink-3:#8a8984;
+  --rule:#e4e2dc; --grid:#ecebe6; --band:#eef3fb; --band-2:#f6f5f1;
+  --a:#2a78d6; --b:#eb6834; --focus:#2a78d6;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-ui:"Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --surface:#1a1a19; --surface-2:#242422; --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8e8d86;
+  --rule:#34342f; --grid:#2b2b28; --band:#1f2633; --band-2:#21211f;
+  --a:#3987e5; --b:#d95926; --focus:#3987e5; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --surface:#1a1a19; --surface-2:#242422; --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8e8d86;
+  --rule:#34342f; --grid:#2b2b28; --band:#1f2633; --band-2:#21211f;
+  --a:#3987e5; --b:#d95926; --focus:#3987e5; color-scheme:dark}
+body{background:var(--surface);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1{font-family:var(--f-display);font-weight:650;font-size:1.75rem;line-height:1.2;margin:0;text-wrap:balance}
+h2{font-family:var(--f-display);font-weight:650;font-size:1.15rem;margin:0;text-wrap:balance}
+.lede{color:var(--ink-2);max-width:68ch;margin:6px 0 0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;padding:12px 0;border-block:1px solid var(--rule)}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;padding:6px 12px;background:transparent;color:var(--ink-2);border:0;cursor:pointer}
+.seg button+button{border-left:1px solid var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--surface-2);color:var(--ink);font-weight:600}
+.ctl-label{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);margin-right:8px}
+.check{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:var(--ink-2);cursor:pointer}
+.check input{accent-color:var(--a);width:16px;height:16px}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.sw{width:18px;height:3px;border-radius:2px;display:inline-block}
+.sw.dash{background:repeating-linear-gradient(90deg,var(--ink-3) 0 5px,transparent 5px 9px)}
+.chart{display:grid;gap:8px;min-width:0}
+.chart-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.chart-sub{font-size:13px;color:var(--ink-3);margin:0}
+.plot{position:relative;min-width:0}
+.plot svg{display:block;width:100%;height:auto;overflow:visible;touch-action:pan-y}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--rule);border-radius:8px;padding:8px 10px;font-size:12.5px;line-height:1.45;box-shadow:0 4px 16px rgb(0 0 0 / .08);min-width:190px;font-variant-numeric:tabular-nums;z-index:2}
+.tip b{font-weight:600}
+.tip .row{display:grid;grid-template-columns:auto 1fr;gap:2px 8px;align-items:baseline;margin-top:4px}
+.tip .k{display:inline-flex;align-items:center;gap:6px;font-weight:600}
+.tip .d{width:8px;height:8px;border-radius:50%;display:inline-block}
+.tip .v{color:var(--ink-2)}
+.reading{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.reading div{background:var(--surface-2);border-radius:10px;padding:12px 14px;min-width:0}
+.reading h3{margin:0 0 4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);font-weight:600}
+.reading p{margin:0;color:var(--ink-2);font-size:14px}
+details{border-top:1px solid var(--rule);padding-top:10px}
+summary{cursor:pointer;font-weight:600;font-size:14px}
+.tbl{overflow-x:auto;margin-top:10px}
+table{border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;min-width:620px;width:100%}
+th,td{padding:5px 10px;text-align:right;border-bottom:1px solid var(--grid)}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--ink-3);font-weight:600;font-size:12px}
+ul.hyp{margin:8px 0 0;padding-left:18px;color:var(--ink-2);font-size:14px;display:grid;gap:4px;max-width:75ch}
+.tag{font-size:11px;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--rule);border-radius:4px;padding:0 5px;color:var(--ink-3);white-space:nowrap}
+svg text{font-family:var(--f-ui)}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Cultivation comparée de A et B</h1>
+    <p class="lede">Puissance maximale et endurance totale selon l'âge, avec les règles validées : deux noyaux en miroir pour A, cultivation par groupes pour B, et la règle « accès et réserve ». Survolez un graphique pour lire les valeurs à un âge donné.</p>
+  </header>
+
+  <div class="controls" role="group" aria-label="Réglages des graphiques">
+    <div><span class="ctl-label">Période</span>
+      <span class="seg" id="range"><button type="button" id="r-story" aria-pressed="true">Récit (8–30 ans)</button><button type="button" id="r-long" aria-pressed="false">Long terme (8–60 ans)</button></span></div>
+    <div><span class="ctl-label">Endurance</span>
+      <span class="seg" id="emode"><button type="button" id="e-raw" aria-pressed="true">Quantité brute</button><button type="button" id="e-w" aria-pressed="false">Pondérée ×10/cercle (non retenue)</button></span></div>
+    <label class="check" for="combine"><input type="checkbox" id="combine" checked> A combine ses deux noyaux dans une même technique</label>
+  </div>
+
+  <div class="legend" aria-hidden="true">
+    <span><i class="sw" style="background:var(--a)"></i>A — deux noyaux en miroir</span>
+    <span><i class="sw" style="background:var(--b)"></i>B — art souple, par groupes</span>
+    <span><i class="sw dash"></i>Au-delà de la timeline (extrapolation)</span>
+  </div>
+
+  <section class="chart" aria-labelledby="t1">
+    <div class="chart-head"><h2 id="t1">Puissance maximale</h2><p class="chart-sub">Rang de la meilleure technique accessible ; chaque rang vaut ×10</p></div>
+    <div class="plot" id="p1"></div>
+  </section>
+
+  <section class="chart" aria-labelledby="t2">
+    <div class="chart-head"><h2 id="t2">Endurance totale</h2><p class="chart-sub" id="sub2">Somme du mana stocké, en cercles standard (1 = un 1er cercle complet)</p></div>
+    <div class="plot" id="p2"></div>
+  </section>
+
+  <section class="reading" aria-label="Lecture des courbes">
+    <div><h3>Puissance</h3><p>À rang égal, A frappe deux fois plus fort grâce à ses deux noyaux. Elle mène jusqu'à 14 ans, de 18 à 20 ans, à 44 ans et à partir de 53 ans. Le reste du temps, B a un rang d'avance, deux à 21–22 et 28 ans : ses coups sont environ 5 fois plus forts, 50 fois avec deux rangs.</p></div>
+    <div><h3>Endurance</h3><p>A a toujours environ deux fois plus de mana que B. B accède plus tôt aux rangs élevés, mais ses nouveaux cercles restent presque vides pendant des années : il doit frapper au bon moment.</p></div>
+    <div><h3>Ce que voit le lecteur</h3><p>A frappe fort, encaisse bien et tient sur la durée. B est subtil et tacticien : il frappe très fort, mais moins longtemps, là où il faut et quand il faut.</p></div>
+  </section>
+
+  <details>
+    <summary>Hypothèses du modèle</summary>
+    <ul class="hyp">
+      <li>Le n-ième cercle met n années à atteindre la taille standard ; ses réserves croissent de façon linéaire. <span class="tag">source</span> lore.md:13</li>
+      <li>A : ouverture du 1er cercle à 8 ans, puis un cercle à la fois ; ses deux noyaux évoluent en miroir (×2 de mana). <span class="tag">validé</span></li>
+      <li>B : groupes 1–3 (12–15 ans), 4–5 (15–20 ans), échec à 20 ans avec perte d'un an de mana du 5e cercle, récupéré à 21 ans, puis 6–7 (21–28 ans). <span class="tag">source</span> timeline.md</li>
+      <li>Après 28 ans, B cultive ses 8e, 9e et 10e cercles un par un, sans interruption, puis plafonne au 10e (sa limite de première vie ; son dépassement n'est pas modélisé). <span class="tag">validé</span> C-02</li>
+      <li>A au-delà de 29 ans : même règle prolongée (7e cercle à 36 ans, 8e à 44 ans, 9e à 53 ans, 10e ouvert à 53 ans). <span class="tag">extrapolation</span></li>
+      <li>Accès et réserve : posséder un cercle, même vide, donne accès à son rang. <span class="tag">validé</span></li>
+      <li>A combine ses deux noyaux dans une même technique : ×2 en puissance, soit environ +0,3 rang. <span class="tag">validé</span></li>
+      <li>Une technique consomme du mana en quantité brute dans le cercle de son rang. L'endurance se lit donc en quantité brute ; la lecture pondérée reste consultable, mais elle n'est pas retenue. <span class="tag">validé</span></li>
+      <li>Aucun ralentissement lié au reste de la vie (combats, voyages, blessures) n'est pris en compte. <span class="tag">simplification</span></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Tableau des valeurs</summary>
+    <div class="tbl"><table id="tbl"><thead><tr><th>Âge</th><th>Rang A</th><th>Rang B</th><th>Endurance brute A</th><th>Endurance brute B</th><th>Pondérée A</th><th>Pondérée B</th></tr></thead><tbody></tbody></table></div>
+  </details>
+</div>
+
+<script>
+(function(){
+const clamp=x=>Math.max(0,Math.min(1,x));
+const A_OPEN=[8,9,11,14,18,23,29,36,44,53];
+const B_BATCH=[{c:[1,2,3],s:12,d:3},{c:[4,5],s:15,d:5},{c:[6,7],s:21,d:7},{c:[8],s:28,d:8},{c:[9],s:36,d:9},{c:[10],s:45,d:10}];
+function stateA(t){const f=A_OPEN.map((s,i)=>t<s?null:clamp((t-s)/(i+1)));return{f,cores:2};}
+function stateB(t){const f=Array(10).fill(null);
+  for(const b of B_BATCH)for(const k of b.c)if(t>=b.s)f[k-1]=clamp((t-b.s)/b.d);
+  if(t>=20&&t<21)f[4]=0.8+0.2*(t-20);
+  return{f,cores:1};}
+function metrics(o,isA,combine){
+  let r=0;o.f.forEach((v,i)=>{if(v!==null)r=i+1;});
+  const raw=o.cores*o.f.reduce((a,v)=>a+(v||0),0);
+  const w=o.cores*o.f.reduce((a,v,i)=>a+(v||0)*Math.pow(10,i),0);
+  const top=r?o.cores*(o.f[r-1]||0):0;
+  const eff=r?r+((isA&&combine)?Math.log10(2):0):0;
+  return{r,eff,raw,w,top,fill:r?o.f[r-1]:0};
+}
+const STEP=0.02,T0=8,T1=60;
+const ages=[];for(let t=T0;t<=T1+1e-9;t+=STEP)ages.push(+t.toFixed(2));
+let state={range:[8,30],emode:'raw',combine:true};
+function data(){return ages.map(t=>({t,A:metrics(stateA(t),true,state.combine),B:metrics(stateB(t),false,state.combine)}));}
+
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const NS='http://www.w3.org/2000/svg';
+const el=(n,a={},p)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const fmt=(v,d=1)=>v.toLocaleString('fr-FR',{maximumFractionDigits:d,minimumFractionDigits:0});
+const fmtBig=v=>v>=1e6?fmt(v/1e6,1)+' M':v>=1e3?fmt(v/1e3,1)+' k':fmt(v,1);
+
+function draw(container,cfg){
+  container.innerHTML='';
+  const W=Math.max(320,container.clientWidth),H=W<560?260:300;
+  const m={l:W<560?64:72,r:28,t:30,b:34};
+  const iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const [x0,x1]=state.range;
+  const sx=t=>m.l+(t-x0)/(x1-x0)*iw;
+  const sy=cfg.sy(ih,m.t);
+  const svg=el('svg',{viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':cfg.aria},container);
+  // bandes : récit et extrapolation
+  const bandX0=sx(Math.max(13,x0)),bandX1=sx(Math.min(29,x1));
+  el('rect',{x:bandX0,y:m.t,width:Math.max(0,bandX1-bandX0),height:ih,fill:css('--band')},svg);
+  if(x1>29){el('rect',{x:sx(29),y:m.t,width:sx(x1)-sx(29),height:ih,fill:css('--band-2')},svg);
+    el('text',{x:sx(29)+6,y:m.t-10,fill:css('--ink-3'),'font-size':11},svg).textContent='Extrapolation';}
+  el('text',{x:bandX0+6,y:m.t-10,fill:css('--ink-3'),'font-size':11},svg).textContent='Période de la timeline (13–29 ans)';
+  // grille et axe Y
+  cfg.ticks.forEach(v=>{const y=sy(v);
+    el('line',{x1:m.l,x2:m.l+iw,y1:y,y2:y,stroke:css('--grid'),'stroke-width':1},svg);
+    const tx=el('text',{x:m.l-8,y:y+4,'text-anchor':'end',fill:css('--ink-3'),'font-size':11},svg);tx.textContent=cfg.tfmt(v);});
+  // axe X
+  const xstep=(x1-x0)>30?5:2;
+  for(let t=Math.ceil(x0/xstep)*xstep;t<=x1;t+=xstep){
+    const tx=el('text',{x:sx(t),y:m.t+ih+20,'text-anchor':'middle',fill:css('--ink-3'),'font-size':11},svg);tx.textContent=t;}
+  el('line',{x1:m.l,x2:m.l+iw,y1:m.t+ih,y2:m.t+ih,stroke:css('--rule'),'stroke-width':1},svg);
+  el('text',{x:m.l+iw,y:m.t+ih+32,'text-anchor':'end',fill:css('--ink-3'),'font-size':11},svg).textContent='âge (ans)';
+  // repères
+  [[13,'Examen'],[20,'Échec de B']].forEach(([t,l])=>{if(t<x0||t>x1)return;
+    el('line',{x1:sx(t),x2:sx(t),y1:m.t,y2:m.t+ih,stroke:css('--ink-3'),'stroke-width':1,'stroke-dasharray':'2 3'},svg);
+    el('text',{x:sx(t)+4,y:m.t+12,fill:css('--ink-3'),'font-size':10.5},svg).textContent=l;});
+  // séries
+  const D=cfg.D.filter(d=>d.t>=x0-1e-9&&d.t<=x1+1e-9);
+  const series=[['A','--a'],['B','--b']];
+  const ends={};
+  series.forEach(([k,col])=>{
+    const segs=[[],[]]; // solide jusqu'à 29 (A) / 28 (B), pointillé après
+    const cut=k==='A'?29:28;
+    D.forEach(d=>{const v=cfg.val(d[k]);if(v==null)return;const p=[sx(d.t),sy(v)];
+      if(d.t<=cut)segs[0].push(p);if(d.t>=cut)segs[1].push(p);});
+    segs.forEach((s,i)=>{if(s.length<2)return;
+      el('path',{d:'M'+s.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join('L'),fill:'none',stroke:css(col),'stroke-width':2,'stroke-linejoin':'round','stroke-linecap':'round','stroke-dasharray':i?'5 4':'none'},svg);});
+    const last=[...D].reverse().find(d=>cfg.val(d[k])!=null);if(last)ends[k]=sy(cfg.val(last[k]));
+  });
+  // étiquettes directes en bout de courbe
+  let ya=ends.A,yb=ends.B;
+  if(ya!=null&&yb!=null&&Math.abs(ya-yb)<14){const mid=(ya+yb)/2;const up=ya<=yb;ya=mid+(up?-7:7);yb=mid+(up?7:-7);}
+  [['A',ya],['B',yb]].forEach(([k,y])=>{if(y==null)return;
+    el('text',{x:m.l+iw+6,y:y+4,fill:css('--ink'),'font-size':12,'font-weight':600},svg).textContent=k;});
+  // couche de survol
+  const cross=el('line',{y1:m.t,y2:m.t+ih,stroke:css('--ink-3'),'stroke-width':1,visibility:'hidden'},svg);
+  const dots={A:el('circle',{r:4.5,fill:css('--a'),stroke:css('--surface'),'stroke-width':2,visibility:'hidden'},svg),
+              B:el('circle',{r:4.5,fill:css('--b'),stroke:css('--surface'),'stroke-width':2,visibility:'hidden'},svg)};
+  const hit=el('rect',{x:m.l,y:0,width:iw,height:H,fill:'transparent'},svg);
+  const tip=document.createElement('div');tip.className='tip';tip.hidden=true;container.appendChild(tip);
+  function show(evt){
+    const r=svg.getBoundingClientRect();const scale=W/r.width;
+    const px=(evt.clientX-r.left)*scale;
+    let t=x0+(px-m.l)/iw*(x1-x0);t=Math.max(x0,Math.min(x1,t));
+    const d=D.reduce((a,b)=>Math.abs(b.t-t)<Math.abs(a.t-t)?b:a);
+    const X=sx(d.t);cross.setAttribute('x1',X);cross.setAttribute('x2',X);cross.setAttribute('visibility','visible');
+    ['A','B'].forEach(k=>{const v=cfg.val(d[k]);if(v==null){dots[k].setAttribute('visibility','hidden');return;}
+      dots[k].setAttribute('cx',X);dots[k].setAttribute('cy',sy(v));dots[k].setAttribute('visibility','visible');});
+    const line=(k,col)=>{const s=d[k];
+      if(!s.r)return `<span class="k"><i class="d" style="background:var(${col})"></i>${k}</span><span class="v">aucun cercle</span>`;
+      return `<span class="k"><i class="d" style="background:var(${col})"></i>${k}</span><span class="v">rang ${s.r}${k==='A'&&state.combine?' (+×2)':''} · cercle ${s.r} à ${Math.round(s.fill*100)} %<br>réserve du rang max ${fmt(s.top,2)} · endurance ${cfg.tipE(s)}</span>`;};
+    tip.innerHTML=`<b>${fmt(d.t,1)} ans</b><div class="row">${line('A','--a')}${line('B','--b')}</div>`;
+    tip.hidden=false;
+    const cw=container.clientWidth;const left=X/scale;
+    tip.style.left=Math.min(Math.max(0,left+14),cw-tip.offsetWidth)+'px';
+    if(left+14+tip.offsetWidth>cw)tip.style.left=Math.max(0,left-14-tip.offsetWidth)+'px';
+    tip.style.top='8px';
+  }
+  hit.addEventListener('pointermove',show);hit.addEventListener('pointerdown',show);
+  hit.addEventListener('pointerleave',()=>{tip.hidden=true;cross.setAttribute('visibility','hidden');dots.A.setAttribute('visibility','hidden');dots.B.setAttribute('visibility','hidden');});
+}
+
+function render(){
+  const D=data();
+  const tipE=s=>state.emode==='raw'?fmt(s.raw,2):fmtBig(s.w);
+  draw(document.getElementById('p1'),{D,aria:'Puissance maximale de A et B selon l\'âge',
+    val:s=>s.r?s.eff:null,sy:(ih,t)=>v=>t+ih-(v/10.6)*ih,ticks:[0,2,4,6,8,10],tfmt:v=>v?'rang '+v:'0',tipE});
+  if(state.emode==='raw'){
+    const max=Math.max(...D.filter(d=>d.t<=state.range[1]).map(d=>Math.max(d.A.raw,d.B.raw)));
+    const top=Math.ceil(max/2)*2+ (max%2===0?2:0);
+    const step=top>12?4:2;const ticks=[];for(let v=0;v<=top;v+=step)ticks.push(v);
+    document.getElementById('sub2').textContent='Somme du mana stocké, en cercles standard (1 = un 1er cercle complet)';
+    draw(document.getElementById('p2'),{D,aria:'Endurance totale brute de A et B selon l\'âge',
+      val:s=>s.r?s.raw:null,sy:(ih,t)=>v=>t+ih-(v/ticks[ticks.length-1])*ih,ticks,tfmt:v=>fmt(v,0),tipE});
+  }else{
+    const maxE=Math.ceil(Math.log10(Math.max(...D.filter(d=>d.t<=state.range[1]).map(d=>Math.max(d.A.w,d.B.w)))));
+    const ticks=[];for(let e=0;e<=maxE;e+=maxE>6?2:1)ticks.push(e);
+    document.getElementById('sub2').textContent='Mana stocké pondéré par sa puissance (×10 par cercle), échelle logarithmique';
+    draw(document.getElementById('p2'),{D,aria:'Endurance totale pondérée de A et B selon l\'âge, échelle logarithmique',
+      val:s=>s.w>=1?Math.log10(s.w):null,sy:(ih,t)=>v=>t+ih-(v/ticks[ticks.length-1])*ih,ticks,tfmt:v=>fmtBig(Math.pow(10,v)),tipE});
+  }
+  // tableau
+  const tb=document.querySelector('#tbl tbody');tb.innerHTML='';
+  [9,12,13,14,15,16,18,20,21,22,23,25,28,29,32,36,40,44,45,50,53,55,60].forEach(t=>{
+    const a=metrics(stateA(t),true,state.combine),b=metrics(stateB(t),false,state.combine);
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${t} ans</td><td>${a.r}</td><td>${b.r}</td><td>${fmt(a.raw,2)}</td><td>${fmt(b.raw,2)}</td><td>${fmtBig(a.w)}</td><td>${fmtBig(b.w)}</td>`;
+    tb.appendChild(tr);});
+}
+function seg(idOn,idOff,fn){const on=document.getElementById(idOn),off=document.getElementById(idOff);
+  on.addEventListener('click',()=>{on.setAttribute('aria-pressed','true');off.setAttribute('aria-pressed','false');fn();render();});}
+seg('r-story','r-long',()=>state.range=[8,30]);seg('r-long','r-story',()=>state.range=[8,60]);
+seg('e-raw','e-w',()=>state.emode='raw');seg('e-w','e-raw',()=>state.emode='w');
+document.getElementById('combine').addEventListener('change',e=>{state.combine=e.target.checked;render();});
+let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(render,120);});
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',render);
+new MutationObserver(render).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+render();
+})();
+</script>
