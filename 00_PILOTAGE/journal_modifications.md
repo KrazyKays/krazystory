@@ -1,5 +1,10 @@
 # Journal des modifications
 
+## 2026-11-09 — Publication de l'aide-mémoire sur GitHub Pages
+
+**Ajout :** `.github/workflows/pages.yml` et `.github/scripts/build_pages.py`. À chaque modification de `aide_memoire.html` ou des images poussée sur `main`, GitHub Actions construit le site (page + miniatures des images) et le publie sur GitHub Pages. Le site est public, comme le dépôt.
+**Autres fichiers modifiés :** `.gitignore` (dossier `_site/` généré). **Sources modifiées :** aucune.
+
 ## 2026-11-09 — Aide-mémoire visuel du projet
 
 **Ajout :** `00_PILOTAGE/aide_memoire.html`, page de synthèse à la manière d'une cheatsheet (onglets, recherche plein texte, filtre par statut, galerie avec visionneuse). Elle résume la base de connaissances dans son état actuel, sans y ajouter d'information ; les statuts (`[CANON]`, `[SOURCE]`, etc.) et les références `[fichier:ligne]` sont conservés. Les images sont lues directement dans `SOURCES/images/`.
