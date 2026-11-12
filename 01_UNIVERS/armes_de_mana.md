@@ -17,12 +17,12 @@
 
 | Personnage | Arme | Source | Remarques |
 |---|---|---|---|
-| A | Grosse épée / « assommoir » | `[resume.md:11]` | Les images montrent une très large lame rectangulaire dont le cœur est rempli de mana liquide. `[img: A style*.png, assomoir de mana*.png]` |
-| B | Armes manipulées à distance | `[resume.md:18]` | Les images montrent des sphères métalliques à pointes en lévitation. `[img: B style*.png, sphères de mana*.png]` |
+| Arlak | Grosse épée / « assommoir » | `[resume.md:11]` | Les images montrent une très large lame rectangulaire dont le cœur est rempli de mana liquide. `[img: A style*.png, assomoir de mana*.png]` |
+| Korvan | Armes manipulées à distance | `[resume.md:18]` | Les images montrent des sphères métalliques à pointes en lévitation. `[img: B style*.png, sphères de mana*.png]` |
 
 - `[MANQUANT]` Définition de l'« assommoir » : est-ce une arme distincte de la grosse épée, ou un autre nom pour la même arme ? Quels matériaux (gain de masse ?) — Q-16.
-- `[MANQUANT]` Quand et comment A et B obtiennent-ils leurs armes (sur mesure, fabriquées, trouvées) ?
-- `[INTERPRÉTATION]` La propriété « perdre de la masse » des matériaux fait écho à la technique de B, qui réduit la masse de son propre corps `[details B.md:11]`.
+- `[MANQUANT]` Quand et comment Arlak et Korvan obtiennent-ils leurs armes (sur mesure, fabriquées, trouvées) ?
+- `[INTERPRÉTATION]` La propriété « perdre de la masse » des matériaux fait écho à la technique de Korvan, qui réduit la masse de son propre corps `[details B.md:11]`.
 
 ## 4. Références visuelles
 

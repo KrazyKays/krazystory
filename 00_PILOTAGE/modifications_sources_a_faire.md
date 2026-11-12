@@ -19,7 +19,7 @@ Ces règles figurent déjà dans la base (`01_UNIVERS/mana_et_cultivation.md`). 
 
 | # | Où | Ajout proposé |
 |---|---|---|
-| S-05 | `details A.md:15` (après « deux noyaux de mana ») | Les cercles des deux noyaux évoluent en miroir ; A peut combiner les deux noyaux dans une même technique. |
+| S-05 | `details A.md:15` (après « deux noyaux de mana ») | Les cercles des deux noyaux évoluent en miroir ; Arlak peut combiner les deux noyaux dans une même technique. |
 | S-06 | `details B.md:11` (parenthèse finale) | Chaque groupe de cercles coûte autant d'années que son cercle le plus élevé ; les cercles 8, 9 et 10 ne peuvent être cultivés qu'un par un. |
 | S-07 | `lore.md`, section « Classement des niveaux » | Règle « accès et réserve » : posséder un cercle donne accès à son rang ; les techniques consomment en quantité le mana de ce cercle. |
 | S-08 | `lore.md`, section « L'énergie » | La cultivation allonge la durée de vie. |

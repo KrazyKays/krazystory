@@ -1,14 +1,16 @@
-# B — héros
+# Korvan — héros
 
-> « B » est un nom provisoire `[MANQUANT]`.
+> `[CANON]` (2026-11-12) Noms : **Korvan** dans sa seconde vie, nom employé dans toute la base, y compris pour sa première vie ; **Mérindor** dans sa première vie. « B » est la désignation provisoire employée dans les sources.
 
 ## Identité
 
 - `[CANON]` Garçon, réincarné loin dans le futur. `[principes.md:5]`
 - `[SOURCE]` Grand maître des arts martiaux mort depuis « plusieurs milliers d'années » `[resume.md:3]` / né 2000 ans avant le début de l'histoire `[timeline.md:3]` → `[CONFLIT C-09]` (mineur).
 - `[CANON]` (2026-11-12) Deux noms : l'**ancien**, de sa première vie, et le **nouveau**, donné par ses parents. Règle de construction : `01_UNIVERS/glossaire.md`, « Noms ».
-- `[CANON]` (2026-11-12) ✱ Son nom ancien survit, déformé, dans une légende ou un nom de lieu ; A, érudite, peut faire le lien (indice, P-11).
-- `[MANQUANT]` Les deux noms (Q-20), apparence, âge exact à sa mort.
+- `[CANON]` (2026-11-12) ✱ Son nom ancien survit, déformé, dans une légende ou un nom de lieu ; Arlak, érudite, peut faire le lien (indice, P-11).
+- `[CANON]` (2026-11-12) **Nom ancien : Mérindor.** **Nom nouveau : Korvan.**
+- `[PROPOSITION]` Forme déformée du nom ancien, à l'époque du récit : « Mérin ». À valider.
+- `[MANQUANT]` Apparence, âge exact à sa mort.
 
 ## Première vie (il y a environ 2000 ans)
 
@@ -21,8 +23,8 @@
 - `[CANON]` Désigné successeur par le maître du dojo (9 cercles). `[arc 1.md:5]`
 - `[CANON]` Bloqué au 10e cercle, il cherche à faire évoluer son art et confie ses recherches au maître. `[arc 1.md:7]`
 - `[CANON]` (C-04, 2026-11-12) ✱ Avant l'artefact, il élabore une **théorie** : la limite du 10e cercle ne vient pas de son art, mais de la nature même du mana commun. Il ne sait pas qu'un autre mana existe, il en déduit la nécessité. Il le cherche, le trouve dans l'artefact du trésor, et il est trahi à ce moment précis. Il a donc trouvé un moyen sans pouvoir le mettre en œuvre `[details B.md:3]` `[arc 1.md:7-9]`. Dans le néant, il affine et valide sa théorie `[arc 3.md:5,7]`. La solution n'a jamais été testée.
-- `[CANON]` (C-15) La réputation de son art (« toujours perfectible ») est fausse : en révélant au maître le plafond du 10e cercle, B lui révèle la faille qu'il veut cacher. Seule la taille des cercles reste perfectible.
-- `[CANON]` Trahi : le maître ordonne à un disciple rival de l'éliminer discrètement. B, gravement blessé, active l'artefact, est téléporté au temple et y meurt. `[arc 1.md:7-11]`
+- `[CANON]` (C-15) La réputation de son art (« toujours perfectible ») est fausse : en révélant au maître le plafond du 10e cercle, Korvan lui révèle la faille qu'il veut cacher. Seule la taille des cercles reste perfectible.
+- `[CANON]` Trahi : le maître ordonne à un disciple rival de l'éliminer discrètement. Korvan, gravement blessé, active l'artefact, est téléporté au temple et y meurt. `[arc 1.md:7-11]`
 
 ## Entre les vies
 
@@ -31,9 +33,9 @@
 ## Seconde vie
 
 ### Naissance et famille
-- `[CANON]` Réincarné dans un bébé mort à la naissance, dans la ville voisine du village de A, qui est la capitale (C-07). `[lore.md:27]` `[arc 2.md:11]`
+- `[CANON]` Réincarné dans un bébé mort à la naissance, dans la ville voisine du village d'Arlak, qui est la capitale (C-07). `[lore.md:27]` `[arc 2.md:11]`
 - `[CANON]` Famille très aimante : mère politicienne, père écrivain et historien. Ils attendent qu'il rejoigne l'académie dans la branche diplomatique. `[arc 3.md:19]`
-- `[CANON]` Une petite sœur biologique, qui veut se tourner vers les arts martiaux en le voyant ; B lui enseigne et l'y pousse malgré les réticences de leur père. `[idees.md:5]`
+- `[CANON]` Une petite sœur biologique, qui veut se tourner vers les arts martiaux en le voyant ; Korvan lui enseigne et l'y pousse malgré les réticences de leur père. `[idees.md:5]`
 - `[CANON]` Il cache à ses parents qu'il cultive et profite des cours particuliers pour apprendre l'époque et son histoire. `[arc 3.md:19]`
 - `[CANON]` (C-07) Il passe l'examen dans le groupe 1 en tant qu'habitant de la capitale `[arc 4.md:3]`.
 - `[MANQUANT]` Sa famille est-elle noble ? Ce n'est plus nécessaire (Q-08).
@@ -43,11 +45,11 @@
 - `[CANON]` Discret : il ne se met pas en avant et n'utilise son plein potentiel que si nécessaire ; aucune animosité envers les candidats des villages. `[arc 4.md:3]`
 - `[CANON]` Reconnu à l'académie pour sa sagesse et son intelligence. `[arc 5.md:3]`
 - `[CANON]` Désir de justice et de protection des populations. `[details B.md:7]`
-- `[CANON]` (C-13) Emploie par habitude « cœur de mana », terme archaïque de son époque. A finit par le remarquer.
+- `[CANON]` (C-13) Emploie par habitude « cœur de mana », terme archaïque de son époque. Arlak finit par le remarquer.
 
 ### Objectifs
 - `[CANON]` Retrouver son niveau, puis dépasser la limite de son art grâce au mana de l'artefact. `[details B.md:7]` `[arc 3.md:7]`
-- `[CANON]` Faire équipe avec A pour pratiquer en situation critique. `[details B.md:7]`
+- `[CANON]` Faire équipe avec Arlak pour pratiquer en situation critique. `[details B.md:7]`
 - `[CANON]` Obtenir à l'examen le minimum de mérite qui lui garantit la classe et les ressources nécessaires. `[arc 4.md:5]`
 - `[CANON]` Fouiller en secret le temple de l'artefact ; il prévoit de se séparer discrètement du groupe. `[arc 5.md:3]`
 
@@ -66,7 +68,7 @@
 
 | Personnage | Relation | Sources |
 |---|---|---|
-| A | Coopération ; il ignore qu'elle est revenue dans le temps ; aucune romance. | `[resume.md:35]` `[principes.md:7]` |
+| Arlak | Coopération ; il ignore qu'elle est revenue dans le temps ; aucune romance. | `[resume.md:35]` `[principes.md:7]` |
 | Maître du dojo | Mentor, puis commanditaire de son assassinat. | `[arc 1.md:5-7]` |
 | Rival du dojo | Assassin ; plus tard rallié à la guilde de l'ombre. | `[arc 1.md:7-9]` `[lore.md:34]` |
 | Parents | Aimants ; attentes diplomatiques. | `[arc 3.md:19]` |
@@ -74,10 +76,10 @@
 | Le prince | Autre génie du groupe de la capitale. | `[arc 4.md:3]` |
 | Disciples | L'un d'eux fonde une secte qui le vénère. | `[idees.md:11]` |
 
-## Ce que B sait / ignore
+## Ce que Korvan sait / ignore
 
 - Sait : son art oublié, l'existence de l'artefact et du temple, l'histoire de son époque, sa trahison.
-- Ignore : que A est revenue dans le temps `[resume.md:35]` ; que son retour est dû à A ; `[INTERPRÉTATION]` probablement le sort de son dojo, le rôle de son rival auprès de la guilde et le grand assaut (il était dans le néant).
+- Ignore : qu'Arlak est revenue dans le temps `[resume.md:35]` ; que son retour est dû à Arlak ; `[INTERPRÉTATION]` probablement le sort de son dojo, le rôle de son rival auprès de la guilde et le grand assaut (il était dans le néant).
 - `[MANQUANT]` Que sait-il de la guilde de l'ombre ?
 
 ## Références visuelles

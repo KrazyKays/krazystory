@@ -1,27 +1,27 @@
 # Chronologie
 
-> Référence : **an 0 = naissance de A** (dans les deux vies). Les âges de A et de B sont identiques dans la seconde vie.
+> Référence : **an 0 = naissance d'Arlak** (dans les deux vies). Les âges d'Arlak et de Korvan sont identiques dans la seconde vie.
 
 ## 1. Temps anciens
 
 | Date | Événement | Sources |
 |---|---|---|
 | ? | Sécheresse sur l'ancien continent ; migration vers le continent des monstres. | `[lore.md:32]` |
-| ≈ −2000 | Naissance de B. | `[timeline.md:3]` |
-| ≈ −2000 + 70 ans de cultivation (B a environ 80 ans) | B atteint 10 cercles ; trahison ; activation de l'artefact ; mort au temple. | `[CANON]` `[timeline.md:5]` `[arc 1.md]` |
-| Après la mort de B | Grand assaut coordonné par la guilde de l'ombre ; chute du dojo ; le rival rejoint la guilde. | `[lore.md:34]` |
+| ≈ −2000 | Naissance de Korvan. | `[timeline.md:3]` |
+| ≈ −2000 + 70 ans de cultivation (Korvan a environ 80 ans) | Korvan atteint 10 cercles ; trahison ; activation de l'artefact ; mort au temple. | `[CANON]` `[timeline.md:5]` `[arc 1.md]` |
+| Après la mort de Korvan | Grand assaut coordonné par la guilde de l'ombre ; chute du dojo ; le rival rejoint la guilde. | `[lore.md:34]` |
 | Ensuite | Reconstruction ; arts simplifiés. | `[lore.md:36]` |
 
-`[MANQUANT]` Âge de B au début de sa cultivation et à sa mort ; date du grand assaut.
+`[MANQUANT]` Âge de Korvan au début de sa cultivation et à sa mort ; date du grand assaut.
 
-## 2. Première vie de A (ligne temporelle d'origine)
+## 2. Première vie d'Arlak (ligne temporelle d'origine)
 
 | Âge | Événement | Sources |
 |---|---|---|
-| 0 | Naissance de A. Dans la ville voisine, qui est la capitale `[CANON]`, un bébé meurt à la naissance (futur corps de B). | `[timeline.md:7]` `[lore.md:27]` |
-| ? | Apprentissage dans le dojo du village ; bases médiocres. A ne va jamais à l'académie `[CANON]`. | `[arc 2.md:5]` |
+| 0 | Naissance d'Arlak. Dans la ville voisine, qui est la capitale `[CANON]`, un bébé meurt à la naissance (futur corps de Korvan). | `[timeline.md:7]` `[lore.md:27]` |
+| ? | Apprentissage dans le dojo du village ; bases médiocres. Arlak ne va jamais à l'académie `[CANON]`. | `[arc 2.md:5]` |
 | 15 | E-01 — Massacre de l'expédition de l'académie ; mort du prince. | `[CANON]` |
-| 16 | E-02 — Nuit du village : mort de la famille de A et de la plupart de ses camarades. | `[CANON]` `[arc 2.md:5]` |
+| 16 | E-02 — Nuit du village : mort de la famille d'Arlak et de la plupart de ses camarades. | `[CANON]` `[arc 2.md:5]` |
 | 19 | E-03 — Chute du fort. | `[CANON]` |
 | 22 | E-04 — Loi d'unification. | `[CANON]` |
 | 26 | E-05 — Année sèche (famine). | `[CANON]` |
@@ -36,24 +36,24 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 
 | Âge | Événement | Sources |
 |---|---|---|
-| 0 | Retour de A ; réincarnation de B. | `[timeline.md:11]` |
-| 0–12 | B apprend la langue, les coutumes et l'état du monde martial ; il cache sa cultivation. | `[arc 3.md:7,19]` |
-| 8 | A ouvre son premier cercle en secret. | `[arc 3.md:11]` |
-| 9 | A comprend qu'elle a deux noyaux (mana ambiant et mana de l'artefact). | `[arc 3.md:11]` |
-| 12 | Ni A ni B ne rejoignent de dojo. | `[timeline.md:13]` |
-| 13 | Examen d'entrée à l'académie de la capitale ; rencontre de A et de B. | `[timeline.md:15]` `[arc 4.md]` |
+| 0 | Retour d'Arlak ; réincarnation de Korvan. | `[timeline.md:11]` |
+| 0–12 | Korvan apprend la langue, les coutumes et l'état du monde martial ; il cache sa cultivation. | `[arc 3.md:7,19]` |
+| 8 | Arlak ouvre son premier cercle en secret. | `[arc 3.md:11]` |
+| 9 | Arlak comprend qu'elle a deux noyaux (mana ambiant et mana de l'artefact). | `[arc 3.md:11]` |
+| 12 | Ni Arlak ni Korvan ne rejoignent de dojo. | `[timeline.md:13]` |
+| 13 | Examen d'entrée à l'académie de la capitale ; rencontre d'Arlak et de Korvan. | `[timeline.md:15]` `[arc 4.md]` |
 | ? | Expédition de groupe vers le temple. | `[arc 5.md]` |
 | ? | Rencontre d'un ennemi bien plus puissant (« assez tôt »). | `[idees.md:7]` |
-| 22–26 | Aveu mutuel de A et de B, au basculement de PC-2. `[CANON]` (2026-11-12) | `arcs.md` |
+| 22–26 | Aveu mutuel d'Arlak et de Korvan, au basculement de PC-2. `[CANON]` (2026-11-12) | `arcs.md` |
 | 28–29 | Fin de la timeline source ; le récit continue au-delà `[CANON]`. | `[timeline.md:39-41]` |
 | 35–38 | Fin de la partie 1 : E-07, la chute de la capitale, déjouée. `[CANON]` (2026-11-12) | `arcs.md` |
-| Au-delà de 38 | Partie 2 : futur inconnu de A ; B dépasse la limite du 10e cercle ; affrontement final contre la guilde. `[CANON]` (2026-11-12) | `arcs.md` |
+| Au-delà de 38 | Partie 2 : futur inconnu d'Arlak ; Korvan dépasse la limite du 10e cercle ; affrontement final contre la guilde. `[CANON]` (2026-11-12) | `arcs.md` |
 
 ## 4. Seconde vie — progression de cultivation
 
 `[CANON]` `[timeline.md:19-41]` `[arc 3.md:13]` `[lore.md:13]`. Les cases marquées † sont des **calculs** `[INTERPRÉTATION]` tirés des règles, pas des énoncés des sources.
 
-| Âge | A (double noyau, ×2 mana) | B (art souple) | Enfant standard |
+| Âge | Arlak (double noyau, ×2 mana) | Korvan (art souple) | Enfant standard |
 |---|---|---|---|
 | 8 | Ouvre le 1er cercle | — | — |
 | 9 | 1er complet ; ouvre le 2e | — | — |
@@ -70,19 +70,19 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 | 29 | 6 complets | — | — |
 
 ### Observations
-- La progression de A suit le rythme standard (1, 2, 3, 4, 5, 6 ans), en double grâce à ses deux noyaux en miroir. `[CANON]` C-01 résolu.
-- La progression de B suit la règle des groupes : chaque groupe coûte le numéro de son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans). Cohérent en interne.
+- La progression d'Arlak suit le rythme standard (1, 2, 3, 4, 5, 6 ans), en double grâce à ses deux noyaux en miroir. `[CANON]` C-01 résolu.
+- La progression de Korvan suit la règle des groupes : chaque groupe coûte le numéro de son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans). Cohérent en interne.
 - Avec la règle « accès et réserve » `[CANON]`, puissance maximale et endurance se lisent séparément. Les courbes figurent dans `courbes_A_B.html` :
-  - **Puissance (rang)** : A mène jusqu'à 14 ans ; B a 1 rang d'avance de 15 à 17 ans ; égalité de 18 à 20 ans ; B a 2 rangs d'avance à 21–22 ans et à 28 ans, 1 rang le reste du temps ; égalité à 44 ans, puis définitivement à partir de 53 ans (dans l'hypothèse où B plafonne au 10e cercle).
-  - **Endurance** (quantité brute, `[CANON]`) : A a toujours plus de mana que B (environ ×2).
-- `[INTERPRÉTATION]` À l'examen (13 ans), A et B sont au même rang (3), mais A a quatre fois plus de réserve à ce rang. Cela s'accorde avec `[arc 4.md:5]`, où B doit lutter pour ne pas être ridiculisé.
+  - **Puissance (rang)** : Arlak mène jusqu'à 14 ans ; Korvan a 1 rang d'avance de 15 à 17 ans ; égalité de 18 à 20 ans ; Korvan a 2 rangs d'avance à 21–22 ans et à 28 ans, 1 rang le reste du temps ; égalité à 44 ans, puis définitivement à partir de 53 ans (dans l'hypothèse où Korvan plafonne au 10e cercle).
+  - **Endurance** (quantité brute, `[CANON]`) : Arlak a toujours plus de mana que Korvan (environ ×2).
+- `[INTERPRÉTATION]` À l'examen (13 ans), Arlak et Korvan sont au même rang (3), mais Arlak a quatre fois plus de réserve à ce rang. Cela s'accorde avec `[arc 4.md:5]`, où Korvan doit lutter pour ne pas être ridiculisé.
 
 ## 5. Divergences entre les deux lignes temporelles
 
 | Élément | Première vie | Seconde vie | Sources |
 |---|---|---|---|
-| Bébé de la ville voisine | Mort à la naissance | Habité par B | `[lore.md:27]` `[resume.md:3]` |
-| Petite sœur de B | `[CANON]` Née ; `[INTERPRÉTATION]` ne se tourne pas vers les arts martiaux | Née ; se forme aux arts martiaux auprès de B | `[idees.md:5]` — décision du 2026-11-09 |
-| Mère de B | Quitte la politique après la mort de son bébé ; un allié de la guilde prend sa place | Reste en politique ; gêne la guilde sans le savoir | `[CANON]` E-04 |
-| L'artefact | Explose lors de l'activation par A | Brisé ; sa réserve est désormais en A et en B | `[CANON]` |
-| Prédictions de A | Événements vécus | Rendues moins fiables par les actes de B | `[resume.md:35]` |
+| Bébé de la ville voisine | Mort à la naissance | Habité par Korvan | `[lore.md:27]` `[resume.md:3]` |
+| Petite sœur de Korvan | `[CANON]` Née ; `[INTERPRÉTATION]` ne se tourne pas vers les arts martiaux | Née ; se forme aux arts martiaux auprès de Korvan | `[idees.md:5]` — décision du 2026-11-09 |
+| Mère de Korvan | Quitte la politique après la mort de son bébé ; un allié de la guilde prend sa place | Reste en politique ; gêne la guilde sans le savoir | `[CANON]` E-04 |
+| L'artefact | Explose lors de l'activation par Arlak | Brisé ; sa réserve est désormais en Arlak et en Korvan | `[CANON]` |
+| Prédictions d'Arlak | Événements vécus | Rendues moins fiables par les actes de Korvan | `[resume.md:35]` |

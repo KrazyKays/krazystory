@@ -286,16 +286,16 @@ const table = (head, rows, cls="") => `<div class="tbl"><table class="${cls}"><t
 
 /* ---------- Données (extraites de la base, état au 2026-11-09) ---------- */
 const IMAGES = [
-  ["A style.png","A","Cheveux bruns aux mèches turquoise en queue de cheval, masque noir, yeux verts ; grande lame rectangulaire remplie de mana vert. Style anime."],
-  ["A style 2.png","A","Cheveux noirs en queue de cheval, yeux verts, col remonté ; la lame remplie de mana coule. Style anime sombre."],
-  ["A style 3.png","A","Cheveux argentés, yeux verts, manteau blanc ; même lame. Couleur de cheveux divergente."],
-  ["A style 4.png","A","Version chibi : cheveux bruns, masque, tenue ninja ; lame qui goutte."],
-  ["A meditate.png","A","Méditation dans un dojo en bois ; deux cercles lumineux superposés sur le torse (double noyau ?)."],
-  ["B style.png","B","Homme cagoulé, gantelets, deux sphères à pointes en lévitation dans du mana vert."],
-  ["B style 2.png","B","Visage enveloppé de bandes, yeux verts luminescents, deux sphères à pointes."],
-  ["B style 3.png","B","Version caricaturale : ninja à grosse tête entouré de sphères à pointes."],
-  ["B meditate.png","B","Torse nu en méditation dans une salle d'entraînement moderne ; cercles concentriques sur la poitrine."],
-  ["B meditate 2.png","B","Encapuchonné en méditation, un cercle sur la poitrine, anneaux lumineux derrière lui."],
+  ["A style.png","Arlak","Cheveux bruns aux mèches turquoise en queue de cheval, masque noir, yeux verts ; grande lame rectangulaire remplie de mana vert. Style anime."],
+  ["A style 2.png","Arlak","Cheveux noirs en queue de cheval, yeux verts, col remonté ; la lame remplie de mana coule. Style anime sombre."],
+  ["A style 3.png","Arlak","Cheveux argentés, yeux verts, manteau blanc ; même lame. Couleur de cheveux divergente."],
+  ["A style 4.png","Arlak","Version chibi : cheveux bruns, masque, tenue ninja ; lame qui goutte."],
+  ["A meditate.png","Arlak","Méditation dans un dojo en bois ; deux cercles lumineux superposés sur le torse (double noyau ?)."],
+  ["B style.png","Korvan","Homme cagoulé, gantelets, deux sphères à pointes en lévitation dans du mana vert."],
+  ["B style 2.png","Korvan","Visage enveloppé de bandes, yeux verts luminescents, deux sphères à pointes."],
+  ["B style 3.png","Korvan","Version caricaturale : ninja à grosse tête entouré de sphères à pointes."],
+  ["B meditate.png","Korvan","Torse nu en méditation dans une salle d'entraînement moderne ; cercles concentriques sur la poitrine."],
+  ["B meditate 2.png","Korvan","Encapuchonné en méditation, un cercle sur la poitrine, anneaux lumineux derrière lui."],
   ["artefact.png","Artefact","Bloc de pierre gravé, cristal vert au centre d'un bassin de mana."],
   ["artefact 2.png","Artefact","Sphère de pierre ouverte contenant un orbe vert, sur un socle gravé."],
   ["artefact 3.png","Artefact","Anneau de pierre mécanique flottant, filaments verts, au-dessus d'un socle."],
@@ -329,22 +329,22 @@ const P = {};
 
 P.apercu = () => `
 <div class="hero">
-  <figure class="A">${im("A style.png")}<figcaption>A · l'héroïne</figcaption></figure>
+  <figure class="A">${im("A style.png")}<figcaption>Arlak · l'héroïne</figcaption></figure>
   <div class="pitch">
     <span class="eyebrow">Prémisse · web novel</span>
     <h2>Deux âmes renvoyées dans le temps par le même artefact</h2>
-    <p>Une vieille érudite, A, bloquée toute sa vie par des bases martiales médiocres, active à 93 ans un artefact oublié et revient au jour de sa naissance avec tous ses souvenirs.</p>
-    <p>Sans le savoir, elle entraîne l'âme de B, grand maître mort il y a environ 2000 ans, qui se réincarne au même instant dans un nouveau-né de la capitale. B n'existait pas dans la première vie de A : sa présence fait dévier le futur qu'elle croit connaître.</p>
+    <p>Une vieille érudite, Arlak, bloquée toute sa vie par des bases martiales médiocres, active à 93 ans un artefact oublié et revient au jour de sa naissance avec tous ses souvenirs.</p>
+    <p>Sans le savoir, elle entraîne l'âme de Korvan, grand maître mort il y a environ 2000 ans, qui se réincarne au même instant dans un nouveau-né de la capitale. Korvan n'existait pas dans la première vie d'Arlak : sa présence fait dévier le futur qu'elle croit connaître.</p>
     <p class="muted">Ils coopèrent pour empêcher les catastrophes à venir. Chacun ignore le secret de l'autre et s'étonne de son talent.</p>
   </div>
-  <figure class="B">${im("B style.png")}<figcaption>B · le héros</figcaption></figure>
+  <figure class="B">${im("B style.png")}<figcaption>Korvan · le héros</figcaption></figure>
 </div>
 
 <div class="grid wide">
   <div class="grp si">
     <h3>Deux parcours symétriques</h3>
     <div class="duo">
-      <div class="h"></div><div class="h a">A</div><div class="h b">B</div>
+      <div class="h"></div><div class="h a">Arlak</div><div class="h b">Korvan</div>
       <div class="k">Retour</div><div>Dans son propre corps, à sa naissance</div><div>Dans le corps d'un bébé mort à la naissance</div>
       <div class="k">Savoir</div><div>Le futur (partiel, se dégrade)</div><div>Le passé (son art oublié, 2000 ans de réflexion)</div>
       <div class="k">Os</div><div class="a">Durs</div><div class="b">Souples</div>
@@ -356,9 +356,9 @@ P.apercu = () => `
   </div>
   <div class="grp">
     <h3>Les fils qui relient le récit</h3>
-    <div class="box si"><span class="eyebrow">Fil 1 · le même antagoniste</span><p>${fmt("Le rival de B rallié à la **guilde de l'ombre** avec une version dérivée de son art ; la même guilde détruit le futur de A. Exploité par N-01 et E-07. [lore.md:34,41]")}</p></div>
-    <div class="box si"><span class="eyebrow">Fil 2 · le temple</span><p>${fmt("A y a trouvé les ossements de B ; tous deux veulent y retourner en secret pendant l'expédition (arc 5).")}</p></div>
-    <div class="box si"><span class="eyebrow">Fil 3 · l'effet papillon</span><p>${fmt("Les actes de B, et sa simple existence, faussent les prédictions de A (PC-2, PC-4).")}</p></div>
+    <div class="box si"><span class="eyebrow">Fil 1 · le même antagoniste</span><p>${fmt("Le rival de Korvan rallié à la **guilde de l'ombre** avec une version dérivée de son art ; la même guilde détruit le futur d'Arlak. Exploité par N-01 et E-07. [lore.md:34,41]")}</p></div>
+    <div class="box si"><span class="eyebrow">Fil 2 · le temple</span><p>${fmt("Arlak y a trouvé les ossements de Korvan ; tous deux veulent y retourner en secret pendant l'expédition (arc 5).")}</p></div>
+    <div class="box si"><span class="eyebrow">Fil 3 · l'effet papillon</span><p>${fmt("Les actes de Korvan, et sa simple existence, faussent les prédictions d'Arlak (PC-2, PC-4).")}</p></div>
   </div>
 </div>
 
@@ -370,28 +370,28 @@ P.apercu = () => `
       <div class="si"><span>Inventaire des sources (13 textes, 29 images)</span><span class="pill ok">Terminé</span></div>
       <div class="si"><span>Structuration de la base</span><span class="pill ok">1re version</span></div>
       <div class="si"><span>Contradictions : 9 résolues sur 16</span><span class="pill wip">En cours</span></div>
-      <div class="si"><span>Catastrophes de la 1re vie de A</span><span class="pill ok">Structure validée</span></div>
+      <div class="si"><span>Catastrophes de la 1re vie d'Arlak</span><span class="pill ok">Structure validée</span></div>
       <div class="si"><span>Forme du récit et structure d'ensemble</span><span class="pill ok">Validées</span></div>
-      <div class="si"><span>Noms : règle fixée, noms à choisir (Q-20)</span><span class="pill wip">À décider</span></div>
+      <div class="si"><span>Noms des personnages principaux</span><span class="pill ok">Fait</span></div>
       <div class="si"><span>Rédaction du manuscrit</span><span class="pill no">Non commencée</span></div>
     </div>
   </div>
   <div class="box">
     <h3>Repères chiffrés</h3>
     <dl class="kv">
-      <div class="si"><dt>≈ 2000 ans</dt><dd>entre la mort de B et la naissance de A</dd></div>
-      <div class="si"><dt>93 ans</dt><dd>âge de A quand elle active l'artefact</dd></div>
-      <div class="si"><dt>8 ans</dt><dd>A ouvre son 1er cercle, seule et en secret</dd></div>
-      <div class="si"><dt>12 ans</dt><dd>âge normal de l'initiation ; B ouvre 3 cercles d'un coup</dd></div>
-      <div class="si"><dt>13 ans</dt><dd>examen de l'académie : rencontre de A et B</dd></div>
+      <div class="si"><dt>≈ 2000 ans</dt><dd>entre la mort de Korvan et la naissance d'Arlak</dd></div>
+      <div class="si"><dt>93 ans</dt><dd>âge d'Arlak quand elle active l'artefact</dd></div>
+      <div class="si"><dt>8 ans</dt><dd>Arlak ouvre son 1er cercle, seule et en secret</dd></div>
+      <div class="si"><dt>12 ans</dt><dd>âge normal de l'initiation ; Korvan ouvre 3 cercles d'un coup</dd></div>
+      <div class="si"><dt>13 ans</dt><dd>examen de l'académie : rencontre d'Arlak et Korvan</dd></div>
       <div class="si"><dt>15–38 ans</dt><dd>catastrophes E-01 à E-07 à prévenir</dd></div>
-      <div class="si"><dt>10 cercles</dt><dd>plafond de l'art de B ; atteint en 70 ans (1re vie), vers 55 ans (2de vie)</dd></div>
+      <div class="si"><dt>10 cercles</dt><dd>plafond de l'art de Korvan ; atteint en 70 ans (1re vie), vers 55 ans (2de vie)</dd></div>
       <div class="si"><dt>×10</dt><dd>puissance du mana d'un cercle par rapport au précédent</dd></div>
     </dl>
   </div>
   <div class="box">
-    <h3>Décision bloquante (priorité 1)</h3>
-    ${ul(["**Q-20** Choisir les noms nécessaires aux prologues (A, B ancien et nouveau, le maître, le rival), selon la règle du glossaire."])}
+    <h3>Prochaine étape</h3>
+    ${ul(["Aucune décision bloquante. Prochaine étape : rédiger le prologue de Korvan."])}
     <p class="small muted">Voir l'onglet Cohérence pour les 7 contradictions ouvertes et les 16 questions.</p>
   </div>
 </div>
@@ -415,8 +415,8 @@ P.personnages = () => `
 <div class="hero-card A">
   <div class="pic">${im("A style.png")}<div class="thumbs">${["A style 2.png","A style 3.png","A style 4.png","A meditate.png"].map(n=>im(n)).join("")}</div></div>
   <div class="hero-body">
-    <div><span class="eyebrow">Héroïne · nom provisoire {MANQUANT}</span><h3>A</h3></div>
-    <p class="muted si">${fmt("Fille, revenue au moment de sa naissance ; même âge que B. Nom, apparence et famille à définir (« A ecrire » [arc 3.md:23]).")}</p>
+    <div><span class="eyebrow">Héroïne · « A » dans les sources</span><h3>Arlak</h3></div>
+    <p class="muted si">${fmt("Fille, revenue au moment de sa naissance ; même âge que Korvan. Nom, apparence et famille à définir (« A ecrire » [arc 3.md:23]).")}</p>
     <div class="cols">
       <div class="grp"><span class="eyebrow">Première vie (0 → 93 ans)</span>${ul([
         "Petit dojo de campagne, art basique et peu exigeant. [arc 2.md:5]",
@@ -431,8 +431,8 @@ P.personnages = () => `
         "Bien plus confiante, « à la limite de l'orgueil », mais connaît ses limites.",
         "Se vante de sa puissance au village ; sûre de vaincre tous les candidats.",
         "S'autoproclame cheffe de l'expédition.",
-        "Jalouse quand B fait un bond ; veut réduire l'écart. [idees.md:9]",
-        "Veut infiltrer et contrôler la secte des disciples de B (motif : Q-17)."])}</div>
+        "Jalouse quand Korvan fait un bond ; veut réduire l'écart. [idees.md:9]",
+        "Veut infiltrer et contrôler la secte des disciples de Korvan (motif : Q-17)."])}</div>
       <div class="grp"><span class="eyebrow">Objectifs</span>${ul([
         "Dépasser ses anciennes limites, devenir une génie de sa génération.",
         "Empêcher les catastrophes qu'elle a vécues.",
@@ -448,8 +448,8 @@ P.personnages = () => `
         "{MANQUANT} Origine de son nouvel art ; nature de l'« assommoir » (Q-16)."])}</div>
       <div class="grp"><span class="eyebrow">Sait / ignore</span>${ul([
         "Sait : l'avenir de sa première vie, un vaste savoir martial et historique, l'emplacement du temple.",
-        "{CANON} Ce savoir est partiel (version officielle) et se dégrade avec le temps et la proximité de B.",
-        "Ignore : que B est réincarné ; que seule l'âme devient immortelle ; la cause exacte de son second noyau."])}</div>
+        "{CANON} Ce savoir est partiel (version officielle) et se dégrade avec le temps et la proximité de Korvan.",
+        "Ignore : que Korvan est réincarné ; que seule l'âme devient immortelle ; la cause exacte de son second noyau."])}</div>
     </div>
   </div>
 </div>
@@ -457,7 +457,7 @@ P.personnages = () => `
 <div class="hero-card B">
   <div class="pic">${im("B style.png")}<div class="thumbs">${["B style 2.png","B style 3.png","B meditate.png","B meditate 2.png"].map(n=>im(n)).join("")}</div></div>
   <div class="hero-body">
-    <div><span class="eyebrow">Héros · nom provisoire {MANQUANT}</span><h3>B</h3></div>
+    <div><span class="eyebrow">Héros · « B » dans les sources · Mérindor dans sa première vie</span><h3>Korvan</h3></div>
     <p class="muted si">${fmt("Garçon, grand maître réincarné loin dans le futur. Mort depuis « plusieurs milliers d'années » ou né 2000 ans avant l'histoire {CONFLIT C-09}.")}</p>
     <div class="cols">
       <div class="grp"><span class="eyebrow">Première vie (≈ −2000)</span>${ul([
@@ -477,9 +477,9 @@ P.personnages = () => `
         "Cache sa cultivation ; profite des cours particuliers pour apprendre l'époque."])}</div>
       <div class="grp"><span class="eyebrow">Caractère et objectifs</span>${ul([
         "Très sage et calme, trop pour son âge ; discret, n'utilise son plein potentiel que si nécessaire.",
-        "{CANON} Dit « cœur de mana », terme archaïque : un indice que A finit par remarquer.",
+        "{CANON} Dit « cœur de mana », terme archaïque : un indice qu'Arlak finit par remarquer.",
         "Retrouver son niveau, puis dépasser sa limite grâce au mana de l'artefact.",
-        "Faire équipe avec A pour pratiquer en situation critique.",
+        "Faire équipe avec Arlak pour pratiquer en situation critique.",
         "Obtenir le mérite minimum à l'examen ; fouiller le temple en secret."])}</div>
       <div class="grp"><span class="eyebrow">Cultivation et style</span>${ul([
         "Ne rejoint pas de dojo à 12 ans ; ouvre 3 cercles d'un coup.",
@@ -488,7 +488,7 @@ P.personnages = () => `
         "Os souples et rapidité ; armes manipulées à distance ; attaquant à distance et stratège."])}</div>
       <div class="grp"><span class="eyebrow">Sait / ignore</span>${ul([
         "Sait : son art oublié, l'artefact et le temple, l'histoire de son époque, sa trahison.",
-        "Ignore : que A est revenue dans le temps, et que son retour est dû à elle.",
+        "Ignore : qu'Arlak est revenue dans le temps, et que son retour est dû à elle.",
         "{INTERPRÉTATION} Ignore sans doute le grand assaut, la chute de son dojo et le rôle de son rival.",
         "{MANQUANT} Ce qu'il sait de la guilde de l'ombre (Q-10)."])}</div>
     </div>
@@ -497,19 +497,19 @@ P.personnages = () => `
 
 <div class="grp"><h3>Personnages secondaires</h3><p class="small muted">Aucun n'est nommé dans les sources.</p>
 ${table(["Groupe","Personnage","Ce qu'on sait","Manques"],[
-  ["Époque de B","Maître du dojo","9 cercles. Reconnaît B comme successeur, puis ordonne son élimination.","Nom, sort lors du grand assaut."],
-  ["Époque de B","Rival / disciple assassin","Concurrent direct de B ; échoue de peu à le tuer ; survit au grand assaut en se ralliant à la guilde, à qui il transmet une version dérivée de l'art.","{INTERPRÉTATION} Les deux sources désignent la même personne. À confirmer."],
-  ["Entourage de A","Famille de A","{CANON} En vie jusqu'aux 16 ans de A dans la première vie (E-02).","**Entièrement à écrire** (Q-19)."],
-  ["Entourage de A","Camarades du dojo","Pour la plupart morts dans la première vie.","Qui sont-ils dans la seconde ?"],
-  ["Entourage de A","Recrue « le fougueux »","Ami de A ; très offensif, aucune défense.","Nom, origine."],
-  ["Entourage de A","Recrue « le talent latent »","Réputé dans la première vie de A ; encore faible.","Nom, genre, destin dans la première vie."],
-  ["Entourage de B","Mère","Politicienne. {CANON} 1re vie : quitte la politique après la mort de son bébé ; 2de vie : reste et gêne la guilde (E-04).","Rang, influence."],
-  ["Entourage de B","Père","Écrivain et historien ; réticent pour la petite sœur.","Apport de ses recherches à B."],
-  ["Entourage de B","Petite sœur","{CANON} Née dans les deux vies ; se forme auprès de B dans la seconde.","Âge, nom, rôle à long terme."],
-  ["Entourage de B","Disciples de B","L'un d'eux fonde une secte qui vénère B comme un dieu.","Quand B a-t-il des disciples ?"],
+  ["Époque de Korvan","Maître du dojo","9 cercles. Reconnaît Korvan comme successeur, puis ordonne son élimination.","Nom, sort lors du grand assaut."],
+  ["Époque de Korvan","Rival / disciple assassin","Concurrent direct de Korvan ; échoue de peu à le tuer ; survit au grand assaut en se ralliant à la guilde, à qui il transmet une version dérivée de l'art.","{INTERPRÉTATION} Les deux sources désignent la même personne. À confirmer."],
+  ["Entourage d'Arlak","Famille d'Arlak","{CANON} En vie jusqu'aux 16 ans d'Arlak dans la première vie (E-02).","**Entièrement à écrire** (Q-19)."],
+  ["Entourage d'Arlak","Camarades du dojo","Pour la plupart morts dans la première vie.","Qui sont-ils dans la seconde ?"],
+  ["Entourage d'Arlak","Recrue « le fougueux »","Ami d'Arlak ; très offensif, aucune défense.","Nom, origine."],
+  ["Entourage d'Arlak","Recrue « le talent latent »","Réputé dans la première vie d'Arlak ; encore faible.","Nom, genre, destin dans la première vie."],
+  ["Entourage de Korvan","Mère","Politicienne. {CANON} 1re vie : quitte la politique après la mort de son bébé ; 2de vie : reste et gêne la guilde (E-04).","Rang, influence."],
+  ["Entourage de Korvan","Père","Écrivain et historien ; réticent pour la petite sœur.","Apport de ses recherches à Korvan."],
+  ["Entourage de Korvan","Petite sœur","{CANON} Née dans les deux vies ; se forme auprès de Korvan dans la seconde.","Âge, nom, rôle à long terme."],
+  ["Entourage de Korvan","Disciples de Korvan","L'un d'eux fonde une secte qui vénère Korvan comme un dieu.","Quand Korvan a-t-il des disciples ?"],
   ["Académie","Le prince","Génie présomptueux ; se préserve à la 1re épreuve. {CANON} Meurt à 15 ans dans la 1re vie (E-01).","Rôle ultérieur."],
   ["Académie","Rivaux type 1 / type 2","Ouvertement hautains ; ou manipulateurs, tournés vers leurs bénéfices futurs.","Identités ; dosage (T-01)."],
-  ["Menace","Ennemi bien plus puissant","Rencontré assez tôt ; pousse les héros à progresser. {CANON} Membre de la guilde qui reconnaît le style de B (N-01).","Identité, nom."],
+  ["Menace","Ennemi bien plus puissant","Rencontré assez tôt ; pousse les héros à progresser. {CANON} Membre de la guilde qui reconnaît le style de Korvan (N-01).","Identité, nom."],
   ["Catastrophes","Commandant du fort, seigneur des réserves","Créés pour E-03 et E-05 ✱.","Noms."]
 ])}</div>`;
 
@@ -545,19 +545,19 @@ P.univers = () => `
     <div class="box">${ul([
       "Enfance : tous apprennent les mouvements de base, parade et riposte, pour être réquisitionnables.",
       "12 ans : initiation (méridiens, 1er cercle) par les émissaires de l'armée, ou en rejoignant un dojo {CONFLIT C-10}.",
-      "Pas avant 12 ans : l'initiation est éprouvante. Exception : A, à 8 ans.",
+      "Pas avant 12 ans : l'initiation est éprouvante. Exception : Arlak, à 8 ans.",
       "18 ans : 3 cercles complets, strict minimum pour l'armée."])}</div>
   </div>
 </div>
 
 <div class="grp"><h3>Cas particuliers</h3>
 ${table(["Cas","Règle"],[
-  ["Art souple de B","Les cercles grandissent ensemble. Un groupe de cercles coûte autant d'années que son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans)."],
+  ["Art souple de Korvan","Les cercles grandissent ensemble. Un groupe de cercles coûte autant d'années que son cercle le plus élevé, et les durées s'additionnent (3 + 5 + 1 année perdue + 7 = 16 ans, de 12 à 28 ans)."],
   ["Limite de l'art souple","{CANON} Taille jamais verrouillée, toujours perfectible ; nombre plafonné à 10."],
   ["Cercles 8 à 10","{CANON} Trop difficiles pour être cultivés ensemble : un par un, même avec l'art souple."],
-  ["Double noyau de A","{CANON} Un noyau de mana ambiant, un de mana de l'artefact, en miroir : ×2 mana, durées standard."],
-  ["Sommeil","{CANON} B cultivait en dormant dans sa première vie ; avantage non chiffré, perdu après sa résurrection."],
-  ["Échec d'ouverture","Peut coûter du mana accumulé (B perd 1 an de mana de son 5e cercle à 20 ans)."],
+  ["Double noyau d'Arlak","{CANON} Un noyau de mana ambiant, un de mana de l'artefact, en miroir : ×2 mana, durées standard."],
+  ["Sommeil","{CANON} Korvan cultivait en dormant dans sa première vie ; avantage non chiffré, perdu après sa résurrection."],
+  ["Échec d'ouverture","Peut coûter du mana accumulé (Korvan perd 1 an de mana de son 5e cercle à 20 ans)."],
   ["Mana de l'artefact","« Totalement différent » de celui des pratiquants ; peut interagir avec le temps."]
 ])}</div>
 
@@ -566,13 +566,13 @@ ${table(["Cas","Règle"],[
     <div class="box"><span class="eyebrow">Arts modernes</span>${ul([
       "Nés après le grand assaut : plus simples, plus rapides, la quantité plutôt que la qualité.",
       "Niveau convenable en 6 ans, puis progression très difficile et limitée. {MANQUANT} Pourquoi, si la durée reste linéaire ?"])}</div>
-    <div class="box"><span class="eyebrow">Art souple du dojo de B</span>${ul([
+    <div class="box"><span class="eyebrow">Art souple du dojo de Korvan</span>${ul([
       "Rapidité pure, agilité ; le mana contrôle la rigidité des os et réduit la masse du corps.",
       "Seul art à cercles souples : en ouvrir le plus possible dès le début.",
       "Très renommé, enseigné par un seul dojo ; aujourd'hui oublié (C-03).",
       "{CANON} « Toujours perfectible » est une réputation fausse : plafond au 10e cercle.",
       "Le rival a transmis à la guilde une version dérivée, moins efficace mais reconnaissable."])}</div>
-    <div class="box"><span class="eyebrow">Arts de A</span>${ul([
+    <div class="box"><span class="eyebrow">Arts d'Arlak</span>${ul([
       "Ancien : art « lambda » des dojos modestes, fondé sur la seule quantité de mana.",
       "Nouveau : version optimale d'un art jugé basique et inutilisable en combat ; coups renforcés, propulsés sans élan, corps protégé. Origine {MANQUANT} (Q-16)."])}</div>
   </div>
@@ -581,9 +581,9 @@ ${table(["Cas","Règle"],[
       "Matériaux chargeables en mana : gagner ou perdre de la masse, changer de forme, être manipulés à distance.",
       "Arme standard de fin d'études : **épée de mana de vitesse**, qui se propulse en consommant son mana.",
       "Les plus prometteurs obtiennent une arme sur mesure.",
-      "A : grosse épée / assommoir, lame rectangulaire remplie de mana liquide (images).",
-      "B : sphères métalliques à pointes en lévitation (images).",
-      "{MANQUANT} Quand et comment A et B obtiennent leurs armes."])}
+      "Arlak : grosse épée / assommoir, lame rectangulaire remplie de mana liquide (images).",
+      "Korvan : sphères métalliques à pointes en lévitation (images).",
+      "{MANQUANT} Quand et comment Arlak et Korvan obtiennent leurs armes."])}
       <div class="cols" style="grid-template-columns:repeat(3,1fr);gap:6px">${["assomoir de mana 1.png","sphères de mana 1.png","epee de mana 4.png"].map(n=>im(n)).join("")}</div>
     </div>
   </div>
@@ -594,22 +594,22 @@ ${table(["Cas","Règle"],[
   <div class="box"><span class="eyebrow">Fonction {CANON}</span>${ul([
     "Une seule : méditer dans une dimension vide, hors du temps, à l'abri, aussi longtemps qu'on veut ; on regagne son corps quelques secondes plus tard.",
     "Une âme à la fois.",
-    "Les inscriptions du temple (« immortalité », « protection ») sont imagées ; A les interprète mal.",
+    "Les inscriptions du temple (« immortalité », « protection ») sont imagées ; Arlak les interprète mal.",
     "Seule l'âme devient immortelle : on peut la développer à l'infini ; le corps reste mortel.",
     "{INTERPRÉTATION} Ce développement porte sur le savoir, pas sur les cercles (Q-24)."])}</div>
-  <div class="box"><span class="eyebrow">Activation par B (≈ −2000)</span>${ul([
+  <div class="box"><span class="eyebrow">Activation par Korvan (≈ −2000)</span>${ul([
     "Il étudie l'artefact du trésor du dojo, originaire d'un temple abandonné.",
     "Mortellement blessé, il y mélange son mana et se retrouve téléporté au temple.",
     "Il y meurt ; son âme est attirée dans le néant.",
     "Sans corps vivant, le temps ne se fige pas : son âme erre plus de 2000 ans."])}</div>
-  <div class="box"><span class="eyebrow">Activation par A (93 ans)</span>${ul([
-    "Elle mélange son mana à l'artefact, qui contient déjà celui de B.",
+  <div class="box"><span class="eyebrow">Activation par Arlak (93 ans)</span>${ul([
+    "Elle mélange son mana à l'artefact, qui contient déjà celui de Korvan.",
     "Non conçu pour deux âmes, il entre en surcharge et explose ; les deux âmes remontent le temps {CONFLIT C-06}.",
-    "A retrouve son corps de nourrisson ; B entre dans un bébé de la capitale mort à la naissance."])}</div>
+    "Arlak retrouve son corps de nourrisson ; Korvan entre dans un bébé de la capitale mort à la naissance."])}</div>
   <div class="box"><span class="eyebrow">Après l'explosion {CANON}</span>${ul([
     "L'artefact est brisé et ne fonctionne plus : sa réserve s'est vidée.",
-    "Ce mana est désormais en A (second noyau complet) et en B (« résidus »). Asymétrie {MANQUANT} (Q-05).",
-    "Les ossements de B sont au temple ; aucune âme n'erre dans le néant.",
+    "Ce mana est désormais en Arlak (second noyau complet) et en Korvan (« résidus »). Asymétrie {MANQUANT} (Q-05).",
+    "Les ossements de Korvan sont au temple ; aucune âme n'erre dans le néant.",
     "Apparence de l'artefact : cinq variantes, aucune choisie (Q-13)."])}
     <div class="cols" style="grid-template-columns:repeat(5,1fr);gap:4px">${["artefact.png","artefact 2.png","artefact 3.png","artefact 4.png","artefact 5.png"].map(n=>im(n)).join("")}</div>
   </div>
@@ -619,8 +619,8 @@ ${table(["Cas","Règle"],[
   <div class="grp"><h3>Histoire du monde</h3>
     <div class="box">${ul([
       "Le continent n'est qu'un territoire de monstres ; des humains y arrivent, fuyant la sécheresse de l'ancien continent.",
-      "Ils fondent des villes sûres ; les monstres attaquent sans stratégie. B vit à cette époque.",
-      "**Grand assaut** pendant l'enfermement de B : coordonné en secret par la guilde de l'ombre ; le dojo de B est presque anéanti, son art perdu ; le rival survit en rejoignant la guilde.",
+      "Ils fondent des villes sûres ; les monstres attaquent sans stratégie. Korvan vit à cette époque.",
+      "**Grand assaut** pendant l'enfermement de Korvan : coordonné en secret par la guilde de l'ombre ; le dojo de Korvan est presque anéanti, son art perdu ; le rival survit en rejoignant la guilde.",
       "Reconstruction : arts simplifiés, plus de soldats.",
       "Époque du récit : un pays, une capitale, un prince, une armée principale, une noblesse hautaine, une académie, des dojos, une vie politique.",
       "{MANQUANT} Régime, nom du pays, autres pays, menace des monstres à cette époque."])}</div>
@@ -628,11 +628,11 @@ ${table(["Cas","Règle"],[
   <div class="grp"><h3>Factions</h3>
     ${table(["Faction","Rôle"],[
       ["Guilde de l'ombre","Coordonne secrètement les monstres ; vise le contrôle de la population ; détient la technique dérivée ; s'infiltre dans le gouvernement. État actuel {MANQUANT} (Q-10)."],
-      ["Dojo de B (ancien)","Influent, défend contre les monstres ; maître à 9 cercles ; quasi anéanti."],
+      ["Dojo de Korvan (ancien)","Influent, défend contre les monstres ; maître à 9 cercles ; quasi anéanti."],
       ["Armée principale","Initie les enfants de 12 ans ; exige 3 cercles complets."],
       ["Académie de la capitale","Examen à 13 ans ; classe des élites ; ressources au mérite ; branche diplomatique."],
       ["Noblesse de la capitale","Hautaine ; dans le groupe 1 de l'examen, avec tous les candidats de la capitale {CANON}."],
-      ["Secte des disciples de B","Formée en secret par un disciple qui vénère B comme un dieu."]
+      ["Secte des disciples de Korvan","Formée en secret par un disciple qui vénère Korvan comme un dieu."]
     ])}
   </div>
 </div>
@@ -640,28 +640,28 @@ ${table(["Cas","Règle"],[
 <div class="grp"><h3>Lieux</h3><p class="small muted">Aucun lieu n'est nommé.</p>
 ${table(["Lieu","Ce qu'on sait","Manques"],[
   ["Ancien continent","Origine des humains ; ravagé par une sécheresse.","Nom."],
-  ["Le continent","Territoire initial des monstres ; envahi en grande partie dans la 1re vie de A.","Nom, géographie."],
-  ["Capitale","Académie, noblesse, prince ; naissance de B (2de vie) {CANON} ; prise par la guilde dans la 1re vie (E-07).","Nom."],
-  ["Village natal de A","Petit dojo de campagne ; isolé ; la capitale est la ville la plus proche, à **plusieurs jours de route** {CANON} (C-16).","Nom."],
-  ["Temple de l'artefact","Abandonné ; pièce centrale aux inscriptions en langues anciennes ; ossements de B.","Emplacement (Q-07) ; âge {CONFLIT C-08}."],
-  ["Dojo de B (ancien)","Possède un trésor qui contenait l'artefact.","Emplacement, ruines."],
-  ["Le néant","Dimension vide où l'on médite hors du temps ; l'âme de B y a erré.","Description sensorielle."]
+  ["Le continent","Territoire initial des monstres ; envahi en grande partie dans la 1re vie d'Arlak.","Nom, géographie."],
+  ["Capitale","Académie, noblesse, prince ; naissance de Korvan (2de vie) {CANON} ; prise par la guilde dans la 1re vie (E-07).","Nom."],
+  ["Village natal d'Arlak","Petit dojo de campagne ; isolé ; la capitale est la ville la plus proche, à **plusieurs jours de route** {CANON} (C-16).","Nom."],
+  ["Temple de l'artefact","Abandonné ; pièce centrale aux inscriptions en langues anciennes ; ossements de Korvan.","Emplacement (Q-07) ; âge {CONFLIT C-08}."],
+  ["Dojo de Korvan (ancien)","Possède un trésor qui contenait l'artefact.","Emplacement, ruines."],
+  ["Le néant","Dimension vide où l'on médite hors du temps ; l'âme de Korvan y a erré.","Description sensorielle."]
 ])}</div>`;
 
 const ev = (age, txt, cls="") => `<div class="ev si ${cls}"><div class="age">${esc(age)}</div><div class="dot"></div><div class="txt">${fmt(txt)}</div></div>`;
 P.chronologie = () => `
-<p class="lede">Référence : <b>an 0 = naissance de A</b>, dans les deux vies. A et B ont le même âge dans la seconde vie.</p>
+<p class="lede">Référence : <b>an 0 = naissance d'Arlak</b>, dans les deux vies. Arlak et Korvan ont le même âge dans la seconde vie.</p>
 <div class="legend nosearch"><span><i style="background:var(--mana)"></i>Moment clé</span><span><i style="background:var(--st-conflit)"></i>Catastrophe (1re vie)</span><span><i style="border:2px solid var(--ink-3)"></i>Événement</span></div>
 <div class="grid">
   <div class="era grp"><h3>Temps anciens</h3><div class="tl">
     ${ev("?","Sécheresse sur l'ancien continent ; migration vers le continent des monstres.")}
-    ${ev("≈ −2000","Naissance de B.")}
-    ${ev("+70 ans","Après 70 ans de cultivation (B a environ 80 ans) : B atteint 10 cercles ; trahison ; activation de l'artefact ; mort au temple. {CANON}","key")}
+    ${ev("≈ −2000","Naissance de Korvan.")}
+    ${ev("+70 ans","Après 70 ans de cultivation (Korvan a environ 80 ans) : Korvan atteint 10 cercles ; trahison ; activation de l'artefact ; mort au temple. {CANON}","key")}
     ${ev("ensuite","Grand assaut coordonné par la guilde ; chute du dojo ; le rival rejoint la guilde.","cat")}
     ${ev("ensuite","Reconstruction ; arts simplifiés.")}
   </div></div>
-  <div class="era grp"><h3>Première vie de A</h3><div class="tl">
-    ${ev("0","Naissance de A. Dans la capitale, un bébé meurt à la naissance (futur corps de B).")}
+  <div class="era grp"><h3>Première vie d'Arlak</h3><div class="tl">
+    ${ev("0","Naissance d'Arlak. Dans la capitale, un bébé meurt à la naissance (futur corps de Korvan).")}
     ${ev("?","Dojo du village ; bases médiocres ; jamais d'académie {CANON}.")}
     ${ev("15","E-01 Massacre de l'expédition de l'académie ; mort du prince.","cat")}
     ${ev("16","E-02 Nuit du village : mort de sa famille et de ses camarades.","cat")}
@@ -674,12 +674,12 @@ P.chronologie = () => `
     ${ev("93","Découverte du temple ; activation de l'artefact.","key")}
   </div></div>
   <div class="era grp"><h3>Seconde vie</h3><div class="tl">
-    ${ev("0","Retour de A ; réincarnation de B.","key")}
-    ${ev("0–12","B apprend la langue, les coutumes, le monde martial ; il cache sa cultivation.")}
-    ${ev("8","A ouvre son premier cercle en secret.")}
-    ${ev("9","A comprend qu'elle a deux noyaux.")}
-    ${ev("12","Ni A ni B ne rejoignent de dojo ; B ouvre 3 cercles d'un coup.")}
-    ${ev("13","Examen de l'académie : rencontre de A et B.","key")}
+    ${ev("0","Retour d'Arlak ; réincarnation de Korvan.","key")}
+    ${ev("0–12","Korvan apprend la langue, les coutumes, le monde martial ; il cache sa cultivation.")}
+    ${ev("8","Arlak ouvre son premier cercle en secret.")}
+    ${ev("9","Arlak comprend qu'elle a deux noyaux.")}
+    ${ev("12","Ni Arlak ni Korvan ne rejoignent de dojo ; Korvan ouvre 3 cercles d'un coup.")}
+    ${ev("13","Examen de l'académie : rencontre d'Arlak et Korvan.","key")}
     ${ev("?","Expédition de groupe vers le temple (arc 5). {MANQUANT}")}
     ${ev("?","Rencontre d'un ennemi bien plus puissant, « assez tôt » (N-01). {MANQUANT}")}
     ${ev("28–29","Fin de la timeline source ; le récit continue au-delà {CANON}.")}
@@ -688,7 +688,7 @@ P.chronologie = () => `
 
 <div class="grp"><h3>Progression de cultivation (seconde vie)</h3>
 <p class="small muted">${fmt("Les cases marquées † sont des calculs {INTERPRÉTATION} tirés des règles. Courbes détaillées : courbes_A_B.html (dossier 03_CHRONOLOGIE).")}</p>
-${table(["Âge","A (double noyau, ×2 mana)","B (art souple)","Enfant standard"],[
+${table(["Âge","Arlak (double noyau, ×2 mana)","Korvan (art souple)","Enfant standard"],[
   {c:["8","Ouvre le 1er cercle","—","—"]},
   {c:["9","1er complet ; ouvre le 2e","—","—"]},
   {c:["11","2e complet ; ouvre le 3e","—","—"]},
@@ -704,66 +704,66 @@ ${table(["Âge","A (double noyau, ×2 mana)","B (art souple)","Enfant standard"]
   {c:["29","6 complets","—","—"]}
 ].map(r=>({...r,_td:[null,"A","B",null]})),"cult")}
 <div class="grid">
-  <div class="box si"><span class="eyebrow">Puissance (rang)</span><p class="small">A mène jusqu'à 14 ans ; B a 1 rang d'avance de 15 à 17 ans ; égalité de 18 à 20 ; B a 2 rangs d'avance à 21–22 et 28 ans, 1 rang le reste du temps ; égalité à 44 ans, puis définitivement dès 53 ans (si B plafonne au 10e cercle).</p></div>
-  <div class="box si"><span class="eyebrow">Endurance {CANON}</span><p class="small">A a toujours plus de mana que B, environ deux fois plus.</p></div>
-  <div class="box si"><span class="eyebrow">À l'examen {INTERPRÉTATION}</span><p class="small">A et B sont au même rang (3), mais A a quatre fois plus de réserve à ce rang ; B doit lutter pour ne pas être ridiculisé.</p></div>
+  <div class="box si"><span class="eyebrow">Puissance (rang)</span><p class="small">Arlak mène jusqu'à 14 ans ; Korvan a 1 rang d'avance de 15 à 17 ans ; égalité de 18 à 20 ; Korvan a 2 rangs d'avance à 21–22 et 28 ans, 1 rang le reste du temps ; égalité à 44 ans, puis définitivement dès 53 ans (si Korvan plafonne au 10e cercle).</p></div>
+  <div class="box si"><span class="eyebrow">Endurance {CANON}</span><p class="small">Arlak a toujours plus de mana que Korvan, environ deux fois plus.</p></div>
+  <div class="box si"><span class="eyebrow">À l'examen {INTERPRÉTATION}</span><p class="small">Arlak et Korvan sont au même rang (3), mais Arlak a quatre fois plus de réserve à ce rang ; Korvan doit lutter pour ne pas être ridiculisé.</p></div>
 </div></div>
 
 <div class="grp"><h3>Divergences entre les deux lignes temporelles</h3>
 ${table(["Élément","Première vie","Seconde vie"],[
-  ["Bébé de la capitale","Mort à la naissance","Habité par B"],
-  ["Petite sœur de B","{CANON} Née ; {INTERPRÉTATION} pas d'arts martiaux","Née ; se forme auprès de B"],
-  ["Mère de B","Quitte la politique ; un allié de la guilde la remplace","Reste ; gêne la guilde sans le savoir {CANON}"],
-  ["L'artefact","Explose lors de l'activation","Brisé ; sa réserve est en A et en B {CANON}"],
-  ["Prédictions de A","Événements vécus","Moins fiables à cause de B"]
+  ["Bébé de la capitale","Mort à la naissance","Habité par Korvan"],
+  ["Petite sœur de Korvan","{CANON} Née ; {INTERPRÉTATION} pas d'arts martiaux","Née ; se forme auprès de Korvan"],
+  ["Mère de Korvan","Quitte la politique ; un allié de la guilde la remplace","Reste ; gêne la guilde sans le savoir {CANON}"],
+  ["L'artefact","Explose lors de l'activation","Brisé ; sa réserve est en Arlak et en Korvan {CANON}"],
+  ["Prédictions d'Arlak","Événements vécus","Moins fiables à cause de Korvan"]
 ])}</div>`;
 
 const CATS = [
   ["E-01","15","Le massacre de l'expédition","Assassinat déguisé · académie, succession",
    "Un groupe de la classe des élites est massacré lors d'une expédition officielle ; le prince meurt ✱. Version officielle : des monstres.",
    "La guilde élimine le prince, trop indépendant, pour un héritier plus malléable ✱ : premier pas de l'infiltration.",
-   "A connaît la date et peut s'en servir pour couvrir sa propre expédition vers le temple. Sauver le prince l'oblige à s'exposer.",
-   "Le prince survit ; la voie d'infiltration connue se ferme ; la guilde en cherche une autre, inconnue de A. Si B est là, A ne sait plus à qui revient le mérite."],
+   "Arlak connaît la date et peut s'en servir pour couvrir sa propre expédition vers le temple. Sauver le prince l'oblige à s'exposer.",
+   "Le prince survit ; la voie d'infiltration connue se ferme ; la guilde en cherche une autre, inconnue d'Arlak. Si Korvan est là, Arlak ne sait plus à qui revient le mérite."],
   ["E-02","16","La nuit du village","Attaque ciblée · intime",
-   "Une attaque de monstres inhabituellement organisée ravage le village ; les parents et la plupart des camarades de A meurent. On parle d'une mauvaise récolte.",
+   "Une attaque de monstres inhabituellement organisée ravage le village ; les parents et la plupart des camarades d'Arlak meurent. On parle d'une mauvaise récolte.",
    "La guilde y teste sa méthode de contrôle des monstres sur une cible isolée, loin de la capitale ✱.",
-   "A est à l'académie, à plusieurs jours de route : partir sans autorisation, se faire accompagner (B ?), ou prévenir sans être crue. Moment charnière avant une ellipse (P-04).",
+   "Arlak est à l'académie, à plusieurs jours de route : partir sans autorisation, se faire accompagner (Korvan ?), ou prévenir sans être crue. Moment charnière avant une ellipse (P-04).",
    "Sa famille vit : elle doit connaître des gens pleurés pendant 77 ans. Le test est refait ailleurs, dans un village qu'elle ne connaît pas : sauver les siens a coûté la vie à d'autres."],
   ["E-03","19","La chute du fort","Trahison militaire · régionale",
    "Un fort de la frontière tombe en une nuit ; le commandant avait ouvert les portes ✱.",
    "La guilde détenait sa famille ✱. Personnage gris (P-06).",
    "Il faut sauver sa famille pour qu'il cesse d'obéir ; il change alors de camp (P-05) et devient une source sur la guilde.",
-   "Le fort tient, mais la guilde comprend que quelqu'un connaît ses plans : A devient une cible sans le savoir."],
+   "Le fort tient, mais la guilde comprend que quelqu'un connaît ses plans : Arlak devient une cible sans le savoir."],
   ["E-04","22","La loi d'unification","Politique · nationale",
    "Une loi centralise la formation martiale sous l'autorité de l'armée ; elle passe presque sans opposition ✱.",
    "Portée par des élus proches de la guilde ✱ ; elle prépare E-06.",
-   "La mère de B, restée en politique grâce à son existence, s'y oppose sans savoir ce qu'il y a derrière.",
-   "Aucun héros ne le voit, mais la guilde le remarque : la famille de B devient une cible à cause de l'existence même de B."],
+   "La mère de Korvan, restée en politique grâce à son existence, s'y oppose sans savoir ce qu'il y a derrière.",
+   "Aucun héros ne le voit, mais la guilde le remarque : la famille de Korvan devient une cible à cause de l'existence même de Korvan."],
   ["E-05","26","L'année sèche","Famine, sabotage · nationale",
    "Une sécheresse et le sabotage de canaux anciens provoquent une famine ✱ ; émeutes, loi martiale, pleins pouvoirs dont profite la guilde.",
    "Écho : les humains ont fui l'ancien continent à cause d'une sécheresse.",
-   "La force ne sert à rien : A doit utiliser son savoir d'érudite (anciens réservoirs, langues anciennes). Le père historien de B peut aider.",
+   "La force ne sert à rien : Arlak doit utiliser son savoir d'érudite (anciens réservoirs, langues anciennes). Le père historien de Korvan peut aider.",
    "La famine est limitée, mais le seigneur qui contrôle les réserves retrouvées gagne une grande influence (rival de type 2)."],
   ["E-06","30","La fermeture des dojos","Répression · nationale",
-   "Grâce à la loi de E-04, les dojos indépendants sont fermés ou absorbés ✱ ; le savoir non officiel se perd ; le dojo de A disparaît.",
-   "Écho : il y a 2000 ans, l'art de B s'est perdu avec son dojo. Seul B peut voir que l'histoire se répète.",
-   "Menace directe pour la secte des disciples de B et tout enseignement hors système.",
-   "Force A et B à choisir entre la légalité et la survie de leurs méthodes."],
+   "Grâce à la loi de E-04, les dojos indépendants sont fermés ou absorbés ✱ ; le savoir non officiel se perd ; le dojo d'Arlak disparaît.",
+   "Écho : il y a 2000 ans, l'art de Korvan s'est perdu avec son dojo. Seul Korvan peut voir que l'histoire se répète.",
+   "Menace directe pour la secte des disciples de Korvan et tout enseignement hors système.",
+   "Force Arlak et Korvan à choisir entre la légalité et la survie de leurs méthodes."],
   ["E-07","35–38","La chute de la capitale","Infiltration et assaut final · civilisationnelle",
    "La guilde, infiltrée au gouvernement, affaiblit les défenses de l'intérieur et lance un ultime assaut des monstres les plus dangereux. [lore.md:41]",
    "Assaut unique, préparé de longue date, pas une marée (P-10).",
-   "Climax du récit ou de sa grande première partie. Après les dérives, le savoir de A est presque caduc.",
-   "B reconnaît chez les élites de la guilde la version dérivée de son art et comprend la trahison de son rival. À cet âge : B 7–8 cercles, A 6–7."]
+   "Climax du récit ou de sa grande première partie. Après les dérives, le savoir d'Arlak est presque caduc.",
+   "Korvan reconnaît chez les élites de la guilde la version dérivée de son art et comprend la trahison de son rival. À cet âge : Korvan 7–8 cercles, Arlak 6–7."]
 ];
 P.catastrophes = () => `
-<p class="lede">${fmt("Structure {CANON} validée le 2026-11-09. Âges de A dans sa première vie. Détail des scènes, noms et dates précises à développer.")}</p>
+<p class="lede">${fmt("Structure {CANON} validée le 2026-11-09. Âges d'Arlak dans sa première vie. Détail des scènes, noms et dates précises à développer.")}</p>
 <div class="grp"><h3>Principes de conception</h3>
 <div class="grid">
-  <div class="box si"><span class="eyebrow">PC-1</span><p><b>Le savoir de A est partiel.</b> Elle connaît la version officielle, complétée par ses recherches tardives. Certaines prédictions sont fausses dès le départ.</p></div>
-  <div class="box si"><span class="eyebrow">PC-2</span><p><b>Règle de dérive.</b> Plus un événement est lointain, et proche de B ou de la capitale, moins la prédiction est fiable.</p>
+  <div class="box si"><span class="eyebrow">PC-1</span><p><b>Le savoir d'Arlak est partiel.</b> Elle connaît la version officielle, complétée par ses recherches tardives. Certaines prédictions sont fausses dès le départ.</p></div>
+  <div class="box si"><span class="eyebrow">PC-2</span><p><b>Règle de dérive.</b> Plus un événement est lointain, et proche de Korvan ou de la capitale, moins la prédiction est fiable.</p>
     <div class="drift"><div><b>Avant 15 ans</b><span class="muted">Très bonne (loin de la capitale)</span></div><div><b>15–25 ans</b><span class="muted">Bonne pour les faits, incertaine pour dates et acteurs</span></div><div><b>Au-delà de 25 ans</b><span class="muted">Faible</span></div></div></div>
   <div class="box si"><span class="eyebrow">PC-3</span><p><b>Chaque résolution a un prix.</b> Empêcher une catastrophe la déplace, la retarde ou en crée une autre.</p></div>
-  <div class="box si"><span class="eyebrow">PC-4</span><p><b>Trois types d'effets papillons :</b> provoqués par A (conscients), par les actes de B (A les constate sans comprendre), par la simple existence de B (personne ne s'en rend compte).</p></div>
+  <div class="box si"><span class="eyebrow">PC-4</span><p><b>Trois types d'effets papillons :</b> provoqués par Arlak (conscients), par les actes de Korvan (Arlak les constate sans comprendre), par la simple existence de Korvan (personne ne s'en rend compte).</p></div>
   <div class="box si"><span class="eyebrow">PC-5</span><p><b>Pas de marées (P-10).</b> Les monstres sont un outil ponctuel et ciblé de la guilde. La plupart des catastrophes sont politiques, sociales ou intimes.</p></div>
   <div class="box si"><span class="eyebrow">PC-6</span><p><b>Varier les menaces</b>, pour que la force ne suffise pas toujours et que l'érudite serve.</p></div>
 </div></div>
@@ -772,7 +772,7 @@ P.catastrophes = () => `
 <div class="grid wide">${CATS.map(c=>`
   <div class="box cat-card si">
     <h3><span class="id">${c[0]}</span>${esc(c[2])}</h3>
-    <div><span class="age">A : ${c[1]} ans</span> · <span class="small muted">${esc(c[3])}</span></div>
+    <div><span class="age">Arlak : ${c[1]} ans</span> · <span class="small muted">${esc(c[3])}</span></div>
     <div class="layers">
       <div><span class="eyebrow">Première vie</span><p>${fmt(c[4])}</p></div>
       <div><span class="eyebrow">Vérité cachée</span><p>${fmt(c[5])}</p></div>
@@ -780,52 +780,52 @@ P.catastrophes = () => `
       <div><span class="eyebrow">Effets papillons</span><p>${fmt(c[7])}</p></div>
     </div>
   </div>`).join("")}
-  <div class="box si"><h3><span class="id">—</span>Le long déclin</h3><div><span class="age" style="color:var(--ink-3)">A : 38–93 ans</span></div><p class="small">Pas un événement à prévenir : le monde « corrompu » que A a connu. Il nourrit ses flashbacks (I-01) et mesure ce qu'elle cherche à éviter.</p></div>
+  <div class="box si"><h3><span class="id">—</span>Le long déclin</h3><div><span class="age" style="color:var(--ink-3)">Arlak : 38–93 ans</span></div><p class="small">Pas un événement à prévenir : le monde « corrompu » qu'Arlak a connu. Il nourrit ses flashbacks (I-01) et mesure ce qu'elle cherche à éviter.</p></div>
 </div></div>
 
-<div class="grp"><h3>Événements nouveaux (dus à B)</h3>
-${table(["ID","Événement","Origine","Effet sur A"],[
-  ["N-01","Ennemi bien plus puissant rencontré tôt ✱ : un membre de la guilde reconnaît dans le style de B l'original de la technique dérivée, et le traque.","Existence de B","Un danger qu'elle n'a jamais connu, sans comprendre pourquoi."],
-  ["N-02","La secte des disciples de B.","Actes de B","Une faction hors de toute prédiction."],
-  ["N-03","La petite sœur de B se tourne vers les arts martiaux {CANON}.","Actes de B","{INTERPRÉTATION} A ne la connaît probablement pas."],
-  ["N-04","Les écarts de l'examen et de l'académie.","Actes de B","Premières anomalies : point de départ de ses doutes (P-11)."]
+<div class="grp"><h3>Événements nouveaux (dus à Korvan)</h3>
+${table(["ID","Événement","Origine","Effet sur Arlak"],[
+  ["N-01","Ennemi bien plus puissant rencontré tôt ✱ : un membre de la guilde reconnaît dans le style de Korvan l'original de la technique dérivée, et le traque.","Existence de Korvan","Un danger qu'elle n'a jamais connu, sans comprendre pourquoi."],
+  ["N-02","La secte des disciples de Korvan.","Actes de Korvan","Une faction hors de toute prédiction."],
+  ["N-03","La petite sœur de Korvan se tourne vers les arts martiaux {CANON}.","Actes de Korvan","{INTERPRÉTATION} Arlak ne la connaît probablement pas."],
+  ["N-04","Les écarts de l'examen et de l'académie.","Actes de Korvan","Premières anomalies : point de départ de ses doutes (P-11)."]
 ])}</div>`;
 
 P.recit = () => `
-<div class="grp"><h3>Les cinq arcs écrits</h3><p class="small muted">Ordre : prologue de B, prologue de A, puis arcs 3 à 5. Rien n'est écrit après l'expédition.</p>
+<div class="grp"><h3>Les cinq arcs écrits</h3><p class="small muted">Ordre : prologue de Korvan, prologue d'Arlak, puis arcs 3 à 5. Rien n'est écrit après l'expédition.</p>
 <div class="grid">
-  <div class="box si"><span class="eyebrow">Arc 1 · passé de B</span><p class="small"><b>Fonction :</b> origine de B, du mana de l'artefact et de la trahison ; exposition du mana.</p>${ul(["Génie du dojo, 10 cercles en 70 ans ; désigné successeur.","Bloqué au 10e cercle ; le maître fait éliminer B par un rival.","Artefact, téléportation au temple, mort, âme dans le néant."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 2 · première vie de A</span><p class="small"><b>Fonction :</b> origine de A, futur catastrophique, mécanisme du retour ; exposition des arts martiaux.</p>${ul(["A, 93 ans, art basique, bloquée ; a tout perdu.","Érudite, exploratrice, langues anciennes.","Temple, ossements, inscriptions ; explosion de l'artefact ; retour à sa naissance."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks. Ouvert : C-06, C-08, C-12.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 3 · enfances (0–12 ans)</span><p class="small"><b>Fonction :</b> présenter le monde (via B) et les noyaux (via A).</p>${ul(["B : réveil, apprentissage, disparition de son art, famille aimante, cultivation cachée.","A : décision, 1er cercle à 8 ans, double noyau, objectif élite.","{MANQUANT} Famille et vie de A au village ; premiers drames avant 13 ans."])}<p class="small muted">Ouvert : C-10, C-11.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 4 · examen (13 ans)</span><p class="small"><b>Fonction :</b> rencontre de A et B ; face à l'élite.</p>${ul(["Groupe 1 : la capitale (B, le prince) ; groupe 2 : les villages (A).","A domine son groupe ; B et le prince se préservent.","40 % du groupe 1 et 5 % du groupe 2 passent la 2e épreuve.","A découvre que B lui tient tête.","{MANQUANT} Nature des épreuves, résultats, réaction de la gemme au double noyau."])}<p class="small muted">Ouvert : T-01.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 5 · expédition</span><p class="small"><b>Fonction :</b> former l'équipe ; retour au temple.</p>${ul(["A recrute le fougueux et le talent latent ; s'autoproclame cheffe.","B se joint au groupe : il a aussi quelque chose à chercher.","Tous deux veulent fouiller le temple en secret.","{CANON} Le temple sème les soupçons de A (réaction de B devant les ossements), sans rien révéler.","{MANQUANT} Âge, cadre, découvertes."])}</div>
-  <div class="box si"><span class="eyebrow">Au-delà</span>${ul(["{CANON} **Partie 1** (0 à 35–38 ans) : climax E-07, la chute de la capitale déjouée ; aboutissement de A.","{CANON} **Partie 2** (au-delà de 38 ans) : futur inconnu de A ; B dépasse le 10e cercle ; affrontement final contre la guilde à sa racine.","{CANON} Révélation : A soupçonne d'abord (« cœur de mana », temple), puis B (prédictions, second noyau) ; aveu mutuel vers 22–26 ans (PC-2).","{MANQUANT} Contenu de la partie 2, ton de la fin, adversaire final (Q-14)."])}</div>
+  <div class="box si"><span class="eyebrow">Arc 1 · passé de Korvan</span><p class="small"><b>Fonction :</b> origine de Korvan, du mana de l'artefact et de la trahison ; exposition du mana.</p>${ul(["Génie du dojo, 10 cercles en 70 ans ; désigné successeur.","Bloqué au 10e cercle ; le maître fait éliminer Korvan par un rival.","Artefact, téléportation au temple, mort, âme dans le néant."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 2 · première vie d'Arlak</span><p class="small"><b>Fonction :</b> origine d'Arlak, futur catastrophique, mécanisme du retour ; exposition des arts martiaux.</p>${ul(["Arlak, 93 ans, art basique, bloquée ; a tout perdu.","Érudite, exploratrice, langues anciennes.","Temple, ossements, inscriptions ; explosion de l'artefact ; retour à sa naissance."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks. Ouvert : C-06, C-08, C-12.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 3 · enfances (0–12 ans)</span><p class="small"><b>Fonction :</b> présenter le monde (via Korvan) et les noyaux (via Arlak).</p>${ul(["Korvan : réveil, apprentissage, disparition de son art, famille aimante, cultivation cachée.","Arlak : décision, 1er cercle à 8 ans, double noyau, objectif élite.","{MANQUANT} Famille et vie d'Arlak au village ; premiers drames avant 13 ans."])}<p class="small muted">Ouvert : C-10, C-11.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 4 · examen (13 ans)</span><p class="small"><b>Fonction :</b> rencontre d'Arlak et Korvan ; face à l'élite.</p>${ul(["Groupe 1 : la capitale (Korvan, le prince) ; groupe 2 : les villages (Arlak).","Arlak domine son groupe ; Korvan et le prince se préservent.","40 % du groupe 1 et 5 % du groupe 2 passent la 2e épreuve.","Arlak découvre que Korvan lui tient tête.","{MANQUANT} Nature des épreuves, résultats, réaction de la gemme au double noyau."])}<p class="small muted">Ouvert : T-01.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 5 · expédition</span><p class="small"><b>Fonction :</b> former l'équipe ; retour au temple.</p>${ul(["Arlak recrute le fougueux et le talent latent ; s'autoproclame cheffe.","Korvan se joint au groupe : il a aussi quelque chose à chercher.","Tous deux veulent fouiller le temple en secret.","{CANON} Le temple sème les soupçons d'Arlak (réaction de Korvan devant les ossements), sans rien révéler.","{MANQUANT} Âge, cadre, découvertes."])}</div>
+  <div class="box si"><span class="eyebrow">Au-delà</span>${ul(["{CANON} **Partie 1** (0 à 35–38 ans) : climax E-07, la chute de la capitale déjouée ; aboutissement d'Arlak.","{CANON} **Partie 2** (au-delà de 38 ans) : futur inconnu d'Arlak ; Korvan dépasse le 10e cercle ; affrontement final contre la guilde à sa racine.","{CANON} Révélation : Arlak soupçonne d'abord (« cœur de mana », temple), puis Korvan (prédictions, second noyau) ; aveu mutuel vers 22–26 ans (PC-2).","{MANQUANT} Contenu de la partie 2, ton de la fin, adversaire final (Q-14)."])}</div>
 </div></div>
 
 <div class="grid wide">
   <div class="grp"><h3>Principes narratifs</h3>
   ${table(["#","Principe"],[
-    ["P-01","A est une fille, revenue au moment de sa naissance."],
-    ["P-02","B est un garçon, réincarné loin dans le futur."],
+    ["P-01","Arlak est une fille, revenue au moment de sa naissance."],
+    ["P-02","Korvan est un garçon, réincarné loin dans le futur."],
     ["P-03","**Pas d'histoire d'amour entre les héros.**"],
     ["P-04","Des sujets forts avant les ellipses, pour montrer l'évolution des héros."],
     ["P-05","Comportements réalistes ; revirements de camp logiques."],
     ["P-06","Un minimum de personnages ouvertement mauvais ou bons."],
     ["P-07","« Pas trop copier Todag. »"],
     ["P-08","Chacun ignore la réincarnation de l'autre et s'étonne de son talent."],
-    ["P-09","{CANON} Les chiffres servent la cohérence, pas le récit : A frappe fort, encaisse, tient ; B est subtil, frappe très fort mais moins longtemps."],
+    ["P-09","{CANON} Les chiffres servent la cohérence, pas le récit : Arlak frappe fort, encaisse, tient ; Korvan est subtil, frappe très fort mais moins longtemps."],
     ["P-10","{CANON} Pas de « marées de monstres » (trop proche de Tales of Demons and Gods)."],
     ["P-11","{CANON} Ils apprennent la vérité l'un sur l'autre au cours du récit, après de longs doutes."]
   ])}</div>
   <div class="grp"><h3>Choix d'écriture</h3>
     <div class="box">${ul([
       "{CANON} Format : **web novel**.",
-      "{CANON} Point de vue alterné entre A et B, à la **1re personne**.",
-      "{CANON} Alternance **par chapitre**, nom du narrateur en tête.","{CANON} Scènes communes à la 1re personne ; scènes miroirs pour quelques moments clés.","{CANON} **Présent** pour la seconde vie, **passé** pour la première.","{CANON} Chapitres de **2 500 à 3 500 mots**.","{CANON} Ouverture : deux prologues courts (B, puis A), puis flashbacks.",
+      "{CANON} Point de vue alterné entre Arlak et Korvan, à la **1re personne**.",
+      "{CANON} Alternance **par chapitre**, nom du narrateur en tête.","{CANON} Scènes communes à la 1re personne ; scènes miroirs pour quelques moments clés.","{CANON} **Présent** pour la seconde vie, **passé** pour la première.","{CANON} Chapitres de **2 500 à 3 500 mots**.","{CANON} Ouverture : deux prologues courts (Korvan, puis Arlak), puis flashbacks.",
       "{CANON} Ellipses entre des moments charnières longuement développés.",
       "{CANON} Ironie dramatique assumée : le lecteur connaît dès le début le secret de chacun.",
       "{CANON} Inspirations : Tales of Demons and Gods, The Beginning After the End.",
-      "{CANON} Flashbacks au **passé composé**.","{CANON} Registre : A assurée, précise, ironique ; B mesuré, tournures anciennes (« cœur de mana »).","{CANON} Prologues au **passé composé** également."])}</div>
+      "{CANON} Flashbacks au **passé composé**.","{CANON} Registre : Arlak assurée, précise, ironique ; Korvan mesuré, tournures anciennes (« cœur de mana »).","{CANON} Prologues au **passé composé** également."])}</div>
     <div class="box"><span class="eyebrow">Tensions</span>${ul([
       "**T-01** P-06 face aux rivaux « détestables » et aux nobles hautains : question de dosage.",
       "**T-03** Placer les ellipses dans les creux : 0–8 ans, 13–?, au-delà de 28 ans."])}</div>
@@ -834,61 +834,61 @@ P.recit = () => `
 
 <div class="grp"><h3>Idées non placées</h3>
 ${table(["ID","Idée","Placement possible"],[
-  ["I-01","Flashbacks de A pour présenter des personnages pas encore rencontrés.","Arc 5 (talent latent), puis au fil du récit."],
+  ["I-01","Flashbacks d'Arlak pour présenter des personnages pas encore rencontrés.","Arc 5 (talent latent), puis au fil du récit."],
   ["I-02","Deux types de rivaux : hautains, ou manipulateurs et intelligents.","Dès l'arc 4."],
-  ["I-03","La petite sœur de B, qu'il entraîne malgré son père.","Arc 3 ou plus tard."],
+  ["I-03","La petite sœur de Korvan, qu'il entraîne malgré son père.","Arc 3 ou plus tard."],
   ["I-04","Ennemi bien plus puissant rencontré tôt (N-01).","« Assez tôt »."],
-  ["I-05","B progresse d'un coup ; A, jalouse, veut réduire l'écart.","Non déterminé."],
-  ["I-06","Secte des disciples de B ; A veut la contrôler (motif : Q-17).","Non déterminé."],
-  ["I-07","Coopérer pour déjouer les drames « prédits », rendus moins fiables par B.","Fil rouge."]
+  ["I-05","Korvan progresse d'un coup ; Arlak, jalouse, veut réduire l'écart.","Non déterminé."],
+  ["I-06","Secte des disciples de Korvan ; Arlak veut la contrôler (motif : Q-17).","Non déterminé."],
+  ["I-07","Coopérer pour déjouer les drames « prédits », rendus moins fiables par Korvan.","Fil rouge."]
 ])}
 <div class="box"><span class="eyebrow">Moments forts déjà présents</span>${ul([
   "Le bébé qui ne respirait plus revient à la vie devant ses parents et l'infirmière.",
-  "A découvre à 9 ans que son second noyau est fait du mana de l'artefact.",
-  "B découvre que son art a disparu de l'histoire.",
-  "1re épreuve de l'examen : A écrase son groupe pendant que B et le prince se retiennent.",
-  "B rate l'ouverture de ses 6e et 7e cercles et perd un an de mana.",
-  "A et B découvrent qu'ils visent tous deux le temple."])}</div>
+  "Arlak découvre à 9 ans que son second noyau est fait du mana de l'artefact.",
+  "Korvan découvre que son art a disparu de l'histoire.",
+  "1re épreuve de l'examen : Arlak écrase son groupe pendant que Korvan et le prince se retiennent.",
+  "Korvan rate l'ouverture de ses 6e et 7e cercles et perd un an de mana.",
+  "Arlak et Korvan découvrent qu'ils visent tous deux le temple."])}</div>
 <div class="box"><span class="eyebrow">Pistes {PROPOSITION}</span>${ul([
-  "{PROPOSITION} La gemme d'évaluation face au double noyau de A, à l'examen.",
-  "{PROPOSITION} Le père historien de B : source d'informations, ou risque pour son secret.",
-  "{PROPOSITION} Au temple, B face à son propre squelette, que A a déjà vu dans sa première vie."])}</div>
+  "{PROPOSITION} La gemme d'évaluation face au double noyau d'Arlak, à l'examen.",
+  "{PROPOSITION} Le père historien de Korvan : source d'informations, ou risque pour son secret.",
+  "{PROPOSITION} Au temple, Korvan face à son propre squelette, qu'Arlak a déjà vu dans sa première vie."])}</div>
 </div>`;
 
 const CONTRA = [
-  ["C-01","Vitesse de cultivation de A","Haute","Résolu","Deux noyaux en miroir : deux fois plus de mana, durées standard. Éviter « plus vite »."],
-  ["C-02","Progression de B dans sa première vie","Haute","Résolu","10 cercles en 70 ans ; cercles 8 à 10 un par un ; sommeil non chiffré ; la cultivation allonge la vie."],
-  ["C-03","Art de B : « très répandu » ou « seul » et perdu","Moyenne","Résolu","« Très répandu » = « très renommé » : un seul dojo, célèbre ; source à reformuler (S-14)."],
-  ["C-04","Moment où B trouve comment dépasser sa limite","Moyenne","Résolu","Une théorie avant l'artefact (la limite tient à la nature du mana) ; il trouve ce mana dans l'artefact, puis il est trahi ; le néant sert à la valider."],
+  ["C-01","Vitesse de cultivation d'Arlak","Haute","Résolu","Deux noyaux en miroir : deux fois plus de mana, durées standard. Éviter « plus vite »."],
+  ["C-02","Progression de Korvan dans sa première vie","Haute","Résolu","10 cercles en 70 ans ; cercles 8 à 10 un par un ; sommeil non chiffré ; la cultivation allonge la vie."],
+  ["C-03","Art de Korvan : « très répandu » ou « seul » et perdu","Moyenne","Résolu","« Très répandu » = « très renommé » : un seul dojo, célèbre ; source à reformuler (S-14)."],
+  ["C-04","Moment où Korvan trouve comment dépasser sa limite","Moyenne","Résolu","Une théorie avant l'artefact (la limite tient à la nature du mana) ; il trouve ce mana dans l'artefact, puis il est trahi ; le néant sert à la valider."],
   ["C-05","Fonction de l'artefact","Moyenne","Résolu","Une seule fonction (méditation hors du temps) ; inscriptions imagées ; seule l'âme est immortelle."],
-  ["C-06","Mécanisme du retour dans le temps","Faible","Ouvert","Retour vers l'entrée de l'âme de B, bloqué à la naissance de A [lore.md:27] ; ou remontée jusqu'au « point de départ » de A [arc 2.md:11]. Compatibles.",["Fusionner les deux explications.","Ne garder que [arc 2.md:11].","Révéler en deux temps : compréhension de A (arc 2), vraie mécanique au temple (arc 5)."]],
-  ["C-07","Lieu de naissance et statut social de B","Moyenne","Résolu","La ville voisine est la capitale ; le groupe 1 réunit tous les candidats de la capitale."],
-  ["C-08","Âge du temple","Faible","Ouvert","« Environ 2000 ans » [arc 2.md:9], mais déjà abandonné quand B y arrive.",["« Plus de 2000 ans ».","Estimation de A, fondée sur les ossements.","Temple bien plus ancien ; 2000 ans est l'âge des ossements."]],
-  ["C-09","Ancienneté de B : 2000 ans ou « plusieurs milliers »","Faible","Ouvert","Calcul : l'errance dure environ 2010 ans.",["Harmoniser à « environ 2000 ans ».","Allonger réellement la durée.","« Plusieurs millénaires » est le ressenti de B."]],
+  ["C-06","Mécanisme du retour dans le temps","Faible","Ouvert","Retour vers l'entrée de l'âme de Korvan, bloqué à la naissance d'Arlak [lore.md:27] ; ou remontée jusqu'au « point de départ » d'Arlak [arc 2.md:11]. Compatibles.",["Fusionner les deux explications.","Ne garder que [arc 2.md:11].","Révéler en deux temps : compréhension d'Arlak (arc 2), vraie mécanique au temple (arc 5)."]],
+  ["C-07","Lieu de naissance et statut social de Korvan","Moyenne","Résolu","La ville voisine est la capitale ; le groupe 1 réunit tous les candidats de la capitale."],
+  ["C-08","Âge du temple","Faible","Ouvert","« Environ 2000 ans » [arc 2.md:9], mais déjà abandonné quand Korvan y arrive.",["« Plus de 2000 ans ».","Estimation d'Arlak, fondée sur les ossements.","Temple bien plus ancien ; 2000 ans est l'âge des ossements."]],
+  ["C-09","Ancienneté de Korvan : 2000 ans ou « plusieurs milliers »","Faible","Ouvert","Calcul : l'errance dure environ 2010 ans.",["Harmoniser à « environ 2000 ans ».","Allonger réellement la durée.","« Plusieurs millénaires » est le ressenti de Korvan."]],
   ["C-10","Qui initie les enfants à 12 ans","Faible","Ouvert","Émissaires de l'armée [lore.md:8] ou dojo [arc 3.md:7].",["Les émissaires viennent dans les dojos.","Les deux voies coexistent.","Initiation par l'armée, puis entrée en dojo."]],
-  ["C-11","Enfance de B : né au dojo ou confié au dojo","Faible","Ouvert","",["« Né dans un dojo » au sens figuré.","Abandonné au dojo dès sa naissance.","Reformuler [lore.md:32]."]],
-  ["C-12","Assiduité de A dans sa première vie","Faible","Ouvert","« Pas très assidue » [arc 2.md:5] contre « grande détermination » [details A.md:3].",["Peu assidue jeune, déterminée adulte, trop tard.","Déterminée dans l'étude, pas dans l'entraînement.","Assidue mais limitée par son dojo."]],
-  ["C-13","Terminologie noyau / cercle / cœur","Moyenne","Résolu","Noyau = réservoir ; cercle = niveau ; « cœur de mana » = terme archaïque, employé seulement par B."],
+  ["C-11","Enfance de Korvan : né au dojo ou confié au dojo","Faible","Ouvert","",["« Né dans un dojo » au sens figuré.","Abandonné au dojo dès sa naissance.","Reformuler [lore.md:32]."]],
+  ["C-12","Assiduité d'Arlak dans sa première vie","Faible","Ouvert","« Pas très assidue » [arc 2.md:5] contre « grande détermination » [details A.md:3].",["Peu assidue jeune, déterminée adulte, trop tard.","Déterminée dans l'étude, pas dans l'entraînement.","Assidue mais limitée par son dojo."]],
+  ["C-13","Terminologie noyau / cercle / cœur","Moyenne","Résolu","Noyau = réservoir ; cercle = niveau ; « cœur de mana » = terme archaïque, employé seulement par Korvan."],
   ["C-14","Géométrie des cercles imbriqués","Faible","Ouvert","Comment un cercle intérieur atteint-il la taille de celui qui l'entoure ?",["La « taille » est une capacité ; l'image est symbolique.","Géométrie réelle compensée par la densité.","Cercles superposés plutôt qu'imbriqués."]],
-  ["C-15","Art de B : « toujours perfectible » ou limité","Moyenne","Résolu","Réputation fausse : plafond au 10e cercle ; seule la taille reste perfectible."],
-  ["C-16","Distance entre le village de A et la capitale","Moyenne","Résolu","La capitale est la ville la plus proche, à plusieurs jours de route."]
+  ["C-15","Art de Korvan : « toujours perfectible » ou limité","Moyenne","Résolu","Réputation fausse : plafond au 10e cercle ; seule la taille reste perfectible."],
+  ["C-16","Distance entre le village d'Arlak et la capitale","Moyenne","Résolu","La capitale est la ville la plus proche, à plusieurs jours de route."]
 ];
 const QUEST = [
-  ["Règles","Q-05","Pourquoi A reçoit-elle un noyau complet de mana de l'artefact et B seulement des « résidus » ?",2],
-  ["Règles","Q-16","Le nouvel art de A optimise-t-il l'art de son village ou un autre ? Qu'est-ce que l'« assommoir » ?",2],
-  ["Règles","Q-21","1re vie de B : le 7e cercle est-il cultivé seul ? À quel âge avait-il 7 cercles ?",3],
+  ["Règles","Q-05","Pourquoi Arlak reçoit-elle un noyau complet de mana de l'artefact et Korvan seulement des « résidus » ?",2],
+  ["Règles","Q-16","Le nouvel art d'Arlak optimise-t-il l'art de son village ou un autre ? Qu'est-ce que l'« assommoir » ?",2],
+  ["Règles","Q-21","1re vie de Korvan : le 7e cercle est-il cultivé seul ? À quel âge avait-il 7 cercles ?",3],
   ["Règles","Q-22","De combien la cultivation allonge-t-elle la vie ?",3],
   ["Règles","Q-24","Que recouvre le « développement » de l'âme dans l'artefact ?",3],
-  ["Intrigue","Q-10","La guilde existe-t-elle sans interruption depuis 2000 ans ? Sous quelle forme ? B la connaît-il ?",2],
+  ["Intrigue","Q-10","La guilde existe-t-elle sans interruption depuis 2000 ans ? Sous quelle forme ? Korvan la connaît-il ?",2],
   ["Intrigue","Q-14","Restent : contenu de la partie 2, ton de la fin, adversaire final, scène de l'aveu.",2],
   ["Intrigue","Q-26","Où placer l'explication des arts martiaux, l'arc 2 devenant un prologue court ?",2],
-  ["Intrigue","Q-17","Pourquoi A veut-elle prendre le contrôle de la secte de B ?",3],
-  ["Intrigue","Q-18","Pourquoi B attend-il 12 ans pour cultiver, alors que A commence à 8 ans ?",3],
-  ["Intrigue","Q-25","Quand A remarque-t-elle que B dit « cœur de mana » ? (avant l'aveu)",3],
+  ["Intrigue","Q-17","Pourquoi Arlak veut-elle prendre le contrôle de la secte de Korvan ?",3],
+  ["Intrigue","Q-18","Pourquoi Korvan attend-il 12 ans pour cultiver, alors qu'Arlak commence à 8 ans ?",3],
+  ["Intrigue","Q-25","Quand Arlak remarque-t-elle que Korvan dit « cœur de mana » ? (avant l'aveu)",3],
   ["Monde","Q-07","Où se trouve le temple par rapport à la capitale et au village ?",2],
-  ["Monde","Q-08","La famille de B est-elle noble ? Comment ses parents réagissent-ils à l'examen martial ?",2],
-  ["Monde","Q-19","La famille de A dans sa seconde vie (« A ecrire »).",2],
-  ["Monde","Q-20","Choisir les noms selon la règle fixée : d'abord A, B (ancien et nouveau), le maître et le rival.",1],
+  ["Monde","Q-08","La famille de Korvan est-elle noble ? Comment ses parents réagissent-ils à l'examen martial ?",2],
+  ["Monde","Q-19","La famille d'Arlak dans sa seconde vie (« A ecrire »).",2],
+  ["Monde","Q-20","Nommer les lieux, le pays et les autres personnages, selon la règle des noms.",2],
   ["Références","Q-13","Les images sont-elles des références officielles ? Le mana est-il vert ?",3]
 ];
 P.coherence = () => `
@@ -911,7 +911,7 @@ ${[...QUEST].sort((a,b)=>a[3]-b[3]).map(q=>`<tr class="si"><td class="num"><b>${
 
 <div class="grp"><h3>Modifications de sources suggérées (facultatives)</h3>
 ${table(["#","Où","Ajout ou correction"],[
-  ["S-05","details A.md:15","Cercles des deux noyaux en miroir ; A peut combiner les deux noyaux."],
+  ["S-05","details A.md:15","Cercles des deux noyaux en miroir ; Arlak peut combiner les deux noyaux."],
   ["S-06","details B.md:11","Règle des groupes ; cercles 8 à 10 un par un."],
   ["S-07","lore.md","Règle « accès et réserve »."],
   ["S-08","lore.md","La cultivation allonge la durée de vie."],
@@ -924,13 +924,13 @@ ${table(["#","Où","Ajout ou correction"],[
 
 P.galerie = () => `
 <div class="panel-head"><p>${fmt("29 images de SOURCES/images. Statut non établi (référence officielle ou planche d'ambiance, Q-13). Constante : le mana est vert lumineux, ce qu'aucun texte ne mentionne.")}</p>
-<div class="chips nosearch" id="gfilter">${["Tout","A","B","Artefact","Armes","Mana"].map((g,i)=>`<button type="button" data-g="${i?g:""}" aria-pressed="${i?"false":"true"}">${g}</button>`).join("")}</div></div>
+<div class="chips nosearch" id="gfilter">${["Tout","Arlak","Korvan","Artefact","Armes","Mana"].map((g,i)=>`<button type="button" data-g="${i?g:""}" aria-pressed="${i?"false":"true"}">${g}</button>`).join("")}</div></div>
 <div class="gallery">${IMAGES.map(i=>`<figure class="si" data-g="${i[1]}" data-img="${esc(i[0])}"><img src="${src(i[0])}" alt="${esc(i[2])}" loading="lazy"><figcaption><b>${esc(i[0])}</b><span>${esc(i[2])}</span></figcaption></figure>`).join("")}</div>`;
 
 const GLOSS = [
   ["Mana / énergie","Synonymes dans les sources. {PROPOSITION} « Mana » comme terme principal ; « énergie » en narration seulement."],
-  ["Noyau","{CANON} Le réservoir intérieur. Une personne en a un, A en a deux. Jamais pour « cercle »."],
-  ["Cœur de mana","{CANON} Terme archaïque de l'époque de B, synonyme de noyau ; seul B l'emploie (indice, P-11)."],
+  ["Noyau","{CANON} Le réservoir intérieur. Une personne en a un, Arlak en a deux. Jamais pour « cercle »."],
+  ["Cœur de mana","{CANON} Terme archaïque de l'époque de Korvan, synonyme de noyau ; seul Korvan l'emploie (indice, P-11)."],
   ["Cercle","{CANON} Unité de niveau construite dans le noyau : « 3 cercles complets », « cercles souples »."],
   ["Léger / lourd / complet","Paliers d'un cercle : 1/3, 2/3, 1."],
   ["Cultivation","Faire croître ses cercles."],
@@ -939,12 +939,12 @@ const GLOSS = [
   ["Art martial","Technique de combat et méthode de cultivation. {INTERPRÉTATION} Chaque art inclut sa méthode."],
   ["Arme de mana","Arme dont les matériaux réagissent au mana."],
   ["Épée de mana de vitesse","Arme standard de fin d'études."],
-  ["Assommoir","Arme de A, associée à la « grosse épée ». {MANQUANT} (Q-16)."],
+  ["Assommoir","Arme d'Arlak, associée à la « grosse épée ». {MANQUANT} (Q-16)."],
   ["Gemme d'évaluation","Sphère normée qui mesure le dernier cercle. Nom officiel à choisir."],
   ["Guilde de l'ombre","Faction antagoniste."],
   ["Néant / dimension vide","Espace de l'artefact. Terme unique à choisir."],
-  ["Noms","{CANON} Langue inventée de sonorité européenne, en deux états : ancien (noms longs en -ion, -aël, -or) et moderne (deux syllabes). Le nom ancien de B survit déformé ; la technique de la guilde porte le nom du rival ; le nom de A est le même dans les deux vies."],
-  ["Retour / réincarnation","{INTERPRÉTATION} A retourne dans son propre corps ; B occupe le corps d'un autre. Distinguer les deux termes."]
+  ["Noms","{CANON} Langue inventée de sonorité européenne, en deux états : ancien (noms longs en -ion, -aël, -or) et moderne (deux syllabes). Le nom ancien de Korvan survit déformé ; la technique de la guilde porte le nom du rival ; le nom d'Arlak est le même dans les deux vies. Validés : Arlak ; Korvan, anciennement Mérindor ; Hostavor (maître) ; Draskion (rival)."],
+  ["Retour / réincarnation","{INTERPRÉTATION} Arlak retourne dans son propre corps ; Korvan occupe le corps d'un autre. Distinguer les deux termes."]
 ];
 P.glossaire = () => `<dl class="gloss">${GLOSS.map(g=>`<div class="si"><dt>${esc(g[0])}</dt><dd>${fmt(g[1])}</dd></div>`).join("")}</dl>`;
 

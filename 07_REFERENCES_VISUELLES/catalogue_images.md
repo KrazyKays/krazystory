@@ -3,7 +3,7 @@
 > Les images restent dans `SOURCES/images/` ; ce catalogue les décrit sans les déplacer.
 > Leur statut (référence officielle ou planche d'ambiance) n'est pas établi (Q-13). Constante de toutes les images : **le mana est vert lumineux**. Ce point n'est mentionné dans aucun texte.
 
-## Personnage A
+## Personnage Arlak
 
 | Fichier | Description | Éléments notables |
 |---|---|---|
@@ -13,7 +13,7 @@
 | `A style 4.png` | Version caricaturale (chibi) : cheveux bruns en queue de cheval, masque, tenue ninja ; lame qui goutte. | Style cartoon. |
 | `A meditate.png` | Jeune femme en méditation dans un dojo en bois ; **deux cercles lumineux superposés** sur le torse. | Représente vraisemblablement le **double noyau**. Cheveux bruns en deux chignons. |
 
-## Personnage B
+## Personnage Korvan
 
 | Fichier | Description | Éléments notables |
 |---|---|---|

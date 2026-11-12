@@ -2,7 +2,7 @@
 
 > Rédigé le 2026-11-09, puis épuré le même jour des éléments périmés (contradictions résolues, questions répondues, recommandations appliquées ; version d'origine dans l'historique git). L'état à jour figure dans `05_COHERENCE/`.
 
-## A. Inventaire
+## Arlak. Inventaire
 
 - **Documents trouvés :** 42 fichiers dans `SOURCES/` (13 textes Markdown, 29 images PNG), plus `AGENTS.md`.
 - **Documents analysés intégralement :** les 42.
@@ -19,10 +19,10 @@
 
 Détail : `inventaire_sources.md`.
 
-## B. Synthèse
+## Korvan. Synthèse
 
 ### Prémisse
-Une **vieille érudite** (A), bloquée toute sa vie par des bases martiales médiocres, active à 93 ans un artefact oublié et revient au jour de sa naissance avec tous ses souvenirs. Sans le savoir, elle entraîne avec elle l'âme d'un **grand maître mort il y a 2000 ans** (B), qui se réincarne au même instant dans un nouveau-né. B n'existait pas dans la première vie de A : sa présence fait dévier le futur que A croit connaître. Les deux héros coopèrent pour empêcher les catastrophes à venir, chacun ignorant le secret de l'autre.
+Une **vieille érudite** (Arlak), bloquée toute sa vie par des bases martiales médiocres, active à 93 ans un artefact oublié et revient au jour de sa naissance avec tous ses souvenirs. Sans le savoir, elle entraîne avec elle l'âme d'un **grand maître mort il y a 2000 ans** (Korvan), qui se réincarne au même instant dans un nouveau-né. Korvan n'existait pas dans la première vie d'Arlak : sa présence fait dévier le futur qu'Arlak croit connaître. Les deux héros coopèrent pour empêcher les catastrophes à venir, chacun ignorant le secret de l'autre.
 
 ### Grandes catégories d'idées
 1. **Système de cultivation** : noyau, cercles imbriqués, progression chiffrée, paliers, mesure par gemme, puissance ×10 par cercle. C'est la partie la plus développée.
@@ -33,12 +33,12 @@ Une **vieille érudite** (A), bloquée toute sa vie par des bases martiales méd
 6. **Vie à l'académie** : examen, élite, noblesse, rivaux, expédition.
 
 ### Concepts récurrents
-Le mana de l'artefact, les bases et fondations (le défaut de A, la force de B), les limites et leur dépassement, le secret, la guilde de l'ombre, le temple.
+Le mana de l'artefact, les bases et fondations (le défaut d'Arlak, la force de Korvan), les limites et leur dépassement, le secret, la guilde de l'ombre, le temple.
 
 ### Relations entre les idées
-- **Fil le plus solide :** le rival de B, rallié à la guilde avec une version dérivée de l'art de B `[lore.md:34]`, et la guilde qui détruit le futur de A `[lore.md:41]`. Le passé de B et le futur de A sont donc reliés **par le même antagoniste**. C'est le principal levier d'unité du récit ; il est désormais exploité par les catastrophes validées (N-01, E-07).
-- **Deuxième fil :** le temple. A y a trouvé les ossements de B ; tous deux veulent y retourner (arc 5).
-- **Troisième fil :** l'effet papillon. Les actes de B, qui n'existait pas dans la première vie de A, faussent ses prédictions.
+- **Fil le plus solide :** le rival de Korvan, rallié à la guilde avec une version dérivée de l'art de Korvan `[lore.md:34]`, et la guilde qui détruit le futur d'Arlak `[lore.md:41]`. Le passé de Korvan et le futur d'Arlak sont donc reliés **par le même antagoniste**. C'est le principal levier d'unité du récit ; il est désormais exploité par les catastrophes validées (N-01, E-07).
+- **Deuxième fil :** le temple. Arlak y a trouvé les ossements de Korvan ; tous deux veulent y retourner (arc 5).
+- **Troisième fil :** l'effet papillon. Les actes de Korvan, qui n'existait pas dans la première vie d'Arlak, faussent ses prédictions.
 
 ## C. Problèmes encore ouverts
 
@@ -47,8 +47,8 @@ Le mana de l'artefact, les bases et fondations (le défaut de A, la force de B),
 
 ### Informations manquantes (les plus structurantes)
 1. Les arcs après l'expédition, et la fin (Q-14).
-2. La famille de A (« A ecrire », Q-19).
-3. Les noms : aucun personnage, lieu ou pays n'est nommé (Q-20).
+2. La famille d'Arlak (« A ecrire », Q-19).
+3. Les noms : les lieux, le pays et les personnages secondaires ne sont pas nommés (Q-20). Les personnages principaux sont nommés depuis le 2026-11-12.
 4. La position du temple (Q-07).
 5. L'état de la guilde de l'ombre à l'époque du récit (Q-10).
 6. Les derniers choix d'écriture (Q-15).
@@ -57,7 +57,7 @@ Le mana de l'artefact, les bases et fondations (le défaut de A, la force de B),
 Paragraphe répété dans `arc 2.md` (l.3 et l.5) ; récit de l'artefact en trois versions ; prémisse répétée dans plusieurs fichiers (sans divergence). Aucun doublon problématique.
 
 ### Chronologie et continuité
-- Les progressions chiffrées de A et de B sont cohérentes en interne (vérifiées année par année).
+- Les progressions chiffrées d'Arlak et de Korvan sont cohérentes en interne (vérifiées année par année).
 - Les âges de l'expédition (arc 5) et de la rencontre de l'ennemi puissant (`idees.md`) ne sont pas fixés.
 
 ### Risques éditoriaux (hors contradictions)

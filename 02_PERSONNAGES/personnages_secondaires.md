@@ -2,32 +2,32 @@
 
 > Aucun personnage secondaire n'est nommé dans les sources.
 
-## Époque de B (première vie)
+## Époque de Korvan (première vie)
 
 | Personnage | Description | Sources | Manques |
 |---|---|---|---|
-| Maître du dojo | 9 cercles. Reconnaît B comme successeur, puis ordonne son élimination par peur que la faille de l'art soit découverte ou que l'art soit dénaturé. | `[arc 1.md:5-7]` | Nom, sort lors du grand assaut. |
-| Rival / disciple assassin | Un des disciples les plus puissants, concurrent direct de B. Échoue de peu à le tuer. Survit au grand assaut en se ralliant à la guilde de l'ombre, à qui il transmet une version dérivée de la technique. `[CANON]` (2026-11-12) ✱ Cette version dérivée porte son nom (sur le modèle « la voie de … ») ; B le reconnaît en l'entendant (N-01). `[INTERPRÉTATION]` Puisque B meurt vers 80 ans, le rival a probablement un âge proche, et le maître est plus âgé encore. La cultivation allonge la vie. | `[arc 1.md:7-9]` `[lore.md:34]` | `[INTERPRÉTATION]` Les deux sources désignent très probablement la même personne (« concurrent direct » / « rival de B »). À confirmer. |
+| Maître du dojo — **Hostavor** `[CANON]` (2026-11-12) | 9 cercles. Reconnaît Korvan comme successeur, puis ordonne son élimination par peur que la faille de l'art soit découverte ou que l'art soit dénaturé. | `[arc 1.md:5-7]` | Nom, sort lors du grand assaut. |
+| Rival / disciple assassin — **Draskion** `[CANON]` (2026-11-12) | `[PROPOSITION]` Nom de la technique dérivée à l'époque du récit : « la voie de Drask ». À valider. Un des disciples les plus puissants, concurrent direct de Korvan. Échoue de peu à le tuer. Survit au grand assaut en se ralliant à la guilde de l'ombre, à qui il transmet une version dérivée de la technique. `[CANON]` (2026-11-12) ✱ Cette version dérivée porte son nom (sur le modèle « la voie de … ») ; Korvan le reconnaît en l'entendant (N-01). `[INTERPRÉTATION]` Puisque Korvan meurt vers 80 ans, le rival a probablement un âge proche, et le maître est plus âgé encore. La cultivation allonge la vie. | `[arc 1.md:7-9]` `[lore.md:34]` | `[INTERPRÉTATION]` Les deux sources désignent très probablement la même personne (« concurrent direct » / « rival de B »). À confirmer. |
 
-## Entourage de A
+## Entourage d'Arlak
 
 | Personnage | Description | Sources | Manques |
 |---|---|---|---|
-| Famille de A | Perdue dans sa première vie. | `[arc 2.md:5]` | **Entièrement à écrire** (« A ecrire » `[arc 3.md:23]`). |
+| Famille d'Arlak | Perdue dans sa première vie. | `[arc 2.md:5]` | **Entièrement à écrire** (« A ecrire » `[arc 3.md:23]`). |
 | Camarades du dojo (1re vie) | Pour la plupart morts dans sa première vie. | `[arc 2.md:5]` | Qui sont-ils dans la seconde vie ? |
-| Candidats du village | Connaissent la puissance de A. | `[arc 4.md:3]` | Nombre, noms, rôle. |
-| Recrue n° 1 — « le fougueux » | Ami de A ; fougueux et intrépide ; grande puissance offensive, aucune attention à la défense. | `[arc 5.md:3]` | Nom ; origine. |
-| Recrue n° 2 — « le talent latent » | Réputé dans la première vie de A pour son talent latent ; encore peu fort. | `[arc 5.md:3]` | Nom, genre (accord masculin « réputé », ambigu), son destin dans la première vie de A. |
+| Candidats du village | Connaissent la puissance d'Arlak. | `[arc 4.md:3]` | Nombre, noms, rôle. |
+| Recrue n° 1 — « le fougueux » | Ami d'Arlak ; fougueux et intrépide ; grande puissance offensive, aucune attention à la défense. | `[arc 5.md:3]` | Nom ; origine. |
+| Recrue n° 2 — « le talent latent » | Réputé dans la première vie d'Arlak pour son talent latent ; encore peu fort. | `[arc 5.md:3]` | Nom, genre (accord masculin « réputé », ambigu), son destin dans la première vie d'Arlak. |
 
-## Entourage de B (seconde vie)
+## Entourage de Korvan (seconde vie)
 
 | Personnage | Description | Sources | Manques |
 |---|---|---|---|
 | Mère | Politicienne ; aimante. `[CANON]` Dans la première vie, quitte la politique après la mort de son bébé ; dans la seconde, elle reste et gêne la guilde sans le savoir (E-04). | `[arc 3.md:19]` | Rang, influence. |
-| Père | Écrivain et historien ; aimant ; réticent à ce que la petite sœur fasse des arts martiaux. | `[arc 3.md:19]` `[idees.md:5]` | Ce que ses recherches historiques peuvent apporter à B. |
-| Petite sœur | Veut faire des arts martiaux en voyant B ; il l'entraîne. | `[idees.md:5]` | Âge, nom, rôle à long terme. `[CANON]` Elle est née dans les deux vies (décision du 2026-11-09). `[INTERPRÉTATION]` Dans la première vie, sans B, elle ne se serait pas tournée vers les arts martiaux. |
+| Père | Écrivain et historien ; aimant ; réticent à ce que la petite sœur fasse des arts martiaux. | `[arc 3.md:19]` `[idees.md:5]` | Ce que ses recherches historiques peuvent apporter à Korvan. |
+| Petite sœur | Veut faire des arts martiaux en voyant Korvan ; il l'entraîne. | `[idees.md:5]` | Âge, nom, rôle à long terme. `[CANON]` Elle est née dans les deux vies (décision du 2026-11-09). `[INTERPRÉTATION]` Dans la première vie, sans Korvan, elle ne se serait pas tournée vers les arts martiaux. |
 | Infirmière | Témoin de la « résurrection » du bébé. | `[arc 3.md:5]` | Rôle mineur. |
-| Disciples de B | L'un d'eux forme en secret une secte qui considère B comme un dieu et suit ses idéaux. | `[idees.md:11]` | Quand B a-t-il des disciples ? |
+| Disciples de Korvan | L'un d'eux forme en secret une secte qui considère Korvan comme un dieu et suit ses idéaux. | `[idees.md:11]` | Quand Korvan a-t-il des disciples ? |
 
 ## Académie et rivaux
 
@@ -40,4 +40,4 @@
 
 ## Personnages à introduire par flashback
 
-- `[CANON]` Présenter par un flashback de A des personnages qu'elle n'a pas encore rencontrés. `[idees.md:1]` — la recrue n° 2 s'y prête directement.
+- `[CANON]` Présenter par un flashback d'Arlak des personnages qu'elle n'a pas encore rencontrés. `[idees.md:1]` — la recrue n° 2 s'y prête directement.

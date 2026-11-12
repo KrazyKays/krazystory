@@ -1,5 +1,29 @@
 # Journal des modifications
 
+> À partir du 2026-11-12, la base désigne les héros par leurs prénoms : **Arlak** (« A » dans les sources) et **Korvan** (« B » dans les sources, Mérindor dans sa première vie). Les entrées antérieures du journal gardent « A » et « B ».
+
+## 2026-11-12 — Nom de l'héroïne et emploi des prénoms dans toute la base
+
+**Décisions de l'auteur (`[CANON]`) :** l'héroïne s'appelle **Arlak** (dérivé de « Karlach », piste de l'auteur). Les prénoms remplacent « A » et « B » partout dans la base ; pour B, on emploie le prénom actuel, **Korvan**, y compris pour sa première vie (Mérindor reste mentionné dans sa fiche et dans le glossaire).
+
+**Remplacement :** « A » → Arlak, « B » → Korvan, avec élision (« d'Arlak », « qu'Arlak »), dans tous les fichiers de la base (`00_PILOTAGE/` à `07_REFERENCES_VISUELLES/`), l'aide-mémoire et la page des courbes (étiquettes des graphiques comprises).
+**Non modifié, volontairement :**
+- `SOURCES/` et `AGENTS.md` ;
+- les citations entre guillemets « … », reprises telles quelles des sources (ex. « A ecrire », qui signifie « à écrire ») ;
+- les noms de fichiers (`A.md`, `B.md`, `details A.md`, `A style.png`, `courbes_A_B.html`…) ;
+- les entrées antérieures de ce journal ;
+- les classes et clés internes du code des pages HTML.
+
+**Questions :** Q-20 réduite aux lieux, au pays et aux personnages secondaires (priorité 2). Aucune décision ne bloque plus la rédaction des prologues.
+**Sources modifiées :** aucune.
+
+## 2026-11-12 — Premiers noms validés (Q-20)
+
+**Décisions de l'auteur (`[CANON]`) :** B s'appelle **Mérindor** dans sa première vie et **Korvan** dans la seconde (orthographe avec un K, choisie par l'auteur à la place de « Corvan ») ; le maître du dojo s'appelle **Hostavor** ; le rival, **Draskion**.
+**Restent `[PROPOSITION]`, non validés :** la forme déformée « Mérin » et le nom de technique « la voie de Drask ».
+**En cours :** nom de A, d'après une piste de l'auteur (un dérivé de « Karlach »).
+**Fichiers modifiés :** `01_UNIVERS/glossaire.md`, `02_PERSONNAGES/B.md`, `02_PERSONNAGES/personnages_secondaires.md`, `05_COHERENCE/questions_ouvertes.md`, `00_PILOTAGE/aide_memoire.html`. **Sources modifiées :** aucune.
+
 ## 2026-11-12 — Prologues, C-03, C-04 et règle des noms (Q-15, Q-20)
 
 **Décisions de l'auteur intégrées (`[CANON]`) :**

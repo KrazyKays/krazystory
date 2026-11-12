@@ -1,13 +1,13 @@
-# A — héroïne
+# Arlak — héroïne
 
-> « A » est un nom provisoire `[MANQUANT]`.
+> `[CANON]` (2026-11-12) Nom : **Arlak**, le même dans les deux vies. « A » est la désignation provisoire employée dans les sources.
 
 ## Identité
 
 - `[CANON]` Fille. Revenue au moment de sa naissance. `[principes.md:3]`
-- `[CANON]` Même âge que B : son retour et la réincarnation de B sont simultanés. `[resume.md:3]` `[timeline.md:11]`
+- `[CANON]` Même âge que Korvan : son retour et la réincarnation de Korvan sont simultanés. `[resume.md:3]` `[timeline.md:11]`
 - `[CANON]` (2026-11-12) ✱ Son nom est le même dans les deux vies : elle renaît dans la même famille.
-- `[MANQUANT]` Nom (Q-20), apparence (seules les images donnent des indices, et elles divergent : voir §7), famille (« A ecrire » `[arc 3.md:23]`).
+- `[MANQUANT]` Apparence (seules les images donnent des indices, et elles divergent : voir §7), famille (« A ecrire » `[arc 3.md:23]`).
 
 ## Première vie (0 → 93 ans)
 
@@ -29,8 +29,8 @@
 - `[CANON]` Se vante souvent de sa puissance dans son village. `[arc 4.md:3]`
 - `[CANON]` Certaine de pouvoir vaincre tous les candidats à l'examen. `[arc 4.md:3]`
 - `[CANON]` S'autoproclame cheffe de l'expédition. `[arc 5.md:3]`
-- `[CANON]` Jalouse lorsque B fait un grand bond de progression ; cherche à réduire l'écart. `[idees.md:9]`
-- `[CANON]` Veut infiltrer la secte des disciples de B et en prendre le contrôle. `[idees.md:11]`
+- `[CANON]` Jalouse lorsque Korvan fait un grand bond de progression ; cherche à réduire l'écart. `[idees.md:9]`
+- `[CANON]` Veut infiltrer la secte des disciples de Korvan et en prendre le contrôle. `[idees.md:11]`
 
 ### Objectifs
 - `[CANON]` Consacrer sa vie à son art martial, dépasser ses anciennes limites, devenir une génie de sa génération. `[arc 3.md:11]`
@@ -53,17 +53,17 @@
 
 | Personnage | Relation | Sources |
 |---|---|---|
-| B | Rencontre à l'examen (13 ans) ; coopération ; chacun s'interroge sur le talent de l'autre ; aucune romance. | `[timeline.md:15]` `[resume.md:35]` `[principes.md:7]` |
+| Korvan | Rencontre à l'examen (13 ans) ; coopération ; chacun s'interroge sur le talent de l'autre ; aucune romance. | `[timeline.md:15]` `[resume.md:35]` `[principes.md:7]` |
 | Candidats de son village | Connaissent sa puissance. | `[arc 4.md:3]` |
 | Recrue « fougueuse » | Amitié ; grande puissance offensive, aucune défense. | `[arc 5.md:3]` |
 | Recrue « talent latent » | Réputé dans sa première vie ; encore faible. | `[arc 5.md:3]` |
 
-## Ce que A sait / ignore
+## Ce qu'Arlak sait / ignore
 
 - Sait : l'avenir de sa première vie, des connaissances martiales et historiques étendues, l'emplacement du temple.
-- `[CANON]` Son savoir de l'avenir est **partiel** (version officielle et recherches tardives) et **se dégrade** avec le temps et la proximité de B (PC-1, PC-2).
-- Ignore : que B est réincarné `[resume.md:35]` ; le vrai fonctionnement de l'artefact (la subtilité non traduite) `[arc 2.md:9]` ; l'origine exacte de son second noyau (elle en connaît la nature à 9 ans, pas forcément la cause).
-- `[INTERPRÉTATION]` Ses prédictions perdent en fiabilité à cause de B, qui n'existait pas dans sa première vie `[resume.md:3,35]`. Elle remarque probablement des écarts sans en comprendre la cause.
+- `[CANON]` Son savoir de l'avenir est **partiel** (version officielle et recherches tardives) et **se dégrade** avec le temps et la proximité de Korvan (PC-1, PC-2).
+- Ignore : que Korvan est réincarné `[resume.md:35]` ; le vrai fonctionnement de l'artefact (la subtilité non traduite) `[arc 2.md:9]` ; l'origine exacte de son second noyau (elle en connaît la nature à 9 ans, pas forcément la cause).
+- `[INTERPRÉTATION]` Ses prédictions perdent en fiabilité à cause de Korvan, qui n'existait pas dans sa première vie `[resume.md:3,35]`. Elle remarque probablement des écarts sans en comprendre la cause.
 
 ## Références visuelles
 `A style.png` à `A style 4.png`, `A meditate.png` : yeux verts, masque sur le bas du visage, queue de cheval, tenue sombre de type ninja, très large épée remplie de mana vert. **Couleur de cheveux variable** selon les images (brun et turquoise, noir, argenté, brun). `A meditate.png` montre deux cercles superposés sur le torse, ce qui évoque les deux noyaux.

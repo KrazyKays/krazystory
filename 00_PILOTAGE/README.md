@@ -9,7 +9,7 @@
 | `SOURCES/` | **Sources originales de l'auteur. Jamais modifiées, déplacées ni renommées sans son autorisation explicite.** |
 | `00_PILOTAGE/` | Mode d'emploi, inventaire, rapport de diagnostic, journal des modifications, aide-mémoire visuel (`aide_memoire.html`). |
 | `01_UNIVERS/` | Système de mana, arts martiaux, armes, artefact, histoire du monde et factions, lieux, glossaire. |
-| `02_PERSONNAGES/` | Fiches de A, de B et des personnages secondaires. |
+| `02_PERSONNAGES/` | Fiches d'Arlak, de Korvan et des personnages secondaires. |
 | `03_CHRONOLOGIE/` | Chronologie des événements et progression de la cultivation. |
 | `04_INTRIGUE/` | Principes narratifs, arcs, idées et scènes potentielles. |
 | `05_COHERENCE/` | Contradictions recensées et questions ouvertes. |
@@ -71,7 +71,7 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |
 | Résolution des contradictions | En cours — C-01 à C-05, C-07, C-13, C-15 et C-16 résolus ; voir `05_COHERENCE/contradictions.md` |
-| Catastrophes de la première vie de A | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
+| Catastrophes de la première vie d'Arlak | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
 | Forme du récit et structure d'ensemble | Validées le 2026-11-12 (Q-11 et Q-15 closes, Q-14 réduite) — `04_INTRIGUE/arcs.md`, `principes_narratifs.md` |
 | Rapport initial | Diagnostic du 2026-11-09, épuré de ses éléments périmés |
 | Rédaction du manuscrit | Non commencée (volontairement) |
