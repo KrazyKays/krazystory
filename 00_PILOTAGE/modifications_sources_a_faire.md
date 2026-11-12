@@ -5,7 +5,13 @@
 
 ## 1. Obligatoires
 
-Aucune en attente. S-01 à S-04 ont été appliquées le 2026-11-09 (texte d'origine et correction dans `journal_modifications.md`).
+S-01 à S-04 ont été appliquées le 2026-11-09 (texte d'origine et correction dans `journal_modifications.md`).
+
+| # | Fichier et ligne | Texte actuel | Correction | Décision |
+|---|---|---|---|---|
+| S-14 | `scenario/arc 1.md:3` | « un art martial très rependu » | « un art martial très renommé » | C-03 (2026-11-12) |
+
+S-14 porte sur la même phrase que S-13 (facultative, §3) : les deux peuvent être faites ensemble.
 
 ## 2. Recommandées (préciser une règle validée qui n'existe pas encore dans les sources)
 

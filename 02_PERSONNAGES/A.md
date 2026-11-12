@@ -6,7 +6,8 @@
 
 - `[CANON]` Fille. Revenue au moment de sa naissance. `[principes.md:3]`
 - `[CANON]` Même âge que B : son retour et la réincarnation de B sont simultanés. `[resume.md:3]` `[timeline.md:11]`
-- `[MANQUANT]` Nom, apparence (seules les images donnent des indices, et elles divergent : voir §7), famille (« A ecrire » `[arc 3.md:23]`).
+- `[CANON]` (2026-11-12) ✱ Son nom est le même dans les deux vies : elle renaît dans la même famille.
+- `[MANQUANT]` Nom (Q-20), apparence (seules les images donnent des indices, et elles divergent : voir §7), famille (« A ecrire » `[arc 3.md:23]`).
 
 ## Première vie (0 → 93 ans)
 

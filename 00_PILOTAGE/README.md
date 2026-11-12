@@ -34,6 +34,8 @@ Promotion vers `[CANON]` : uniquement après ta validation explicite, avec une e
 
 **Décision du 2026-11-09 (Q-01) :** tous les énoncés `[SOURCE]` qui ne relèvent d'aucune contradiction ouverte ont été promus `[CANON]` d'un bloc. Les 13 énoncés restés `[SOURCE]` sont liés à une contradiction ouverte (C-03, C-04, C-09, C-10, C-11, C-12, C-14) ; ils seront promus quand celle-ci sera tranchée. Les `[INTERPRÉTATION]`, `[HYPOTHÈSE]`, `[PROPOSITION]` et `[MANQUANT]` ne sont pas concernés. Toute nouvelle source entre avec le statut `[SOURCE]`.
 
+**Mise à jour du 2026-11-12 :** C-03 et C-04 étant résolus, 4 de ces énoncés ont été promus `[CANON]`. Il en reste 9 (C-09, C-10, C-11, C-12, C-14).
+
 ## 3. Références aux sources
 
 Format : `[fichier:ligne]`, chemins relatifs à `SOURCES/`.
@@ -68,7 +70,8 @@ Dépose tes nouvelles notes dans `SOURCES/` (ou donne-les-moi directement dans l
 | Inventaire des sources | Terminé — 13 textes et 29 images, tous examinés intégralement |
 | Structuration de la base | Terminé (première version) |
 | Diagnostic initial | Terminé — voir `rapport_initial.md` |
-| Résolution des contradictions | En cours — C-01, C-02, C-05, C-07, C-13, C-15 et C-16 résolus ; voir `05_COHERENCE/contradictions.md` |
+| Résolution des contradictions | En cours — C-01 à C-05, C-07, C-13, C-15 et C-16 résolus ; voir `05_COHERENCE/contradictions.md` |
 | Catastrophes de la première vie de A | Structure validée — `04_INTRIGUE/catastrophes_propositions.md` |
+| Forme du récit et structure d'ensemble | Validées le 2026-11-12 (Q-11 et Q-15 closes, Q-14 réduite) — `04_INTRIGUE/arcs.md`, `principes_narratifs.md` |
 | Rapport initial | Diagnostic du 2026-11-09, épuré de ses éléments périmés |
 | Rédaction du manuscrit | Non commencée (volontairement) |

@@ -3,12 +3,6 @@
 > Questions qui nécessitent ta décision. Seules les questions encore ouvertes, ou leur partie restante, figurent ici ; les réponses sont intégrées dans les fiches concernées (historique dans le journal).
 > Priorité **1** = bloquante pour la suite ; **2** = nécessaire avant de rédiger l'arc concerné ; **3** = à traiter plus tard.
 
-## Méthode
-
-| ID | Question | Priorité |
-|---|---|---|
-| Q-15 | Choix d'écriture restants : rythme de l'alternance A/B (chapitre, scène, arc) ; temps du récit ; longueur des chapitres. Faut-il confirmer la 3e personne pour les scènes réunissant A et B (`[HYPOTHÈSE]`) ? Déjà décidé : voir `04_INTRIGUE/principes_narratifs.md`. | 1 |
-
 ## Règles de l'univers
 
 | ID | Question | Priorité | Lié à |
@@ -24,11 +18,11 @@
 | ID | Question | Priorité | Lié à |
 |---|---|---|---|
 | Q-10 | La guilde de l'ombre existe-t-elle sans interruption depuis 2000 ans ? Sous quelle forme à l'époque du récit ? B la connaît-il ? | 2 | `histoire_monde_et_factions.md` |
-| Q-11 | Comment les arcs 1 et 2 sont-ils racontés : prologue, chapitres complets ou flashbacks distillés ? | 2 | `arcs.md` |
-| Q-14 | La fin du récit, et le moment de la révélation mutuelle de A et de B. | 2 | `arcs.md`, P-11 |
+| Q-14 | Structure et révélation décidées (`arcs.md`). Restent : le contenu de la partie 2 ; le ton de la fin (victorieuse ou douce-amère) ; l'adversaire final (une personne ou la guilde comme système) ; l'âge exact et la scène de l'aveu mutuel. | 2 | `arcs.md`, P-11 |
+| Q-26 | Où placer l'explication des arts martiaux, prévue dans l'arc 2, maintenant que celui-ci devient un prologue court : arc 3, arc 4 ou flashbacks de A ? | 2 | `arcs.md`, Ouverture |
 | Q-17 | Pourquoi A veut-elle prendre le contrôle de la secte de B ? | 3 | I-06 |
 | Q-18 | Pourquoi B, ancien grand maître, attend-il 12 ans pour commencer à cultiver alors que A commence à 8 ans ? (Contrainte du corps, prudence, discrétion ?) | 3 | `arc 3.md:7` |
-| Q-25 | À quel moment A remarque-t-elle que B emploie « cœur de mana », terme archaïque ? | 3 | C-13, Q-14 |
+| Q-25 | À quel moment A remarque-t-elle que B emploie « cœur de mana », terme archaïque ? Cadre décidé : c'est l'un de ses premiers indices, avant l'aveu mutuel (vers 22–26 ans). | 3 | C-13, `arcs.md` |
 
 ## Monde et personnages
 
@@ -37,7 +31,7 @@
 | Q-07 | Où se trouve le temple par rapport à la capitale et au village de A ? | 2 | `lieux.md` |
 | Q-08 | La famille de B est-elle noble (ce n'est plus nécessaire, C-07) ? Comment ses parents réagissent-ils à l'examen martial, alors qu'ils le destinent à la diplomatie ? | 2 | C-07 |
 | Q-19 | Famille de A dans sa seconde vie (« A ecrire ») : as-tu déjà des idées ? Elle est en vie jusqu'aux 16 ans de A dans la première vie (E-02). | 2 | `arc 3.md:23` |
-| Q-20 | Noms : A et B sont-ils des noms provisoires ? As-tu des noms ou une langue d'inspiration pour l'univers ? | 2 | — |
+| Q-20 | Choisir les noms selon la règle fixée (`glossaire.md`, « Noms ») : nécessaires dès les prologues pour A, B (ancien et nouveau), le maître et le rival ; ensuite pour les lieux, le pays et les autres personnages. | 1 | `glossaire.md` |
 
 ## Références
 

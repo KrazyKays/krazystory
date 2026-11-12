@@ -1,10 +1,13 @@
 # Manuscrit
 
-> Aucun texte narratif n'a été rédigé. La rédaction commencera sur ta demande, une fois les derniers choix de style fixés (Q-15 : rythme de l'alternance, temps du récit, longueur des chapitres).
+> Aucun texte narratif n'a été rédigé. La rédaction commencera sur ta demande. Les choix de style sont fixés ; il reste à choisir les noms nécessaires aux prologues (Q-20).
 
-## Choix d'écriture validés (2026-11-09)
+## Choix d'écriture validés
 
-Web novel ; point de vue alterné A/B ; ellipses entre des moments charnières très développés. Voir `04_INTRIGUE/principes_narratifs.md`.
+- (2026-11-09) Web novel ; point de vue alterné A/B à la 1re personne ; ellipses entre des moments charnières très développés.
+- (2026-11-12) Alternance par chapitre ; scènes communes à la 1re personne, scènes miroirs ponctuelles ; présent pour la seconde vie, passé composé pour la première (prologues et flashbacks) ; chapitres de 2 500 à 3 500 mots ; ouverture par deux prologues courts (B, puis A).
+
+Détail : `04_INTRIGUE/principes_narratifs.md` et `04_INTRIGUE/arcs.md`.
 
 ## Organisation proposée `[PROPOSITION]`
 
@@ -28,4 +31,7 @@ Web novel ; point de vue alterné A/B ; ellipses entre des moments charnières t
 
 ## Plan
 
-*(À construire avec toi.)*
+*(À construire avec toi.)* Charpente validée le 2026-11-12 (`04_INTRIGUE/arcs.md`) :
+
+- **Partie 1** : prologue de B ; prologue de A ; arc 3 (enfances) ; arc 4 (examen) ; arc 5 (expédition, temple) ; prévention de E-01 à E-06 ; aveu mutuel vers 22–26 ans ; climax E-07.
+- **Partie 2** : au-delà de 38 ans, à définir.

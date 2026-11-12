@@ -145,7 +145,7 @@ Ils viennent tous de B. Les sources en fournissent déjà plusieurs.
 
 | ID | Événement | Origine | Effet sur A |
 |---|---|---|---|
-| N-01 | L'ennemi bien plus puissant rencontré tôt `[idees.md:7]` ✱ : un membre de la guilde reconnaît dans le style de B l'**original** de la technique dérivée que la guilde possède `[lore.md:34]`, et le traque. | L'existence de B | A affronte un danger qu'elle n'a jamais connu, et ne comprend pas pourquoi il est là. |
+| N-01 | L'ennemi bien plus puissant rencontré tôt `[idees.md:7]` ✱ : un membre de la guilde reconnaît dans le style de B l'**original** de la technique dérivée que la guilde possède `[lore.md:34]`, et le traque. `[CANON]` (2026-11-12) ✱ Cette technique porte le nom du rival : B le reconnaît en l'entendant. | L'existence de B | A affronte un danger qu'elle n'a jamais connu, et ne comprend pas pourquoi il est là. |
 | N-02 | La secte des disciples de B `[idees.md:11]` | Les actes de B | Une faction nouvelle, hors de toute prédiction. |
 | N-03 | La petite sœur de B `[idees.md:5]` : `[CANON]` elle est **née dans les deux vies**. Ce qui change, c'est sa trajectoire : dans la seconde vie, elle se tourne vers les arts martiaux grâce à son grand frère. | Les actes de B | `[INTERPRÉTATION]` Dans la première vie, sans grand frère pour l'entraîner et face aux réticences de son père, elle n'aurait pas suivi cette voie. A ne la connaît probablement pas. |
 | N-04 | Les écarts de l'examen et de l'académie | Les actes de B | Premières anomalies que A remarque. Point de départ de ses doutes (P-11). |

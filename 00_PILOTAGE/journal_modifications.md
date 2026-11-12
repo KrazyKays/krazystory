@@ -1,5 +1,42 @@
 # Journal des modifications
 
+## 2026-11-12 — Prologues, C-03, C-04 et règle des noms (Q-15, Q-20)
+
+**Décisions de l'auteur intégrées (`[CANON]`) :**
+- **Prologues au passé composé.** Q-15 est close.
+- **C-04 résolu (piste a, recommandation de l'assistant)** : avant l'artefact, B élabore une théorie (la limite tient à la nature du mana commun) ; il en déduit qu'il faut un autre mana, le trouve dans l'artefact, puis il est trahi ; le néant sert à valider la théorie. Les trois sources restent valides sans reformulation.
+- **C-03 résolu (piste c)** : « très répandu » signifie « très renommé » ; un seul dojo enseigne l'art. Source à reformuler par l'auteur : S-14 (`arc 1.md:3`).
+- **Q-20, règle des noms (recommandation L3)** : langue inventée de sonorité européenne, en deux états (ancien : noms longs en -ion, -aël, -or ; moderne : noms courts de deux syllabes). **Les exemples de noms proposés ne sont pas retenus.**
+- **Trois idées validées** : le nom ancien de B survit, déformé, et A peut faire le lien ; la technique dérivée de la guilde porte le nom du rival, et B le reconnaît (N-01) ; le nom de A est le même dans les deux vies.
+
+**Promotions en canon :** 4 énoncés `[SOURCE]` (`arts_martiaux.md` §2 ×3, `B.md` C-04). Il reste 9 énoncés `[SOURCE]`.
+**Ajout signalé :** `[INTERPRÉTATION]` la règle des noms s'appliquerait aussi aux noms de lieux (à confirmer).
+**Questions :** Q-15 close ; Q-20 réduite au choix des noms et passée en priorité 1 (elle bloque les prologues).
+
+**Fichiers modifiés :** `01_UNIVERS/arts_martiaux.md`, `01_UNIVERS/glossaire.md`, `02_PERSONNAGES/A.md`, `02_PERSONNAGES/B.md`, `02_PERSONNAGES/personnages_secondaires.md`, `04_INTRIGUE/arcs.md`, `04_INTRIGUE/catastrophes_propositions.md`, `04_INTRIGUE/principes_narratifs.md`, `05_COHERENCE/contradictions.md`, `05_COHERENCE/questions_ouvertes.md`, `00_PILOTAGE/modifications_sources_a_faire.md`, `00_PILOTAGE/README.md`, `06_MANUSCRIT/README.md`, `00_PILOTAGE/aide_memoire.html`.
+**Sources modifiées :** aucune (S-14 est à faire par l'auteur).
+
+## 2026-11-12 — Temps des flashbacks et registre des voix (Q-15)
+
+**Décision de l'auteur :** « je valide 1 ». Deviennent `[CANON]` : passé composé pour les flashbacks insérés dans la narration au présent ; registre des deux voix (A assurée, précise, ironique ; B mesuré, tournures anciennes).
+**Reste ouvert (Q-15) :** passé simple ou passé composé dans les deux prologues (j'avais indiqué que les deux conviennent, sans trancher).
+**Fichiers modifiés :** `04_INTRIGUE/principes_narratifs.md`, `05_COHERENCE/questions_ouvertes.md`, `00_PILOTAGE/aide_memoire.html`. **Sources modifiées :** aucune.
+
+## 2026-11-12 — Forme du récit, fin et révélation mutuelle (Q-11, Q-14, Q-15)
+
+**Décision de l'auteur :** « applique toutes tes recommandations ». Recommandations de l'assistant, désormais `[CANON]` (marquées ✱) :
+- **Révélation (R2 asymétrique)** : A soupçonne la première (« cœur de mana », réaction de B au temple) ; B ensuite (prédictions trop justes, second noyau) ; aveu mutuel vers 22–26 ans, au basculement de PC-2. Le temple sème les soupçons sans rien révéler.
+- **Fin (F2)** : deux grands mouvements. Partie 1 jusqu'à E-07 déjouée (35–38 ans, aboutissement de A) ; partie 2 au-delà de 38 ans (futur inconnu de A, B dépasse le 10e cercle, affrontement final contre la guilde à sa racine).
+- **Forme** : alternance par chapitre ; scènes communes à la 1re personne, scènes miroirs ponctuelles (l'hypothèse de la 3e personne est abandonnée) ; présent pour la seconde vie, passé pour la première ; chapitres de 2 500 à 3 500 mots.
+- **Ouverture (Q-11)** : prologue de B, puis prologue de A (un chapitre chacun), puis flashbacks. L'explication du mana passe pour l'essentiel dans l'arc 3.
+
+**Non validé, laissé ouvert :** le registre des deux voix reste `[INTERPRÉTATION]` (il n'était pas dans la liste des recommandations) ; l'option « retour à l'artefact » (F3) reste `[PROPOSITION]`.
+
+**Questions :** Q-11 close ; Q-14, Q-15 et Q-25 réduites à leur partie restante ; Q-26 ajoutée (place de l'explication des arts martiaux).
+
+**Fichiers modifiés :** `04_INTRIGUE/principes_narratifs.md`, `04_INTRIGUE/arcs.md`, `05_COHERENCE/questions_ouvertes.md`, `03_CHRONOLOGIE/chronologie.md`, `06_MANUSCRIT/README.md`, `00_PILOTAGE/README.md`, `00_PILOTAGE/aide_memoire.html`.
+**Sources modifiées :** aucune.
+
 ## 2026-11-12 — Favicon du projet
 
 **Fichiers créés :** `favicon.svg` (racine) — pixel art 16 × 16 : un noyau aux cercles imbriqués, l'anneau extérieur bleu (A) et l'anneau intérieur orange (B) autour d'un cœur doré (l'artefact), sur fond sombre. Couleurs reprises de `courbes_A_B.html`.

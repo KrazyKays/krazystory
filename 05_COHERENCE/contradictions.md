@@ -8,8 +8,8 @@
 |---|---|---|---|
 | C-01 | Vitesse de cultivation de A | Haute | **Résolu** (2026-11-09) |
 | C-02 | Progression de B dans sa première vie | Haute | **Résolu** (2026-11-09) |
-| C-03 | Art de B : « très répandu » ou « seul » et perdu | Moyenne | Ouvert |
-| C-04 | Moment où B trouve comment dépasser sa limite | Moyenne | Ouvert |
+| C-03 | Art de B : « très répandu » ou « seul » et perdu | Moyenne | **Résolu** (2026-11-12) |
+| C-04 | Moment où B trouve comment dépasser sa limite | Moyenne | **Résolu** (2026-11-12) |
 | C-05 | Fonction de l'artefact | Moyenne | **Résolu** (2026-11-09) |
 | C-06 | Mécanisme du retour dans le temps | Faible | Ouvert |
 | C-07 | Lieu de naissance et statut social de B | Moyenne | **Résolu** (2026-11-09) |
@@ -26,25 +26,6 @@
 ---
 
 ## Fiches ouvertes
-
-### C-03 — Art de B : répandu ou unique ? · Moyenne
-- **Version 1** `[arc 1.md:3]` : le dojo enseigne « un art martial **très répandu** ».
-- **Version 2** `[details B.md:11]` : « C'est le **seul** art martial qui permet d'avoir des noyaux "souples" […] maintenant oublié » ; `[lore.md:34]` : la quasi-élimination du dojo cause la perte de la technique.
-- **Problème :** un art très répandu ne disparaîtrait pas avec un seul dojo.
-- **Pistes :**
-  a) Le combat est répandu, mais la cultivation souple est un secret réservé aux disciples internes du dojo, et disparaît avec eux.
-  b) L'art est répandu dans plusieurs branches, que la guilde vise toutes pendant le grand assaut parce que c'est le style le plus dangereux pour elle.
-  c) « Très répandu » signifie « très renommé » : un seul dojo, mais célèbre. On reformule `[arc 1.md:3]`.
-
-### C-04 — Quand B trouve-t-il comment dépasser sa limite ? · Moyenne
-- **Version 1** `[details B.md:3]` : « il trouve un moyen de le dépasser sans pouvoir le mettre en œuvre avant de se faire trahir ».
-- **Version 2** `[arc 1.md:7-9]` : il est encore en recherche quand il découvre l'artefact et subit l'attaque.
-- **Version 3** `[arc 3.md:5,7]` : il réfléchit aux solutions dans le néant ; le mana de l'artefact et ses années de réflexion lui permettront de dépasser la limite.
-- **Pistes :**
-  a) Avant l'artefact : il a une théorie qui exige un mana différent, le trouve dans l'artefact, puis il est trahi. Le néant sert à la valider.
-  b) Au contact de l'artefact, juste avant l'attaque ; il l'élabore ensuite dans le néant.
-  c) Seulement dans le néant : on reformule `[details B.md:3]`.
-- Dans les trois cas, la solution n'a jamais été testée.
 
 ### C-06 — Mécanisme du retour dans le temps · Faible
 - **Version 1** `[lore.md:27]` : l'artefact cherche à revenir au moment où l'âme de B y est entrée, mais l'âme de A, pas assez ancienne, bloque le processus à sa naissance.
@@ -101,6 +82,14 @@ A possède deux noyaux, dont les cercles évoluent en miroir. Pour le même effo
 - La **cultivation allonge la durée de vie**.
 - Conséquence : en seconde vie, B atteint 10 cercles vers 55 ans, soit 43 ans de cultivation contre 70.
 - Sources corrigées : `timeline.md:5`, `arc 1.md:5` (S-01 à S-03). Reste mineur : place du 7e cercle (Q-21).
+
+### C-03 — Art de B : répandu ou unique ? · Moyenne · RÉSOLU (2026-11-12)
+Piste c). « Très répandu » signifie « très renommé » : un **seul dojo** enseigne l'art, célèbre et influent par son grand nombre de combattants puissants `[lore.md:32]`. Sa quasi-élimination suffit donc à faire perdre l'art `[lore.md:34]`, à l'exception de la version dérivée transmise par le rival. Source à reformuler : `arc 1.md:3` (S-14).
+
+### C-04 — Quand B trouve-t-il comment dépasser sa limite ? · Moyenne · RÉSOLU (2026-11-12)
+Piste a). Avant l'artefact, B élabore une théorie : la limite du 10e cercle ne vient pas de son art, mais de la **nature même du mana commun**. Il ne sait pas qu'un autre mana existe, il en déduit la nécessité ✱. Il le cherche, le trouve dans l'artefact du trésor, et il est trahi à ce moment précis. Dans le néant, il affine et valide sa théorie. La solution n'a jamais été testée.
+Les trois sources restent valides sans reformulation : `[details B.md:3]` (il a trouvé un moyen sans pouvoir le mettre en œuvre), `[arc 1.md:7-9]` (il cherche, puis trouve le mana dans l'artefact), `[arc 3.md:5,7]` (réflexion dans le néant). Cohérent avec la crainte du maître que l'art soit « dénaturé » `[arc 1.md:7]`.
+✱ Précision proposée par l'assistant, validée par l'auteur.
 
 ### C-05 — Fonction de l'artefact · Moyenne · RÉSOLU (2026-11-09)
 L'artefact n'a qu'une fonction, la méditation dans une dimension hors du temps `[lore.md:25]`. Les inscriptions du temple la décrivent de façon imagée : « devenir immortel » renvoie au temps illimité, « se protéger de toutes les menaces » à l'abri qu'offre la dimension. A les interprète mal.

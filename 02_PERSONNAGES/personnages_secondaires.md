@@ -7,7 +7,7 @@
 | Personnage | Description | Sources | Manques |
 |---|---|---|---|
 | Maître du dojo | 9 cercles. Reconnaît B comme successeur, puis ordonne son élimination par peur que la faille de l'art soit découverte ou que l'art soit dénaturé. | `[arc 1.md:5-7]` | Nom, sort lors du grand assaut. |
-| Rival / disciple assassin | Un des disciples les plus puissants, concurrent direct de B. Échoue de peu à le tuer. Survit au grand assaut en se ralliant à la guilde de l'ombre, à qui il transmet une version dérivée de la technique. `[INTERPRÉTATION]` Puisque B meurt vers 80 ans, le rival a probablement un âge proche, et le maître est plus âgé encore. La cultivation allonge la vie. | `[arc 1.md:7-9]` `[lore.md:34]` | `[INTERPRÉTATION]` Les deux sources désignent très probablement la même personne (« concurrent direct » / « rival de B »). À confirmer. |
+| Rival / disciple assassin | Un des disciples les plus puissants, concurrent direct de B. Échoue de peu à le tuer. Survit au grand assaut en se ralliant à la guilde de l'ombre, à qui il transmet une version dérivée de la technique. `[CANON]` (2026-11-12) ✱ Cette version dérivée porte son nom (sur le modèle « la voie de … ») ; B le reconnaît en l'entendant (N-01). `[INTERPRÉTATION]` Puisque B meurt vers 80 ans, le rival a probablement un âge proche, et le maître est plus âgé encore. La cultivation allonge la vie. | `[arc 1.md:7-9]` `[lore.md:34]` | `[INTERPRÉTATION]` Les deux sources désignent très probablement la même personne (« concurrent direct » / « rival de B »). À confirmer. |
 
 ## Entourage de A
 

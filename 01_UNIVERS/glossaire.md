@@ -20,3 +20,20 @@
 | **Guilde de l'ombre** | Faction antagoniste `[lore.md:34,41]`. | Inchangé. |
 | **Néant** / **dimension vide** | Espace de l'artefact `[lore.md:25]` `[arc 1.md:11]`. | Choisir un terme unique. |
 | **Réincarnation / résurrection / retour** | « Résurrection de A et réincarnation de B » `[timeline.md:11]` ; « réincarnation » employé aussi pour A `[arc 3.md:11]` `[arc 4.md:3]`. | `[INTERPRÉTATION]` A retourne dans **son propre** corps (retour, régression) ; B occupe le corps d'un **autre** (réincarnation). Distinguer les deux termes éviterait des confusions. |
+
+## Noms — règle de construction `[CANON]` (2026-11-12) ✱
+
+- **Langue inventée, de sonorité européenne**, lisible en français. Aucun nom emprunté aux œuvres d'inspiration (P-07).
+- **Deux états de la langue :**
+  - **ancien** (époque de B) : noms longs, avec des terminaisons du type *-ion*, *-aël*, *-or* ;
+  - **moderne** (époque du récit) : noms courts, de deux syllabes.
+- **Fonction :** un nom ancien sonne daté à l'oreille de A, comme « cœur de mana » (C-13). Un nom ancien qui a survécu jusqu'à l'époque du récit prend une forme raccourcie, déformée.
+- `[INTERPRÉTATION]` La règle s'applique aussi aux noms de lieux. À confirmer.
+- Les exemples donnés par l'assistant le 2026-11-12 ne sont **pas retenus**. Les noms restent à choisir (Q-20).
+
+**Usages validés (2026-11-12) ✱ :**
+1. Le nom ancien de B survit, déformé, dans une légende ou un nom de lieu ; A, érudite, peut faire le lien (indice pour la révélation, `arcs.md`).
+2. La version dérivée de l'art, transmise à la guilde, porte le nom du rival ; B le reconnaît en l'entendant (N-01).
+3. Le nom de A est le même dans les deux vies.
+
+✱ Proposé par l'assistant, puis validé par l'auteur.

@@ -6,7 +6,9 @@
 
 - `[CANON]` Garçon, réincarné loin dans le futur. `[principes.md:5]`
 - `[SOURCE]` Grand maître des arts martiaux mort depuis « plusieurs milliers d'années » `[resume.md:3]` / né 2000 ans avant le début de l'histoire `[timeline.md:3]` → `[CONFLIT C-09]` (mineur).
-- `[MANQUANT]` Nom (ancien et nouveau ?), apparence, âge exact à sa mort.
+- `[CANON]` (2026-11-12) Deux noms : l'**ancien**, de sa première vie, et le **nouveau**, donné par ses parents. Règle de construction : `01_UNIVERS/glossaire.md`, « Noms ».
+- `[CANON]` (2026-11-12) ✱ Son nom ancien survit, déformé, dans une légende ou un nom de lieu ; A, érudite, peut faire le lien (indice, P-11).
+- `[MANQUANT]` Les deux noms (Q-20), apparence, âge exact à sa mort.
 
 ## Première vie (il y a environ 2000 ans)
 
@@ -18,7 +20,7 @@
 - `[CANON]` Sa progression a été ralentie par la défense contre les monstres et par ses tâtonnements de pionnier sans modèle.
 - `[CANON]` Désigné successeur par le maître du dojo (9 cercles). `[arc 1.md:5]`
 - `[CANON]` Bloqué au 10e cercle, il cherche à faire évoluer son art et confie ses recherches au maître. `[arc 1.md:7]`
-- `[SOURCE]` Il trouve un moyen de dépasser la limite sans pouvoir le mettre en œuvre `[details B.md:3]`, ou il est encore en train de chercher au moment de l'attaque `[arc 1.md:7-9]` → `[CONFLIT C-04]`.
+- `[CANON]` (C-04, 2026-11-12) ✱ Avant l'artefact, il élabore une **théorie** : la limite du 10e cercle ne vient pas de son art, mais de la nature même du mana commun. Il ne sait pas qu'un autre mana existe, il en déduit la nécessité. Il le cherche, le trouve dans l'artefact du trésor, et il est trahi à ce moment précis. Il a donc trouvé un moyen sans pouvoir le mettre en œuvre `[details B.md:3]` `[arc 1.md:7-9]`. Dans le néant, il affine et valide sa théorie `[arc 3.md:5,7]`. La solution n'a jamais été testée.
 - `[CANON]` (C-15) La réputation de son art (« toujours perfectible ») est fausse : en révélant au maître le plafond du 10e cercle, B lui révèle la faille qu'il veut cacher. Seule la taille des cercles reste perfectible.
 - `[CANON]` Trahi : le maître ordonne à un disciple rival de l'éliminer discrètement. B, gravement blessé, active l'artefact, est téléporté au temple et y meurt. `[arc 1.md:7-11]`
 

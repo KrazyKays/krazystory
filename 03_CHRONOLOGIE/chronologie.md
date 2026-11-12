@@ -44,7 +44,10 @@ Détail, vérités cachées et effets papillons : `04_INTRIGUE/catastrophes_prop
 | 13 | Examen d'entrée à l'académie de la capitale ; rencontre de A et de B. | `[timeline.md:15]` `[arc 4.md]` |
 | ? | Expédition de groupe vers le temple. | `[arc 5.md]` |
 | ? | Rencontre d'un ennemi bien plus puissant (« assez tôt »). | `[idees.md:7]` |
+| 22–26 | Aveu mutuel de A et de B, au basculement de PC-2. `[CANON]` (2026-11-12) | `arcs.md` |
 | 28–29 | Fin de la timeline source ; le récit continue au-delà `[CANON]`. | `[timeline.md:39-41]` |
+| 35–38 | Fin de la partie 1 : E-07, la chute de la capitale, déjouée. `[CANON]` (2026-11-12) | `arcs.md` |
+| Au-delà de 38 | Partie 2 : futur inconnu de A ; B dépasse la limite du 10e cercle ; affrontement final contre la guilde. `[CANON]` (2026-11-12) | `arcs.md` |
 
 ## 4. Seconde vie — progression de cultivation
 

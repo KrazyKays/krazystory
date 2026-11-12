@@ -369,9 +369,10 @@ P.apercu = () => `
       <div class="si"><span>Sources sans conflit promues en canon (Q-01)</span><span class="pill ok">Fait</span></div>
       <div class="si"><span>Inventaire des sources (13 textes, 29 images)</span><span class="pill ok">Terminé</span></div>
       <div class="si"><span>Structuration de la base</span><span class="pill ok">1re version</span></div>
-      <div class="si"><span>Contradictions : 7 résolues sur 16</span><span class="pill wip">En cours</span></div>
+      <div class="si"><span>Contradictions : 9 résolues sur 16</span><span class="pill wip">En cours</span></div>
       <div class="si"><span>Catastrophes de la 1re vie de A</span><span class="pill ok">Structure validée</span></div>
-      <div class="si"><span>Choix d'écriture restants (Q-15)</span><span class="pill wip">À décider</span></div>
+      <div class="si"><span>Forme du récit et structure d'ensemble</span><span class="pill ok">Validées</span></div>
+      <div class="si"><span>Noms : règle fixée, noms à choisir (Q-20)</span><span class="pill wip">À décider</span></div>
       <div class="si"><span>Rédaction du manuscrit</span><span class="pill no">Non commencée</span></div>
     </div>
   </div>
@@ -390,8 +391,8 @@ P.apercu = () => `
   </div>
   <div class="box">
     <h3>Décision bloquante (priorité 1)</h3>
-    ${ul(["**Q-15** Rythme de l'alternance A/B, temps du récit, longueur des chapitres ; confirmer la 3e personne pour les scènes communes ({HYPOTHÈSE})."])}
-    <p class="small muted">Voir l'onglet Cohérence pour les 9 contradictions ouvertes et les 17 questions.</p>
+    ${ul(["**Q-20** Choisir les noms nécessaires aux prologues (A, B ancien et nouveau, le maître, le rival), selon la règle du glossaire."])}
+    <p class="small muted">Voir l'onglet Cohérence pour les 7 contradictions ouvertes et les 16 questions.</p>
   </div>
 </div>
 
@@ -464,7 +465,7 @@ P.personnages = () => `
         "Travailleur assidu, sage, calme, obstiné, grand sens de la justice.",
         "{CANON} 10 cercles en 70 ans ; personne d'autre n'a dépassé le 9e. Cultive aussi en dormant (avantage non chiffré).",
         "Désigné successeur par le maître (9 cercles).",
-        "Bloqué au 10e cercle ; trouve ou cherche encore un moyen de le dépasser {CONFLIT C-04}.",
+        "Bloqué au 10e cercle ; sa théorie : la limite tient à la nature du mana. Il trouve dans l'artefact le mana qu'il cherchait, puis il est trahi (C-04).",
         "{CANON} En révélant ce plafond au maître, il révèle la faille que celui-ci veut cacher (C-15).",
         "Trahi : un disciple rival tente de l'éliminer ; il active l'artefact, est téléporté au temple et y meurt."])}</div>
       <div class="grp"><span class="eyebrow">Entre les vies</span>${ul([
@@ -568,7 +569,7 @@ ${table(["Cas","Règle"],[
     <div class="box"><span class="eyebrow">Art souple du dojo de B</span>${ul([
       "Rapidité pure, agilité ; le mana contrôle la rigidité des os et réduit la masse du corps.",
       "Seul art à cercles souples : en ouvrir le plus possible dès le début.",
-      "« Très répandu » mais aujourd'hui oublié {CONFLIT C-03}.",
+      "Très renommé, enseigné par un seul dojo ; aujourd'hui oublié (C-03).",
       "{CANON} « Toujours perfectible » est une réputation fausse : plafond au 10e cercle.",
       "Le rival a transmis à la guilde une version dérivée, moins efficace mais reconnaissable."])}</div>
     <div class="box"><span class="eyebrow">Arts de A</span>${ul([
@@ -791,14 +792,14 @@ ${table(["ID","Événement","Origine","Effet sur A"],[
 ])}</div>`;
 
 P.recit = () => `
-<div class="grp"><h3>Les cinq arcs écrits</h3><p class="small muted">Ordre de narration non fixé. Rien n'est écrit après l'expédition.</p>
+<div class="grp"><h3>Les cinq arcs écrits</h3><p class="small muted">Ordre : prologue de B, prologue de A, puis arcs 3 à 5. Rien n'est écrit après l'expédition.</p>
 <div class="grid">
-  <div class="box si"><span class="eyebrow">Arc 1 · passé de B</span><p class="small"><b>Fonction :</b> origine de B, du mana de l'artefact et de la trahison ; exposition du mana.</p>${ul(["Génie du dojo, 10 cercles en 70 ans ; désigné successeur.","Bloqué au 10e cercle ; le maître fait éliminer B par un rival.","Artefact, téléportation au temple, mort, âme dans le néant."])}<p class="small muted">Ouvert : C-03, C-04, Q-11.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 2 · première vie de A</span><p class="small"><b>Fonction :</b> origine de A, futur catastrophique, mécanisme du retour ; exposition des arts martiaux.</p>${ul(["A, 93 ans, art basique, bloquée ; a tout perdu.","Érudite, exploratrice, langues anciennes.","Temple, ossements, inscriptions ; explosion de l'artefact ; retour à sa naissance."])}<p class="small muted">Ouvert : C-06, C-08, C-12.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 1 · passé de B</span><p class="small"><b>Fonction :</b> origine de B, du mana de l'artefact et de la trahison ; exposition du mana.</p>${ul(["Génie du dojo, 10 cercles en 70 ans ; désigné successeur.","Bloqué au 10e cercle ; le maître fait éliminer B par un rival.","Artefact, téléportation au temple, mort, âme dans le néant."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks.</p></div>
+  <div class="box si"><span class="eyebrow">Arc 2 · première vie de A</span><p class="small"><b>Fonction :</b> origine de A, futur catastrophique, mécanisme du retour ; exposition des arts martiaux.</p>${ul(["A, 93 ans, art basique, bloquée ; a tout perdu.","Érudite, exploratrice, langues anciennes.","Temple, ossements, inscriptions ; explosion de l'artefact ; retour à sa naissance."])}<p class="small muted">Prologue d'un chapitre, puis flashbacks. Ouvert : C-06, C-08, C-12.</p></div>
   <div class="box si"><span class="eyebrow">Arc 3 · enfances (0–12 ans)</span><p class="small"><b>Fonction :</b> présenter le monde (via B) et les noyaux (via A).</p>${ul(["B : réveil, apprentissage, disparition de son art, famille aimante, cultivation cachée.","A : décision, 1er cercle à 8 ans, double noyau, objectif élite.","{MANQUANT} Famille et vie de A au village ; premiers drames avant 13 ans."])}<p class="small muted">Ouvert : C-10, C-11.</p></div>
   <div class="box si"><span class="eyebrow">Arc 4 · examen (13 ans)</span><p class="small"><b>Fonction :</b> rencontre de A et B ; face à l'élite.</p>${ul(["Groupe 1 : la capitale (B, le prince) ; groupe 2 : les villages (A).","A domine son groupe ; B et le prince se préservent.","40 % du groupe 1 et 5 % du groupe 2 passent la 2e épreuve.","A découvre que B lui tient tête.","{MANQUANT} Nature des épreuves, résultats, réaction de la gemme au double noyau."])}<p class="small muted">Ouvert : T-01.</p></div>
-  <div class="box si"><span class="eyebrow">Arc 5 · expédition</span><p class="small"><b>Fonction :</b> former l'équipe ; retour au temple.</p>${ul(["A recrute le fougueux et le talent latent ; s'autoproclame cheffe.","B se joint au groupe : il a aussi quelque chose à chercher.","Tous deux veulent fouiller le temple en secret.","{MANQUANT} Âge, cadre, découvertes, conséquences."])}</div>
-  <div class="box si"><span class="eyebrow">Au-delà</span>${ul(["{CANON} Le récit va au-delà de 28–29 ans, grâce aux ellipses.","{CANON} La révélation mutuelle a lieu au cours du récit, après de longs doutes (P-11).","{MANQUANT} La fin et le moment de la révélation (Q-14)."])}</div>
+  <div class="box si"><span class="eyebrow">Arc 5 · expédition</span><p class="small"><b>Fonction :</b> former l'équipe ; retour au temple.</p>${ul(["A recrute le fougueux et le talent latent ; s'autoproclame cheffe.","B se joint au groupe : il a aussi quelque chose à chercher.","Tous deux veulent fouiller le temple en secret.","{CANON} Le temple sème les soupçons de A (réaction de B devant les ossements), sans rien révéler.","{MANQUANT} Âge, cadre, découvertes."])}</div>
+  <div class="box si"><span class="eyebrow">Au-delà</span>${ul(["{CANON} **Partie 1** (0 à 35–38 ans) : climax E-07, la chute de la capitale déjouée ; aboutissement de A.","{CANON} **Partie 2** (au-delà de 38 ans) : futur inconnu de A ; B dépasse le 10e cercle ; affrontement final contre la guilde à sa racine.","{CANON} Révélation : A soupçonne d'abord (« cœur de mana », temple), puis B (prédictions, second noyau) ; aveu mutuel vers 22–26 ans (PC-2).","{MANQUANT} Contenu de la partie 2, ton de la fin, adversaire final (Q-14)."])}</div>
 </div></div>
 
 <div class="grid wide">
@@ -820,11 +821,11 @@ P.recit = () => `
     <div class="box">${ul([
       "{CANON} Format : **web novel**.",
       "{CANON} Point de vue alterné entre A et B, à la **1re personne**.",
-      "{HYPOTHÈSE} 3e personne pour les scènes réunissant A et B.",
+      "{CANON} Alternance **par chapitre**, nom du narrateur en tête.","{CANON} Scènes communes à la 1re personne ; scènes miroirs pour quelques moments clés.","{CANON} **Présent** pour la seconde vie, **passé** pour la première.","{CANON} Chapitres de **2 500 à 3 500 mots**.","{CANON} Ouverture : deux prologues courts (B, puis A), puis flashbacks.",
       "{CANON} Ellipses entre des moments charnières longuement développés.",
       "{CANON} Ironie dramatique assumée : le lecteur connaît dès le début le secret de chacun.",
       "{CANON} Inspirations : Tales of Demons and Gods, The Beginning After the End.",
-      "{MANQUANT} Rythme de l'alternance, temps du récit, registre, longueur des chapitres (Q-15)."])}</div>
+      "{CANON} Flashbacks au **passé composé**.","{CANON} Registre : A assurée, précise, ironique ; B mesuré, tournures anciennes (« cœur de mana »).","{CANON} Prologues au **passé composé** également."])}</div>
     <div class="box"><span class="eyebrow">Tensions</span>${ul([
       "**T-01** P-06 face aux rivaux « détestables » et aux nobles hautains : question de dosage.",
       "**T-03** Placer les ellipses dans les creux : 0–8 ans, 13–?, au-delà de 28 ans."])}</div>
@@ -857,8 +858,8 @@ ${table(["ID","Idée","Placement possible"],[
 const CONTRA = [
   ["C-01","Vitesse de cultivation de A","Haute","Résolu","Deux noyaux en miroir : deux fois plus de mana, durées standard. Éviter « plus vite »."],
   ["C-02","Progression de B dans sa première vie","Haute","Résolu","10 cercles en 70 ans ; cercles 8 à 10 un par un ; sommeil non chiffré ; la cultivation allonge la vie."],
-  ["C-03","Art de B : « très répandu » ou « seul » et perdu","Moyenne","Ouvert","",["Le combat est répandu, la cultivation souple est un secret des disciples internes.","Plusieurs branches, toutes visées par la guilde lors du grand assaut.","« Très répandu » = « très renommé » ; reformuler [arc 1.md:3]."]],
-  ["C-04","Moment où B trouve comment dépasser sa limite","Moyenne","Ouvert","Trois versions : trouvé avant la trahison [details B.md:3] ; encore en recherche [arc 1.md:7-9] ; dans le néant [arc 3.md:5,7].",["Une théorie qui exige un mana différent, trouvé dans l'artefact ; le néant sert à la valider.","Au contact de l'artefact, juste avant l'attaque.","Seulement dans le néant ; reformuler [details B.md:3]."]],
+  ["C-03","Art de B : « très répandu » ou « seul » et perdu","Moyenne","Résolu","« Très répandu » = « très renommé » : un seul dojo, célèbre ; source à reformuler (S-14)."],
+  ["C-04","Moment où B trouve comment dépasser sa limite","Moyenne","Résolu","Une théorie avant l'artefact (la limite tient à la nature du mana) ; il trouve ce mana dans l'artefact, puis il est trahi ; le néant sert à la valider."],
   ["C-05","Fonction de l'artefact","Moyenne","Résolu","Une seule fonction (méditation hors du temps) ; inscriptions imagées ; seule l'âme est immortelle."],
   ["C-06","Mécanisme du retour dans le temps","Faible","Ouvert","Retour vers l'entrée de l'âme de B, bloqué à la naissance de A [lore.md:27] ; ou remontée jusqu'au « point de départ » de A [arc 2.md:11]. Compatibles.",["Fusionner les deux explications.","Ne garder que [arc 2.md:11].","Révéler en deux temps : compréhension de A (arc 2), vraie mécanique au temple (arc 5)."]],
   ["C-07","Lieu de naissance et statut social de B","Moyenne","Résolu","La ville voisine est la capitale ; le groupe 1 réunit tous les candidats de la capitale."],
@@ -873,22 +874,21 @@ const CONTRA = [
   ["C-16","Distance entre le village de A et la capitale","Moyenne","Résolu","La capitale est la ville la plus proche, à plusieurs jours de route."]
 ];
 const QUEST = [
-  ["Méthode","Q-15","Rythme de l'alternance A/B, temps du récit, longueur des chapitres ; 3e personne pour les scènes communes ?",1],
   ["Règles","Q-05","Pourquoi A reçoit-elle un noyau complet de mana de l'artefact et B seulement des « résidus » ?",2],
   ["Règles","Q-16","Le nouvel art de A optimise-t-il l'art de son village ou un autre ? Qu'est-ce que l'« assommoir » ?",2],
   ["Règles","Q-21","1re vie de B : le 7e cercle est-il cultivé seul ? À quel âge avait-il 7 cercles ?",3],
   ["Règles","Q-22","De combien la cultivation allonge-t-elle la vie ?",3],
   ["Règles","Q-24","Que recouvre le « développement » de l'âme dans l'artefact ?",3],
   ["Intrigue","Q-10","La guilde existe-t-elle sans interruption depuis 2000 ans ? Sous quelle forme ? B la connaît-il ?",2],
-  ["Intrigue","Q-11","Arcs 1 et 2 : prologue, chapitres complets ou flashbacks distillés ?",2],
-  ["Intrigue","Q-14","La fin du récit, et le moment de la révélation mutuelle.",2],
+  ["Intrigue","Q-14","Restent : contenu de la partie 2, ton de la fin, adversaire final, scène de l'aveu.",2],
+  ["Intrigue","Q-26","Où placer l'explication des arts martiaux, l'arc 2 devenant un prologue court ?",2],
   ["Intrigue","Q-17","Pourquoi A veut-elle prendre le contrôle de la secte de B ?",3],
   ["Intrigue","Q-18","Pourquoi B attend-il 12 ans pour cultiver, alors que A commence à 8 ans ?",3],
-  ["Intrigue","Q-25","Quand A remarque-t-elle que B dit « cœur de mana » ?",3],
+  ["Intrigue","Q-25","Quand A remarque-t-elle que B dit « cœur de mana » ? (avant l'aveu)",3],
   ["Monde","Q-07","Où se trouve le temple par rapport à la capitale et au village ?",2],
   ["Monde","Q-08","La famille de B est-elle noble ? Comment ses parents réagissent-ils à l'examen martial ?",2],
   ["Monde","Q-19","La famille de A dans sa seconde vie (« A ecrire »).",2],
-  ["Monde","Q-20","Noms : A et B sont-ils provisoires ? Une langue d'inspiration pour l'univers ?",2],
+  ["Monde","Q-20","Choisir les noms selon la règle fixée : d'abord A, B (ancien et nouveau), le maître et le rival.",1],
   ["Références","Q-13","Les images sont-elles des références officielles ? Le mana est-il vert ?",3]
 ];
 P.coherence = () => `
@@ -943,6 +943,7 @@ const GLOSS = [
   ["Gemme d'évaluation","Sphère normée qui mesure le dernier cercle. Nom officiel à choisir."],
   ["Guilde de l'ombre","Faction antagoniste."],
   ["Néant / dimension vide","Espace de l'artefact. Terme unique à choisir."],
+  ["Noms","{CANON} Langue inventée de sonorité européenne, en deux états : ancien (noms longs en -ion, -aël, -or) et moderne (deux syllabes). Le nom ancien de B survit déformé ; la technique de la guilde porte le nom du rival ; le nom de A est le même dans les deux vies."],
   ["Retour / réincarnation","{INTERPRÉTATION} A retourne dans son propre corps ; B occupe le corps d'un autre. Distinguer les deux termes."]
 ];
 P.glossaire = () => `<dl class="gloss">${GLOSS.map(g=>`<div class="si"><dt>${esc(g[0])}</dt><dd>${fmt(g[1])}</dd></div>`).join("")}</dl>`;
