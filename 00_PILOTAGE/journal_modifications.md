@@ -2,6 +2,11 @@
 
 > À partir du 2026-11-12, la base désigne les héros par leurs prénoms : **Arlak** (« A » dans les sources) et **Korvan** (« B » dans les sources, Mérindor dans sa première vie). Les entrées antérieures du journal gardent « A » et « B ».
 
+## 2026-11-12 — Code couleur des héros dans l'aide-mémoire
+
+**Aide-mémoire :** chaque occurrence d'« Arlak » (bleu) et de « Korvan » (orange), y compris « Mérindor », est mise en évidence par une pastille et une teinte. La légende figure dans l'en-tête. Les couleurs sont celles que la page utilisait déjà pour les deux héros. La recherche fonctionne comme avant.
+**Fichiers modifiés :** `00_PILOTAGE/aide_memoire.html`. **Sources modifiées :** aucune.
+
 ## 2026-11-12 — Nom de l'héroïne et emploi des prénoms dans toute la base
 
 **Décisions de l'auteur (`[CANON]`) :** l'héroïne s'appelle **Arlak** (dérivé de « Karlach », piste de l'auteur). Les prénoms remplacent « A » et « B » partout dans la base ; pour B, on emploie le prénom actuel, **Korvan**, y compris pour sa première vie (Mérindor reste mentionné dans sa fiche et dans le glossaire).

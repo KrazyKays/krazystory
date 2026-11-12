@@ -215,6 +215,16 @@ dialog#lb button{border:1px solid var(--rule);background:var(--surface-2);border
 .statuslegend span{display:inline-flex;gap:6px;align-items:center}
 .foot{margin-top:48px;padding-top:14px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-3);display:grid;gap:4px}
 
+/* Noms des héros : une couleur par personnage, partout (bleu = Arlak, orange = Korvan) */
+.nm{font-weight:650;color:var(--c);background:color-mix(in srgb,var(--c) 13%,transparent);border-radius:4px;padding:0 .22em;box-decoration-break:clone;-webkit-box-decoration-break:clone;white-space:nowrap}
+.nm.a{--c:var(--a)} .nm.b{--c:var(--b)}
+.nm::before{content:"";display:inline-block;width:.42em;height:.42em;border-radius:50%;background:var(--c);margin-right:.25em;vertical-align:.12em}
+h1 .nm,h2 .nm,h3 .nm,.duo .h .nm,figcaption .nm,.who .nm{background:none;padding:0;font-weight:inherit}
+h1 .nm::before,h2 .nm::before,h3 .nm::before,.duo .h .nm::before,figcaption .nm::before{display:none}
+.who{display:flex;gap:10px;font-size:13px;align-items:center;color:var(--ink-3)}
+.who .nm{font-weight:650}
+@media (max-width:560px){.who{display:none}}
+
 /* Mode recherche */
 body.searching section.panel{display:grid !important}
 body.searching .si.miss{display:none !important}
@@ -227,7 +237,7 @@ body.searching .nosearch{display:none !important}
 <header class="top">
   <div class="gut"><div class="inner">
     <div class="bar">
-      <div class="brand"><h1>Krazystory</h1><small>Aide-mémoire du projet</small></div>
+      <div class="brand"><h1>Krazystory</h1><small>Aide-mémoire du projet</small><span class="who" aria-label="Code couleur des héros">Arlak Korvan</span></div>
       <div class="tools">
         <label class="search" for="q">
           <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -954,6 +964,23 @@ const tabs = document.getElementById("tabs");
 app.innerHTML = TABS.map(([id,label])=>`<section class="panel" id="p-${id}" data-tab="${id}" hidden aria-labelledby="h-${id}"><div class="panel-head"><h2 id="h-${id}">${label}</h2></div>${P[id]()}</section>`).join("")
   + `<footer class="foot"><span>Synthèse de la base de connaissances (00_PILOTAGE à 07_REFERENCES_VISUELLES), état au 2026-11-09. Elle ne remplace pas les fiches, qui font foi.</span><span>Références au format [fichier:ligne], relatives à SOURCES/.</span></footer>`;
 tabs.innerHTML = TABS.map(([id,label])=>`<a href="#${id}" data-tab="${id}">${label}</a>`).join("");
+
+// Noms des héros : chaque occurrence reçoit la couleur de son personnage (Mérindor = Korvan)
+const NM = {Arlak:"a",Korvan:"b","Mérindor":"b"};
+function names(root){
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode:n=>
+    /Arlak|Korvan|Mérindor/.test(n.nodeValue) && !n.parentElement.closest(".nm,.ref,script,style,option") ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT});
+  const nodes=[]; while(w.nextNode()) nodes.push(w.currentNode);
+  nodes.forEach(n=>{
+    const frag=document.createDocumentFragment();
+    n.nodeValue.split(/(Arlak|Korvan|Mérindor)/).forEach((part,i)=>{
+      if(i%2){ const b=document.createElement("span"); b.className="nm "+NM[part]; b.textContent=part; frag.append(b); }
+      else if(part) frag.append(part);
+    });
+    n.replaceWith(frag);
+  });
+}
+names(app); names(document.querySelector(".brand"));
 
 // Texte de recherche et statuts de chaque élément
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
