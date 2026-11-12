@@ -1,5 +1,11 @@
 # Journal des modifications
 
+## 2026-11-12 — Favicon du projet
+
+**Fichiers créés :** `favicon.svg` (racine) — pixel art 16 × 16 : un noyau aux cercles imbriqués, l'anneau extérieur bleu (A) et l'anneau intérieur orange (B) autour d'un cœur doré (l'artefact), sur fond sombre. Couleurs reprises de `courbes_A_B.html`.
+**Fichiers modifiés :** `03_CHRONOLOGIE/courbes_A_B.html` et `00_PILOTAGE/aide_memoire.html` (favicon ajouté en ligne dans l'en-tête ; la page des courbes reste à republier, l'aide-mémoire est publié par GitHub Pages).
+**Canon / sources :** aucun changement.
+
 ## 2026-11-09 — Promotion en canon des sources sans conflit (Q-01)
 
 **Décision de l'auteur :** « Promeut en canon tout ce qui n'a pas de conflit. »
