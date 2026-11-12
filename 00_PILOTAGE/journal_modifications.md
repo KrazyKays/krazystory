@@ -2,6 +2,19 @@
 
 > À partir du 2026-11-12, la base désigne les héros par leurs prénoms : **Arlak** (« A » dans les sources) et **Korvan** (« B » dans les sources, Mérindor dans sa première vie). Les entrées antérieures du journal gardent « A » et « B ».
 
+## 2026-11-12 — Lecture du manuscrit dans l'aide-mémoire
+
+**Ajout :** onglet **Lecture** dans l'aide-mémoire, avec un sommaire par partie, le statut et le nombre de mots de chaque texte, une colonne de lecture et la navigation entre textes précédent et suivant. Le dernier texte ouvert est mémorisé dans le navigateur.
+**Fonctionnement :** à la publication, `build_pages.py` lit les textes de `06_MANUSCRIT/` (hors `README.md`, `*_notes.md` et `_versions/`) et les injecte dans la page. Le workflow se déclenche désormais aussi sur `06_MANUSCRIT/**`. Ouvert en local, sans passer par la publication, l'onglet affiche une explication à la place du texte.
+**Fichiers modifiés :** `00_PILOTAGE/aide_memoire.html`, `.github/scripts/build_pages.py`, `.github/workflows/pages.yml`, `06_MANUSCRIT/README.md`. **Sources modifiées :** aucune.
+
+## 2026-11-12 — Premier jet du prologue I (Korvan)
+
+**Rédaction :** prologue de Korvan, de la découverte du mana de l'artefact jusqu'au néant (~2 100 mots, passé composé, 1re personne). Statut `BROUILLON`.
+**Ajouts non précisés par l'auteur, à valider :** listés dans `prologue_1_notes.md` §3 (dont la clef remise par Hostavor, la question « Qui d'autre sait cela ? », la réplique de Draskion, la description du temple et du néant).
+**Points ouverts non tranchés par le texte :** C-08, C-09, C-11, Q-07, Q-13, Q-22.
+**Fichiers créés :** `06_MANUSCRIT/00_prologues/prologue_1_merindor.md`, `06_MANUSCRIT/00_prologues/prologue_1_notes.md`. **Fichiers modifiés :** `06_MANUSCRIT/README.md`. **Sources modifiées :** aucune.
+
 ## 2026-11-12 — Code couleur des héros dans l'aide-mémoire
 
 **Aide-mémoire :** chaque occurrence d'« Arlak » (bleu) et de « Korvan » (orange), y compris « Mérindor », est mise en évidence par une pastille et une teinte. La légende figure dans l'en-tête. Les couleurs sont celles que la page utilisait déjà pour les deux héros. La recherche fonctionne comme avant.

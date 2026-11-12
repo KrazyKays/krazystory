@@ -6,6 +6,7 @@ on:
     paths:
       - "00_PILOTAGE/aide_memoire.html"
       - "SOURCES/images/**"
+      - "06_MANUSCRIT/**"
       - ".github/scripts/build_pages.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:

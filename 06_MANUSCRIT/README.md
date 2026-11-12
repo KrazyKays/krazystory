@@ -1,6 +1,6 @@
 # Manuscrit
 
-> Aucun texte narratif n'a été rédigé. La rédaction commencera sur ta demande. Les choix de style et les noms des personnages des prologues sont fixés : la rédaction peut commencer par le prologue de Korvan.
+> Rédaction commencée le 2026-11-12 par le prologue de Korvan (voir « État des textes »).
 
 ## Choix d'écriture validés
 
@@ -20,6 +20,17 @@ Détail : `04_INTRIGUE/principes_narratifs.md` et `04_INTRIGUE/arcs.md`.
   ...
   _versions/              ← anciennes versions conservées (jamais supprimées sans ton accord)
 ```
+
+## Lecture en ligne
+
+L'onglet **Lecture** de l'aide-mémoire publié affiche le manuscrit tel qu'il avance : à chaque push sur `main` qui touche `06_MANUSCRIT/`, le site est reconstruit et tous les textes de ce dossier y sont injectés, sauf `README.md`, les fichiers `*_notes.md` et le dossier `_versions/`. L'ordre de lecture suit l'ordre alphabétique des chemins : nommer les dossiers et fichiers avec des numéros (`00_prologues/`, `arc_03_enfances/ch_01_….md`). Le titre est la première ligne `# …` ; le bloc `> Statut : …` en tête de fichier n'apparaît pas dans le texte, mais son statut s'affiche à côté du titre.
+
+## État des textes
+
+| Texte | Fichier | Statut | Mots |
+|---|---|---|---|
+| Prologue I — Mérindor (Korvan) | `00_prologues/prologue_1_merindor.md` (notes : `prologue_1_notes.md`) | `BROUILLON` (2026-11-12) | ~2 100 |
+| Prologue II — Arlak | — | Non commencé | — |
 
 ## Statuts des chapitres
 
