@@ -30,6 +30,7 @@ L'onglet **Lecture** de l'aide-mémoire publié affiche le manuscrit tel qu'il a
 | Texte | Fichier | Statut | Mots |
 |---|---|---|---|
 | Prologue I — Mérindor (Korvan) | `00_prologues/prologue_1_merindor.md` (notes : `prologue_1_notes.md`) | `BROUILLON` (2026-11-12) | ~2 100 |
+| Prologue I — version roman (essai de comparaison) | `00_prologues/prologue_1_merindor_roman.md` | `ESSAI` (2026-11-18) | ~2 100 |
 | Prologue II — Arlak | — | Non commencé | — |
 
 ## Statuts des chapitres
@@ -39,6 +40,7 @@ L'onglet **Lecture** de l'aide-mémoire publié affiche le manuscrit tel qu'il a
 | `BROUILLON` | Premier jet, non relu par toi. |
 | `EN RELECTURE` | Soumis à ton avis. |
 | `VALIDÉ` | Approuvé ; son contenu devient canon pour la cohérence. |
+| `ESSAI` | Variante de forme rédigée pour comparaison ; ne fait pas partie du manuscrit. |
 
 ## Plan
 

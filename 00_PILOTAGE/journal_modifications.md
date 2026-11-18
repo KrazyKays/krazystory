@@ -2,6 +2,13 @@
 
 > À partir du 2026-11-12, la base désigne les héros par leurs prénoms : **Arlak** (« A » dans les sources) et **Korvan** (« B » dans les sources, Mérindor dans sa première vie). Les entrées antérieures du journal gardent « A » et « B ».
 
+## 2026-11-18 — Prologue I : essai de version roman
+
+**Demande :** une version « roman » du prologue I, pour comparer avec la forme web novel.
+**Rédaction :** même texte transposé dans les conventions du roman imprimé : passé simple et imparfait au lieu du passé composé, paragraphes regroupés (moins de phrases isolées), retour en arrière de l'entretien ouvert au plus-que-parfait puis raconté au passé simple. Aucun fait, aucune réplique ni aucun détail d'univers ajouté ou retiré. Statut `ESSAI`.
+**Écart avec le canon signalé :** le passé simple contredit la consigne de style du 2026-11-12 (prologues et flashbacks au passé composé). L'essai ne la modifie pas.
+**Fichiers créés :** `06_MANUSCRIT/00_prologues/prologue_1_merindor_roman.md`. **Fichiers modifiés :** `06_MANUSCRIT/README.md`. **Sources modifiées :** aucune.
+
 ## 2026-11-12 — Lecture du manuscrit dans l'aide-mémoire
 
 **Ajout :** onglet **Lecture** dans l'aide-mémoire, avec un sommaire par partie, le statut et le nombre de mots de chaque texte, une colonne de lecture et la navigation entre textes précédent et suivant. Le dernier texte ouvert est mémorisé dans le navigateur.
