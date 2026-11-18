@@ -105,7 +105,7 @@
 | **Partie 1** | 0 à 35–38 ans | Prologues, arcs 1 à 5, prévention des catastrophes E-01 à E-06, révélation mutuelle vers le milieu. | **E-07, la chute de la capitale, déjouée.** C'est l'aboutissement du parcours d'Arlak : elle empêche la catastrophe de sa première vie. |
 | **Partie 2** | Au-delà de 38 ans | Un futur qu'Arlak ne connaît plus du tout : les deux héros sont à égalité face à l'inconnu. Korvan dépasse la limite du 10e cercle. | **Affrontement final contre la guilde à sa racine.** C'est l'aboutissement du parcours de Korvan. |
 
-**Raison du choix :** E-07 donne un dénouement à Arlak, mais pas à Korvan, dont le but central (dépasser la limite des 10 cercles) n'est pas atteint à 38 ans : il ne retrouve ses 10 cercles que vers 55 ans (C-02). Deux mouvements permettent de boucler les deux héros, et le format web novel le permet.
+**Raison du choix :** E-07 donne un dénouement à Arlak, mais pas à Korvan, dont le but central (dépasser la limite des 10 cercles) n'est pas atteint à 38 ans : il ne retrouve ses 10 cercles que vers 55 ans (C-02). Deux mouvements permettent de boucler les deux héros, et la longueur du récit le permet. *(Le 2026-11-12, la justification invoquait le format web novel, abandonné le 2026-11-18 au profit du roman ; à toi de confirmer que la structure en deux parties tient toujours.)*
 
 **Restent à définir (Q-14) :**
 - `[MANQUANT]` Tout le contenu de la partie 2.

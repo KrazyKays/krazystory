@@ -35,18 +35,20 @@
 
 - `[CANON]` (2026-11-09) **Point de vue alterné** entre Arlak et Korvan.
 - `[CANON]` **Ellipses** entre les moments importants ; ces moments charnières sont longuement développés pour créer de l'attachement.
-- `[CANON]` Format : **web novel**.
+- `[CANON]` (2026-11-18) Format : **roman**. Il remplace le format web novel retenu le 2026-11-09. Conventions du roman imprimé : narration au passé simple, paragraphes construits plutôt qu'une succession de phrases isolées, phrase isolée réservée aux moments de rupture.
 - `[CANON]` Inspirations principales : *Tales of Demons and Gods*, *The Beginning After the End*.
 - `[CANON]` (2026-11-09) **1re personne** pour les passages de chaque héros.
 - `[CANON]` (2026-11-12) ✱ **Alternance par chapitre** : un seul narrateur par chapitre, dont le nom figure en tête. Deux chapitres consécutifs du même côté restent possibles quand l'action l'exige : c'est une alternance de principe, pas un métronome.
 - `[CANON]` (2026-11-12) ✱ **Scènes réunissant Arlak et Korvan : toujours à la 1re personne**, racontées par l'un des deux. L'hypothèse d'une 3e personne pour ces scènes est **abandonnée**, car elle romprait l'intimité de la 1re personne et donnerait l'impression d'un narrateur qui sait ce que les héros ignorent. Pour quelques scènes clés (examen, temple), une **scène miroir** est possible : la même scène revue par l'autre héros au chapitre suivant. À réserver aux grands moments.
-- `[CANON]` (2026-11-12) ✱ **Temps du récit** : le **présent** pour la seconde vie (l'action en cours) ; le **passé** pour la première vie (prologues, souvenirs et flashbacks). Le temps grammatical marque ainsi la frontière entre les deux vies.
-- `[CANON]` (2026-11-12) ✱ **Longueur des chapitres : 2 500 à 3 500 mots**, un enjeu par chapitre, une fin qui donne envie de lire la suite. Les moments charnières placés avant les ellipses (P-04) peuvent s'étendre sur plusieurs chapitres.
+- `[CANON]` (2026-11-18) **Temps du récit : passé simple partout**, avec l'imparfait pour les arrière-plans, pour la première vie comme pour la seconde. Il remplace la règle du 2026-11-12 (présent pour la seconde vie, passé composé pour la première). La frontière entre les deux vies n'est plus marquée par le temps grammatical : elle l'est par le contexte (lieu, âge, personnages, transition explicite).
+- `[CANON]` (2026-11-18) **Longueur des chapitres : 3 000 à 6 000 mots** (au lieu de 2 500 à 3 500 le 2026-11-12), un enjeu par chapitre, une fin qui donne envie de lire la suite. Les moments charnières placés avant les ellipses (P-04) peuvent s'étendre sur plusieurs chapitres.
 - `[CANON]` (2026-11-12) ✱ **Ouverture du récit** : deux prologues courts, d'un chapitre chacun, d'abord Korvan, puis Arlak ; le reste des arcs 1 et 2 est distillé en flashbacks. Détail : `arcs.md`.
-- `[CANON]` (2026-11-12) ✱ **Flashbacks insérés dans la narration au présent : passé composé**, qui est en français le passé naturel d'un récit au présent.
-- `[CANON]` (2026-11-12) ✱ **Prologues : passé composé** également. Les événements des prologues reviendront en flashbacks : un même souvenir garde ainsi le même temps.
+- `[CANON]` (2026-11-18) **Flashbacks** : ouverts au **plus-que-parfait** sur quelques phrases, puis racontés au **passé simple** ; retour au récit principal signalé par un retour au plus-que-parfait ou par une transition nette. Remplace la règle du passé composé (2026-11-12).
+- `[CANON]` (2026-11-18) **Prologues : passé simple**, comme le reste du récit. Les événements des prologues reviendront en flashbacks au même temps. Le narrateur peut commenter au passé composé ou au présent depuis le moment où il raconte (« Je n'ai jamais su exactement où »).
 - `[CANON]` (2026-11-12) ✱ **Registre des deux voix.** Arlak : érudite de 93 ans dans un corps d'enfant, assurée, précise, avec une certaine ironie. Korvan : grand maître d'une autre époque, mesuré, avec quelques tournures anciennes, dont « cœur de mana » (C-13).
 
 ✱ Proposé par l'assistant, puis validé par l'auteur le 2026-11-12.
+
+Les règles datées du 2026-11-18 découlent de la décision de l'auteur de passer au format roman (« que tout soit désormais au format roman »). Passé simple partout et chapitres de 3 000 à 6 000 mots : choix de l'auteur le même jour, parmi les options proposées par l'assistant.
 
 `[CANON]` (2026-11-09) **Ironie dramatique assumée** : avec la 1re personne, le lecteur connaît dès le début le secret de chaque héros, et donc ce que chacun ignore de l'autre (P-08, P-11). L'intérêt de leurs doutes vient de l'ironie dramatique, pas de la surprise.

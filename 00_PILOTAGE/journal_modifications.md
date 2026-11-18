@@ -2,6 +2,14 @@
 
 > À partir du 2026-11-12, la base désigne les héros par leurs prénoms : **Arlak** (« A » dans les sources) et **Korvan** (« B » dans les sources, Mérindor dans sa première vie). Les entrées antérieures du journal gardent « A » et « B ».
 
+## 2026-11-18 — Passage au format roman
+
+**Décision de l'auteur (`[CANON]`) :** « que tout soit désormais au format roman, que ce soit dans l'existant comme dans ce que tu rédigeras ensuite ». Options choisies par l'auteur : **passé simple partout** (les deux vies) ; **chapitres de 3 000 à 6 000 mots**.
+**Règles remplacées** (`principes_narratifs.md`, consignes de style) : format web novel → roman ; présent pour la seconde vie → passé simple ; flashbacks au passé composé → plus-que-parfait puis passé simple ; prologues au passé composé → passé simple ; 2 500–3 500 mots → 3 000–6 000. Les autres consignes (1re personne, alternance par chapitre, scènes miroirs, ellipses, registre des voix, deux prologues) sont inchangées.
+**Manuscrit :** la version roman du prologue I devient le texte de référence (`00_prologues/prologue_1_merindor.md`, statut `BROUILLON`). Le premier jet web novel du 2026-11-12 est conservé dans `_versions/prologue_1_merindor_web_novel_2026-11-12.md` (statut `ARCHIVÉ`), donc hors de l'onglet Lecture.
+**Point signalé :** `arcs.md` justifiait la structure en deux parties par le format web novel ; justification reformulée, à confirmer par l'auteur.
+**Fichiers modifiés :** `04_INTRIGUE/principes_narratifs.md`, `04_INTRIGUE/arcs.md`, `06_MANUSCRIT/README.md`, `06_MANUSCRIT/00_prologues/prologue_1_merindor.md`, `06_MANUSCRIT/00_prologues/prologue_1_notes.md`, `00_PILOTAGE/aide_memoire.html`. **Fichiers déplacés :** l'ancien prologue vers `06_MANUSCRIT/_versions/`. **Sources modifiées :** aucune.
+
 ## 2026-11-18 — Prologue I : essai de version roman
 
 **Demande :** une version « roman » du prologue I, pour comparer avec la forme web novel.

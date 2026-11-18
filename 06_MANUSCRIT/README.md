@@ -4,8 +4,10 @@
 
 ## Choix d'écriture validés
 
-- (2026-11-09) Web novel ; point de vue alterné Arlak/Korvan à la 1re personne ; ellipses entre des moments charnières très développés.
-- (2026-11-12) Alternance par chapitre ; scènes communes à la 1re personne, scènes miroirs ponctuelles ; présent pour la seconde vie, passé composé pour la première (prologues et flashbacks) ; chapitres de 2 500 à 3 500 mots ; ouverture par deux prologues courts (Korvan, puis Arlak).
+- (2026-11-09) ~~Web novel~~ (remplacé le 2026-11-18) ; point de vue alterné Arlak/Korvan à la 1re personne ; ellipses entre des moments charnières très développés.
+- (2026-11-12) Alternance par chapitre ; scènes communes à la 1re personne, scènes miroirs ponctuelles ; ~~présent pour la seconde vie, passé composé pour la première ; chapitres de 2 500 à 3 500 mots~~ (remplacé le 2026-11-18) ; ouverture par deux prologues courts (Korvan, puis Arlak).
+
+- (2026-11-18) **Format roman** : passé simple partout (prologues, seconde vie, flashbacks ouverts au plus-que-parfait) ; paragraphes construits ; chapitres de 3 000 à 6 000 mots.
 
 Détail : `04_INTRIGUE/principes_narratifs.md` et `04_INTRIGUE/arcs.md`.
 
@@ -29,8 +31,7 @@ L'onglet **Lecture** de l'aide-mémoire publié affiche le manuscrit tel qu'il a
 
 | Texte | Fichier | Statut | Mots |
 |---|---|---|---|
-| Prologue I — Mérindor (Korvan) | `00_prologues/prologue_1_merindor.md` (notes : `prologue_1_notes.md`) | `BROUILLON` (2026-11-12) | ~2 100 |
-| Prologue I — version roman (essai de comparaison) | `00_prologues/prologue_1_merindor_roman.md` | `ESSAI` (2026-11-18) | ~2 100 |
+| Prologue I — Mérindor (Korvan) | `00_prologues/prologue_1_merindor.md` (notes : `prologue_1_notes.md`) ; version web novel du 2026-11-12 conservée dans `_versions/` | `BROUILLON` (format roman, 2026-11-18) | ~2 100 |
 | Prologue II — Arlak | — | Non commencé | — |
 
 ## Statuts des chapitres

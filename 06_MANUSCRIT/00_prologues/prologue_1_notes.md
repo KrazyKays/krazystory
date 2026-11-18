@@ -1,13 +1,13 @@
 # Prologue I — Notes de rédaction
 
-> Texte : `prologue_1_merindor.md`. Premier jet du 2026-11-12. Statut : `BROUILLON`.
+> Texte : `prologue_1_merindor.md`. Premier jet du 2026-11-12, transposé au format roman le 2026-11-18 (ancienne version : `_versions/prologue_1_merindor_web_novel_2026-11-12.md`). Statut : `BROUILLON`.
 
 ## 1. Cadre respecté
 
 | Consigne | Application | Référence |
 |---|---|---|
 | Contenu du prologue 1 | Trahison, artefact, mort au temple, âme dans le néant. | `04_INTRIGUE/arcs.md`, « Ouverture du récit » |
-| 1re personne, passé composé | Narration au passé composé ; imparfait et plus-que-parfait pour les arrière-plans. | `principes_narratifs.md`, consignes de style |
+| 1re personne, passé simple (format roman, 2026-11-18) | Narration au passé simple ; imparfait et plus-que-parfait pour les arrière-plans ; l'entretien avec Hostavor ouvert au plus-que-parfait puis raconté au passé simple ; une incise au passé composé, depuis le moment de la narration (« Je n'ai jamais su exactement où »). | `principes_narratifs.md`, consignes de style |
 | Voix de Korvan | Mesurée, sobre ; « cœur de mana » employé quatre fois ; pas d'archaïsme appuyé. | idem, registre des voix ; C-13 |
 | Noms | Mérindor (nom prononcé par Hostavor), Hostavor, Draskion. | `glossaire.md`, « Noms » |
 | Théorie avant l'artefact | Il déduit qu'un autre mana doit exister, le cherche, le trouve, est trahi à ce moment précis. | C-04 |
@@ -42,7 +42,7 @@
 
 ## 4. Points de vigilance
 
-- **Longueur** : environ 2 100 mots, sous la fourchette de 2 500 à 3 500 mots des chapitres. La consigne parle de prologues « courts » ; à toi de dire si cette longueur convient ou si le texte doit s'étoffer (l'entretien avec Hostavor ou le néant, par exemple).
+- **Longueur** : environ 2 100 mots, sous la fourchette de 3 000 à 6 000 mots des chapitres (2026-11-18). La consigne parle de prologues « courts » ; à toi de dire si cette longueur convient ou si le texte doit s'étoffer (l'entretien avec Hostavor ou le néant, par exemple).
 - **Titre** : j'ai mis « Prologue I — Mérindor ». La règle veut que le nom du narrateur figure en tête du chapitre. Le lecteur ne connaît pas encore le nom de Korvan, et Mérindor est le nom du narrateur à ce moment-là. Si tu préfères « Korvan », le titre annoncerait la réincarnation.
 - **« Le onzième cercle ne s'ouvrait pas »** : le texte suppose que Korvan a tenté d'ouvrir un onzième cercle. Les sources disent seulement qu'il rencontre une « limite infranchissable » au 10e. C'est cohérent, mais plus précis que les sources.
 - **Ordre implicite d'Hostavor** : le texte ne montre pas l'ordre donné à Draskion ; Korvan le déduit. Cela suffit à `B.md` (« Sait : sa trahison »).
